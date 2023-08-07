@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
       - name: python produce data
         working-directory: src/
-        run: python ./produceData.py
+        run: python ./generateData.py
       - name: Deploy to Github Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
