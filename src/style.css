@@ -322,6 +322,28 @@ body, html {
     display: none;
   }
 
+
+.project img{
+  width: 200px ;
+  height: 200px;
+}
+.projectTags{
+  max-width: 200px
+}
+.startImg{
+
+  width: 200px;
+  height: 200px;
+}
+
+.endImg{
+  width: 200px;
+  height: 200px;
+
+}
+
+
+
   
   #imagePage img{
     /* pointer-events: none; */
