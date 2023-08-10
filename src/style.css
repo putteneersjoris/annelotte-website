@@ -341,6 +341,26 @@ body, html {
   height: 200px;
 
 }
+#bar{
+  display: none;
+}
+
+#header {
+  height: 150px;
+  width: 100%;
+  display: block;
+  flex-wrap:wrap;
+
+}
+#title h1 {
+  /* top: 30px; */
+  margin: 30px;
+  font-size: 3em;
+  white-space:unset; /* Prevent line breaks */
+  overflow:visible; /* Hide any overflowing text */
+  text-overflow:unset;
+}
+
 
 
 
