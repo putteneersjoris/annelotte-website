@@ -90,6 +90,7 @@ body, html {
   height: calc(100% - var(--font-size));
   width: 60%;
   display: flex;
+  /* display: -moz-box; */
   align-items: center;
    overflow: hidden; 
   background: linear-gradient(to top, var(--bg-color), #ffffff);

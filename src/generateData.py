@@ -32,7 +32,7 @@ for folderName in os.listdir(contentFolder):
             itemPath = os.path.join(folderPath, item)
             
             if os.path.isfile(itemPath):
-                if item.endswith((".jpg", ".png")):
+                if item.endswith((".jpg", ".png", ".gif")):
                     images.append(itemPath)
                     project_images.append(itemPath)
                 elif item.endswith(".txt"):

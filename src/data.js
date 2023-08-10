@@ -1,5 +1,15 @@
 var content = {
     "projects": {
+        "is this green": {
+            "images": [
+                "./content/is this green/Untitled-4 (10th copy).gif"
+            ],
+            "html": "description of project 1",
+            "tags": [
+                "#red<br>#big<br>#house<br>"
+            ],
+            "date": "1/1/2023"
+        },
         "project 1": {
             "images": [
                 "./content/project 1/1 (3rd copy).png",
@@ -15,19 +25,6 @@ var content = {
                 "#red<br>"
             ],
             "date": "2/2/2023"
-        },
-        "project 2": {
-            "images": [
-                "./content/project 2/1.png",
-                "./content/project 2/2.png",
-                "./content/project 2/3.png",
-                "./content/project 2/4.png"
-            ],
-            "html": "description of project 1",
-            "tags": [
-                "#red<br>#big<br>#house<br>"
-            ],
-            "date": "1/1/2023"
         },
         "project 3": {
             "images": [
@@ -63,44 +60,44 @@ var content = {
         "<span class='filter' data-filter='white'>#white</span>"
     ],
     "barContent": [
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;",
+        "<a href='./is this green.html'>is this green</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./project 3.html'>project 3</a>&ensp;&ensp;",
         "<a href='./project 4.html'>project 4</a>&ensp;&ensp;"
     ]
