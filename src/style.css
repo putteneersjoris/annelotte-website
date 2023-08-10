@@ -81,7 +81,7 @@ body, html {
   border: 1px solid black;
   box-shadow: -1px 3px 50px 3px rgba(0, 0, 0, 0.6);
   object-fit: cover;
-  transition: all 1s ease;
+  /* transition: all 1s ease; */
 }
 
 

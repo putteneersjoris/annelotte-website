@@ -5,32 +5,16 @@ var content = {
                 "./content/project 1/1 (3rd copy).png",
                 "./content/project 1/1 (4th copy).png",
                 "./content/project 1/1 (5th copy).png",
-                "./content/project 1/1 (6th copy).png",
-                "./content/project 1/1 (another copy).png",
-                "./content/project 1/1 (copy).png",
                 "./content/project 1/1.png",
-                "./content/project 1/2 (3rd copy).png",
-                "./content/project 1/2 (4th copy).png",
-                "./content/project 1/2 (5th copy).png",
-                "./content/project 1/2 (6th copy).png",
-                "./content/project 1/2 (another copy).png",
-                "./content/project 1/2 (copy).png",
-                "./content/project 1/2.png",
-                "./content/project 1/3 (3rd copy).png",
-                "./content/project 1/3 (4th copy).png",
-                "./content/project 1/3 (5th copy).png",
-                "./content/project 1/3 (6th copy).png",
-                "./content/project 1/3 (another copy).png",
-                "./content/project 1/3 (copy).png",
-                "./content/project 1/3.png"
+                "./content/project 1/jorisputteneers_hyperreal_fully_black_highly_detailed_obfuscate_c2373866-2d01-4ed5-87bb-c164f740ce5d.png",
+                "./content/project 1/rotate_cropped_image2.png",
+                "./content/project 1/rotate_cropped_image3.png"
             ],
             "html": "a description of project 2",
             "tags": [
                 "#red<br>"
             ],
-            "date": [
-                "2/2/2023"
-            ]
+            "date": "2/2/2023"
         },
         "project 2": {
             "images": [
@@ -43,9 +27,7 @@ var content = {
             "tags": [
                 "#red<br>#big<br>#house<br>"
             ],
-            "date": [
-                "1/1/2023"
-            ]
+            "date": "1/1/2023"
         },
         "project 3": {
             "images": [
@@ -57,9 +39,7 @@ var content = {
             "tags": [
                 "#red<br>#house<br>"
             ],
-            "date": [
-                "3/3/2023"
-            ]
+            "date": "3/3/2023"
         },
         "project 4": {
             "images": [
@@ -72,9 +52,7 @@ var content = {
             "tags": [
                 "#white<br>#green<br>"
             ],
-            "date": [
-                "4/4/2023"
-            ]
+            "date": "4/4/2023"
         }
     },
     "allTags": [

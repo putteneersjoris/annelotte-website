@@ -3,11 +3,13 @@ import json
 import re
 
 contentFolder = "./content"  # Specify the folder where your content is located
-outputFolder = "./output"     # Specify the folder where you want to save the HTML files
+outputFolder = "./"     # Specify the folder where you want to save the HTML files
 
-# Create the output folder if it doesn't exist
-if not os.path.exists(outputFolder):
-    os.makedirs(outputFolder)
+# Delete all .html files (excluding index.html) in the output folder
+for filename in os.listdir(outputFolder):
+    if filename.endswith(".html") and filename != "index.html":
+        filepath = os.path.join(outputFolder, filename)
+        os.remove(filepath)
 
 # Initialize arrays for images, tags, date, projects, allTags, and barContent
 images = []
@@ -39,7 +41,8 @@ for folderName in os.listdir(contentFolder):
                         date_match = re.search(r'<date>(.*?)<\/date>', content, re.DOTALL)
                         if date_match:
                             project_date.append(date_match.group(1).strip())
-                        
+                            project_date = date_match.group(1).strip()
+                            print(project_date)
                         body_match = re.search(r'<body>(.*?)<\/body>', content, re.DOTALL)
                         if body_match:
                             project_html = body_match.group(1).strip()
@@ -67,22 +70,55 @@ for folderName in os.listdir(contentFolder):
 
         
         # Create a project HTML file with images and barContent links
-        images_html = "\n".join([f"<img src='{image_path}' alt='{os.path.basename(image_path)}'>" for image_path in project_images])
+        images_html = "\n".join([f"<img class='imagesPage' onclick='toggleSize(this)' src='{image_path}' >" for image_path in project_images])
         project_html_content = f"""
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>{folderName}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annelotte Lammertse</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>{folderName}</h1>
-    <p>{project_html}</p>
-    {images_html}
+    <div id="header">
+        <div id="title"><h1><a href="./index.html" id="projectPage">Annelotte Lammertse</a></h1>
+    </div>
+        <span id="tags">
+            <div id="titlePage">
+                <!-- add title l=here -->
+                <h1>{folderName}  {project_date}</h1> 
+            </div>
+        </span>
+
+        <div id="bar"><div id="barContent">
+            
+        </div></div>
+    </div>
     
-    <hr>
-    <h2>Bar Content Links</h2>
+    <div id="contentPage">
+        <div id="textPage">
+            <!-- add folderName here -->
+            <h1>{folderName}</h1> 
+            <!-- add body text here -->
+            <p >{project_html}</p>
+        </div>
+        <div id="imagePage">
+            <!-- add all imiages here -->
+            {images_html}
+
+            <!-- <img class="imagesPage" onclick="toggleSize(this)" src="./content/project 4/1.png">
+            <img class="imagesPage" onclick="toggleSize(this)" src="./content/project 4/2.png">
+            <img class="imagesPage" onclick="toggleSize(this)" src="./content/project 4/3.png">
+            <img class="imagesPage" onclick="toggleSize(this)" src="./content/project 4/4.png"> -->
+        </div>
+    </div>
 </body>
+<script src="data.js"></script> 
+<script src="script.js"></script> 
 </html>
+
 """
         project_html_path = os.path.join(outputFolder, f"{folderName}.html")
         with open(project_html_path, 'w') as project_html_file:

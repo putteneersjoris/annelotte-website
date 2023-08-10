@@ -1,4 +1,0 @@
-<title>project 1</title>
-<body>description of project 1</body>
-<tags>red, big, house</tags>
-<date>1/1/2023</date>

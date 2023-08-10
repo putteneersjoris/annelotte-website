@@ -3,7 +3,7 @@ import json
 import re
 
 contentFolder = "./content"  # Specify the folder where your content is located
-outputFolder = "./output"     # Specify the folder where you want to save the HTML files
+outputFolder = "."     # Specify the folder where you want to save the HTML files
 
 # Create the output folder if it doesn't exist
 if not os.path.exists(outputFolder):
