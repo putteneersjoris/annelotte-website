@@ -9,7 +9,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: python produce data
+      - name: Set up ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Update imagemagick rights Policy
+        run: |
+          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
+      - name: python generate data.js and html pages
         working-directory: src/
         run: python ./generateData.py
       - name: Deploy to Github Pages

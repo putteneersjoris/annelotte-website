@@ -1,8 +1,11 @@
 :root {
   --font-size: 18px; 
   --header-height: 10%;
-  --bg-color: rgb(149, 187, 177);
+  --bg-color: rgb(211, 211, 211);
   /* --border-radius:20px; */
+  --image-wh:330px;
+  --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
+
 
 }
 
@@ -61,20 +64,22 @@ body, html {
 
 #textPage {
   margin-top: 21px;
-  flex: 20%;
+  flex: 40%;
   padding-left: 10px;
 
 }
 
 #imagePage {
   margin-top: 21px;
-  flex: 80%;
+  flex: 60%;
   padding-top: 30px;
 
 }
 
 #imagePage img{
   width: 32.5%;
+  height: 32.5%;
+  object-fit: cover;
 }
 
 .imagesPage{
@@ -82,6 +87,13 @@ body, html {
   box-shadow: -1px 3px 50px 3px rgba(0, 0, 0, 0.6);
   object-fit: cover;
   /* transition: all 1s ease; */
+}
+
+
+.backButtonPage{
+  /* text-decoration: none; */
+  color: blue;
+  /* font-size: 18px; */
 }
 
 
@@ -96,13 +108,23 @@ body, html {
   background: linear-gradient(to top, var(--bg-color), #ffffff);
 }
 
+
+@supports (-moz-appearance: none) {
+  :root {
+    --tags-wrapper-height: calc(90% - var(--font-size));
+  }
+}
+
 #tags-wrapper {
   cursor: pointer;
-  height: calc(100% - var(--font-size)+60%);
+  height: var(--tags-wrapper-height);
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 3%;
+  color: rgb(0, 0, 0);
+  /* No need to specify align-content for each case */
 }
 
 .selected {
@@ -113,6 +135,7 @@ body, html {
 
 #bar {
   background-color: var(--bg-color);
+  /* background-color: rgb(0, 0, 0); */
   height: var(--font-size);
   width: 100%;
   overflow: hidden;
@@ -125,16 +148,18 @@ body, html {
 #bar #barContent {
   margin: 0;
   white-space: nowrap;
-  animation: scrollLeft 60s linear infinite;
+  animation: scrollLeft 150s linear infinite;
   padding-left: 100%;
   
 }
 
 #bar #barContent a{
   font-style: italic;
-cursor: pointer;
-color: black;
-font-size: var(--font-size);
+  cursor: pointer;
+  color: rgb(0, 4, 255);
+  font-size: var(--font-size);
+  font-weight: 900;
+  /* font-size: 2em; */
 
 }
 
@@ -150,9 +175,9 @@ font-size: var(--font-size);
 
 #content {
   background-color: var(--bg-color);
-  height: calc(90% - var(--font-size));
+  height: 90%;
   width: 100%;
-  box-shadow: inset 0px -1px 0px 0px #000000; 
+  /* box-shadow: inset 0px -1px 0px 0px #000000;  */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,9 +205,10 @@ font-size: var(--font-size);
   position: absolute;
   border: black 1px solid;
   margin-left: 30px;
-  width: 200px ;
-  height: 200px;
+  width: var(--image-wh) ;
+  height: var(--image-wh);
   border-radius: var(--border-radius) 0px var(--border-radius)0px;
+  /* object-fit: */
 }
 
 #projectPage{
@@ -190,16 +216,17 @@ font-size: var(--font-size);
 }
 .startImg{
   box-shadow: -1px 3px 25px 3px rgb(0, 0, 0);
-  /* z-index: ; */
+
+  /* z-index:100 ; */
   top: 0px ;
   left:0px;
-  width: 200px;
-  height: 200px;
+  width: var(--image-wh);
+  height: var(--image-wh);
 }
 
 .endImg{
-  width: 200px;
-  height: 200px;
+  width: var(--image-wh);
+  height: var(--image-wh);
   cursor: pointer;
 }
 
@@ -221,6 +248,7 @@ font-size: var(--font-size);
   width: calc(100% - 5px); 
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  /* margin-bottom: 100px; */
 }
 .projectDate{
   position: absolute;
@@ -230,13 +258,16 @@ font-size: var(--font-size);
 }
 
 .projectTags{
+  /* border: 1px solid rgb(255, 0, 0); */
   position: absolute;
   margin-right: 30px;
   margin: 10px; 
   color: rgb(0, 0, 0);
-  max-width: calc(200px - 10px); 
+  max-width: calc(var(--image-wh)- 10px); 
   max-height: calc(60% - 30px); 
   overflow: hidden;
+  width: calc(100% - 20px); 
+  padding-top:calc(60% ); 
 }
 
 
@@ -250,40 +281,36 @@ font-size: var(--font-size);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer {
-  background-color: var(--bg-color);
-  /* height: 1%; */
-  width: 100%;
-  /* box-shadow: inset 3000px 0px 0px 0px #000000; */
-  /* background: linear-gradient(to top, var(--bg-color), #ffffff); */
+  z-index: 100;
+  position:fixed;
+  bottom: 0px;
+  padding-bottom: 3px;
+  margin-left: 10px;
+
 }
 
-/* #footerTextLeft{color: red; text-align: left;}
-#footerTextRight{color: blue; text-align: right;} */
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
+  /* #title { */
+    /* width: 100%; */
+    /* font-size:18px; */
+  /* } */
+  /* #tags {
+    display: none;
+  } */
+
+  
+  #imagePage img{
+    pointer-events: none;
+    width: 48%;
+    /* object-fit:fill; */
+  /* height: 50%; */
+  }
+}
+
+
+@media (max-width: 500px) {
   #title {
     width: 100%;
     font-size:18px;
@@ -292,15 +319,9 @@ font-size: var(--font-size);
     display: none;
   }
 
-
-  #content{  box-shadow: inset 0px 0px 0px 0px #000000; }
-
-  #footer{
-    display: none;
-  }
-
-
+  
   #imagePage img{
+    /* pointer-events: none; */
     width: 98%;
   /* height: 50%; */
   }

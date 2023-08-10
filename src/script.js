@@ -1,9 +1,8 @@
+var PIXELDISTANCE = 4
+
+
+
 var projectsData = content.projects;
-// var allTagsData = content.allTags;
-// var barData = content.barContent;
-
-// set bar
-
 
 var barData = "";
 // var allTagsDataArray = content.allTags
@@ -53,12 +52,16 @@ for (var projectName in content.projects) {
       // Loop over images and create <img> tags
       
       spanTag.appendChild(startImg);
+      
+
+
       var nImg = -1
       project.images.forEach(function(imageSrc, index) {
           var imgTag = document.createElement("img");
           imgTag.src = imageSrc;
-          imgTag.style.top = `${index * 3}px`
-          imgTag.style.left = `${index * 3}px`
+          imgTag.style.top = `${index * PIXELDISTANCE}px`
+          imgTag.style.left = `${index * PIXELDISTANCE}px`
+          // imgTag.style.borderRadius = `${index*5}px`;
 
           nImg +=1
           
@@ -77,23 +80,24 @@ for (var projectName in content.projects) {
       var divProjectName = document.createElement("div");
       divProjectName.classList.add("projectName");
       divProjectName.textContent = projectName;
-      divProjectName.style.top = `${nImg * 3}px`;
-      divProjectName.style.left = `${nImg * 3}px`;
+      divProjectName.style.top = `${nImg * PIXELDISTANCE}px`;
+      divProjectName.style.left = `${nImg * PIXELDISTANCE}px`;
+      
 
 
       var divProjectDate = document.createElement("div");
       divProjectDate.classList.add("projectDate");
       divProjectDate.textContent = project.date;
-      divProjectDate.style.bottom = `-${nImg * 3}px`;
-      divProjectDate.style.right = `-${30 + nImg * 3}px`;
+      divProjectDate.style.bottom = `-${nImg * PIXELDISTANCE}px`;
+      divProjectDate.style.right = `-${30 + nImg * PIXELDISTANCE}px`;
       console.log(project.date);
 
       // Create the <div> element with class "projectTags"
       var divProjectTags = document.createElement("div");
       divProjectTags.classList.add("projectTags");
       divProjectTags.innerHTML = project.tags
-      divProjectTags.style.bottom = `-${nImg * 3}px`;
-      divProjectTags.style.left = `${30 + nImg * 3}px`;
+      divProjectTags.style.bottom = `-${nImg * PIXELDISTANCE}px`;
+      divProjectTags.style.left = `${30 + nImg * PIXELDISTANCE}px`;
 
       divEndImg.appendChild(divProjectName);
       divEndImg.appendChild(divProjectDate);
@@ -105,11 +109,16 @@ for (var projectName in content.projects) {
       // spanTag.style.border = "10px solid red"
       spanTag.appendChild(aTag);
       
-      document.getElementById("projects").appendChild(spanTag);
+      var projectsTag = document.getElementById("projects")
+
+      projectsTag.appendChild(spanTag);
   }
 }
 
 
+
+// pick next porject when clicking on next button
+var htmlData = content.htmlContent;
 
 
 // set date on footer
@@ -150,17 +159,21 @@ const filters = document.querySelectorAll('.filter');
         });
 
 
-
-
 // in pages make images big when clicked
 
-function toggleSize(image) {
-  if (image.style.width === '98.5%') {
-      image.style.width = '32.5%';
-  } else {
-      image.style.width = '98.5%';
-      // image.style.height = '50%';
-  }
-}
+// function toggleSize(image) {
+//   if (image.style.width === '98.5%') {
+//       image.style.width = '32.5%';
+//       image.style.height = '32.5%';
+//       image.style.objectFit = "cover";
+//     } else {
+//       image.style.width = '98.5%';
+//       image.style.height = '100%';
+//       image.style.objectFit = "cover";
+//       // image.style.objectFit = "none";
+//       // image.style.objectFit = "unset";
+//       // image.style.width = '32.5%';
+//   }
+// }
 
 
