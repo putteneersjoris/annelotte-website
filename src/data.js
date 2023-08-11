@@ -9,9 +9,7 @@ var content = {
                 "./content/3D Printing of Textiles (3rd copy)/5.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#3d printing<br>#red<br>#big<br>#paper<br>#research<br>"
-            ],
+            "tags": [],
             "date": "2/3/2023"
         },
         "ABOUT (copy)": {
@@ -26,9 +24,7 @@ var content = {
                 "./content/ABOUT (copy)/rotate_cropped_image2 (copy).png"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnitem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#about<br>#textile<br>"
-            ],
+            "tags": [],
             "date": "2/3/2021"
         },
         "Advanced Textile Materials: Enhancing Performance and Durability (another copy)": {
@@ -82,9 +78,7 @@ var content = {
                 "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/aaa.jpg"
             ],
             "html": "Lorei quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentiuam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><h2>section</h2><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium  ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repud repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><u></u><br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id p animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#materials<br>#performance<br>#research<br>"
-            ],
+            "tags": [],
             "date": "2/3/2023"
         },
         "Biodegradable and Eco-friendly Textile Production Methods (another copy)": {
@@ -104,9 +98,7 @@ var content = {
                 "./content/Biodegradable and Eco-friendly Textile Production Methods (another copy)/x.jpg"
             ],
             "html": "Lorei quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium anim<br>esentium animi quibusdam repud repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br>mi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem exonsectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#materials<br>#bio<br>#research<br>#big<br>"
-            ],
+            "tags": [],
             "date": "2/3/2023"
         },
         "Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)": {
@@ -135,9 +127,7 @@ var content = {
                 "./content/Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)/z.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#eco<br>#smart<br>#favrib<br>#integration<br>#research<br>#electronics<br>#red<br>"
-            ],
+            "tags": [],
             "date": "1/3/2022"
         },
         "Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)": {
@@ -164,38 +154,20 @@ var content = {
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)/w.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi qumnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium",
-            "tags": [
-                "#textile<br>#red<br>#research<br>"
-            ],
+            "tags": [],
             "date": "1/1/2013"
         },
         "Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)": {
             "images": [
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/aaa (3rd copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/aaa (4th copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/aaa (another copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/aaa (copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/aaa.jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/asd (3rd copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/asd (4th copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/asd (another copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/asd (copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/asd.jpg",
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_248 (another copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_248 (copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_252 (3rd copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_252.jpg",
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62 (3rd copy).jpg",
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62 (4th copy).jpg",
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62 (another copy).jpg",
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62 (copy).jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62.jpg",
-                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/w.jpg"
+                "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)/rsz_h930_1_62.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi qumnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium",
-            "tags": [
-                "#textile<br>#red<br>#research<br>"
-            ],
+            "tags": [],
             "date": "1/1/2013"
         },
         "Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)": {
@@ -222,29 +194,8 @@ var content = {
                 "./content/Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)/w.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi qumnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium",
-            "tags": [
-                "#textile<br>#red<br>#research<br>"
-            ],
+            "tags": [],
             "date": "1/1/2013"
-        },
-        "Nanotechnology": {
-            "images": [
-                "./content/Nanotechnology/2 (3rd copy).jpg",
-                "./content/Nanotechnology/2 (copy).jpg",
-                "./content/Nanotechnology/2.jpg",
-                "./content/Nanotechnology/3 (3rd copy).jpg",
-                "./content/Nanotechnology/3 (another copy).jpg",
-                "./content/Nanotechnology/3 (copy).jpg",
-                "./content/Nanotechnology/3.jpg",
-                "./content/Nanotechnology/4.jpg",
-                "./content/Nanotechnology/5.jpg",
-                "./content/Nanotechnology/x.jpg"
-            ],
-            "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>volupt<br>ing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#nano<br>#3d printing<br>#red<br>#texttile<br>#nano<br>#technology<br>"
-            ],
-            "date": "2/333/2023"
         },
         "Nanotechnology (3rd copy)": {
             "images": [
@@ -261,28 +212,7 @@ var content = {
                 "./content/Nanotechnology (3rd copy)/x.png"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>volupt<br>ing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#nano<br>#3d printing<br>#red<br>#texttile<br>#nano<br>#technology<br>"
-            ],
-            "date": "2/333/2023"
-        },
-        "Nanotechnology (another copy)": {
-            "images": [
-                "./content/Nanotechnology (another copy)/2 (3rd copy).jpg",
-                "./content/Nanotechnology (another copy)/2 (copy).jpg",
-                "./content/Nanotechnology (another copy)/2.jpg",
-                "./content/Nanotechnology (another copy)/3 (3rd copy).jpg",
-                "./content/Nanotechnology (another copy)/3 (another copy).jpg",
-                "./content/Nanotechnology (another copy)/3 (copy).jpg",
-                "./content/Nanotechnology (another copy)/3.jpg",
-                "./content/Nanotechnology (another copy)/4.jpg",
-                "./content/Nanotechnology (another copy)/5.jpg",
-                "./content/Nanotechnology (another copy)/xxx.jpg"
-            ],
-            "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>volupt<br>ing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#nano<br>#3d printing<br>#red<br>#texttile<br>#nano<br>#technology<br>"
-            ],
+            "tags": [],
             "date": "2/333/2023"
         },
         "Nanotechnology (copy)": {
@@ -296,9 +226,7 @@ var content = {
                 "./content/Nanotechnology (copy)/x.png"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>volupt<br>ing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#nano<br>#3d printing<br>#red<br>#texttile<br>#nano<br>#technology<br>"
-            ],
+            "tags": [],
             "date": "2/333/2023"
         },
         "student work": {
@@ -319,9 +247,7 @@ var content = {
                 "./content/student work/9.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus tot repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qsdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesee.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolorsdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus ei.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolorsdam repudiandae.Lorem ipsum dolor sit, amit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#eco<br>#smart<br>#student<br>"
-            ],
+            "tags": [],
             "date": "1/3/2024"
         },
         "student work (3rd copy)": {
@@ -342,9 +268,7 @@ var content = {
                 "./content/student work (3rd copy)/x.jpg"
             ],
             "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus tot repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qsdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesee.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolorsdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus ei.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolorsdam repudiandae.Lorem ipsum dolor sit, amit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "#textile<br>#eco<br>#smart<br>#student<br>"
-            ],
+            "tags": [],
             "date": "1/3/2024"
         }
     },
@@ -378,9 +302,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -392,9 +314,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -406,9 +326,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -420,9 +338,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -434,9 +350,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -448,9 +362,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -462,9 +374,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -476,9 +386,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -490,9 +398,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
@@ -504,9 +410,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (4th copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (another copy)</a>&ensp;&ensp;",
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology.html'>Nanotechnology</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (3rd copy).html'>Nanotechnology (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./Nanotechnology (another copy).html'>Nanotechnology (another copy)</a>&ensp;&ensp;",
         "<a href='./Nanotechnology (copy).html'>Nanotechnology (copy)</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;"

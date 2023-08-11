@@ -78,13 +78,15 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
                         if tags_match:
                             tags_content = tags_match.group(1).strip()
                             tags_formatted = ["#" + tag.strip() + "<br>" for tag in tags_content.split(',')]
-                            project_tags.append(''.join(tags_formatted))
-                            # Add each tag to the allTags array
                             allTags.extend([
                                 "<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
                                 for tag in tags_content.split(',')
                             ])
-        
+        # tags_content = "textile, eco, smart, student"
+        tag_list = [f"#{tag.strip()}" for tag in tags_content.split(",")]
+        tag_string = ", ".join(tag_list)
+        print(tag_string)           
+                
         project_images.sort()  # Sort the image paths for the current project
         
         projects[folderName] = {
@@ -95,9 +97,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
         }
         
 
-
-
-
+        # print(tags_content.replace(',','#'))
 
 
         # Create a project HTML file with images and barContent links
@@ -140,6 +140,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
             <span><a href='{next_htmlFile}' class='backButtonPage'>next</a> </span>
             <!-- add body text here -->
             <p >{project_html}</p>
+            </br></br>
+            {tag_string}
             
         </div>
         <div id="imagePage">
