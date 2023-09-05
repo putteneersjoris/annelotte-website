@@ -210,7 +210,7 @@ body, html {
   width: var(--image-wh) ;
   height: var(--image-wh);
   border-radius: var(--border-radius) 0px var(--border-radius)0px;
-  /* object-fit: */
+  object-fit:cover;
 }
 
 #projectPage{
@@ -265,10 +265,11 @@ body, html {
   margin-right: 30px;
   margin: 10px; 
   color: rgb(0, 0, 0);
-  max-width: calc(var(--image-wh)- 10px); 
+  max-width: calc(var(--image-wh)- 50px); 
   max-height: calc(60% - 30px); 
   overflow: hidden;
-  width: calc(100% - 20px); 
+  /* width: calc(100% - 20px);  */
+  /* background-color: #ffffff63; */
   padding-top:calc(60% ); 
 }
 

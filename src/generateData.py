@@ -82,6 +82,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
                                 "<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
                                 for tag in tags_content.split(',')
                             ])
+                            # print(allTags)
         # tags_content = "textile, eco, smart, student"
         tag_list = [f"#{tag.strip()}" for tag in tags_content.split(",")]
         tag_string = ", ".join(tag_list)
