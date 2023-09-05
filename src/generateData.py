@@ -26,7 +26,7 @@ for folderName in os.listdir(contentFolder):
     htmlFiles.append(folderName)
 
 sorted_htmlFiles = sorted(htmlFiles)
-print(sorted_htmlFiles)
+# print(sorted_htmlFiles)
 
 # Iterate through the content folder
 for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
@@ -68,7 +68,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
                         if date_match:
                             project_date.append(date_match.group(1).strip())
                             project_date = date_match.group(1).strip()
-                            print(project_date)
+                            # print(project_date)
                         body_match = re.search(r'<body>(.*?)<\/body>', content, re.DOTALL)
                         if body_match:
                             project_html = body_match.group(1).strip()
@@ -85,7 +85,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
         # tags_content = "textile, eco, smart, student"
         tag_list = [f"#{tag.strip()}" for tag in tags_content.split(",")]
         tag_string = ", ".join(tag_list)
-        print(tag_string)           
+        project_tags.append(tag_string)
+        # print(project_tags)           
                 
         project_images.sort()  # Sort the image paths for the current project
         
