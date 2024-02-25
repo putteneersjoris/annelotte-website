@@ -1,20 +1,40 @@
 :root {
-  --font-size: 18px; 
+  --font-size: 28px; 
   --header-height: 10%;
-  --bg-color: rgb(0,255,0);
+  --bg-color: rgb(230,230,230);
   /* --border-radius:20px; */
-  --image-wh:270px;
+  --image-wh:350px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
-
+	--font: url('./extra/font/Roboto-Black.ttf');
 
 }
+
+@font-face{
+	font-family: 'Roboto Medium';
+	src: url('./extra/font/Roboto-Medium.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Roboto Light';
+	src: url('./extra/font/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Roboto Black';
+	src: url('./extra/font/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: 'Roboto MediumItalic';
+	src: url('./extra/font/Roboto-MediumItalic.ttf') format('truetype');
+}
+
+
 
 body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", sans-serif;
-  background-color: var(--bg-color);
+	background-color: var(--bg-color);
+  font-family: 'Roboto Medium', sans-serif;
   overflow-x: hidden;
 }
 
@@ -22,18 +42,20 @@ body, html {
 #header {
   height: var(--header-height);
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-
+  /*display: flex;
+	/*border: 1px solid red;*/
 }
 
 #title {
   background-color: var(--bg-color);
   height: calc(100% - var(--font-size));
-  width: 40%;
+  width: 80%;
   overflow: hidden; 
   display: flex;
   align-items: center; 
+	font-family: 'Roboto Black', sans-serif;
+	margin:20px;
+
   /*box-shadow: inset -1px 0px 0px 0px #000000;*/
   /*background: linear-gradient(to top, var(--bg-color), #ffffff);*/
 }
@@ -57,7 +79,8 @@ body, html {
 
 #contentPage {
   background-color: var(--bg-color);
-  height: calc(90% - var(--font-size));
+
+	height: calc(90% - var(--font-size));
   width: 100%;
   display: flex;
   justify-content: center;
@@ -80,7 +103,7 @@ body, html {
 
 #imagePage img{
   width: 32.5%;
-  height: 32.5%;
+  height: 50.5%;
   object-fit: cover;
 }
 
@@ -140,17 +163,16 @@ body, html {
   /* background-color: rgb(0, 0, 0); */
   height: var(--font-size);
   width: 100%;
-  overflow: hidden;
-  border-top: 1px solid #000000; 
-  border-bottom: 1px solid #000000;
+	overflow: hidden;
   padding-top: 10px;
   padding-bottom: 10px;
+	font-family: 'Roboto MediumItalic', sans-serif;
 }
 
 #bar #barContent {
   margin: 0;
   white-space: nowrap;
-  animation: scrollLeft 150s linear infinite;
+  animation: scrollLeft 50s linear infinite;
   padding-left: 100%;
   
 }
@@ -187,7 +209,7 @@ body, html {
 
 
 #projects {
-  height: calc(100% - 100px);
+  height: calc(80% - 100px);
   width: 100%;
 
 }
@@ -205,8 +227,8 @@ body, html {
 
 .project img{
   position: absolute;
-  border: black 1px solid;
-  margin-left: 30px;
+  /*border: black 1px solid;*/
+  margin-left: 0px;
   width: var(--image-wh) ;
   height: var(--image-wh);
   border-radius: var(--border-radius) 0px var(--border-radius)0px;
@@ -235,45 +257,52 @@ body, html {
 .projectName{
   border-radius: var(--border-radius) 0px 0px 0px;
   position: absolute;
-  margin-left: 31px; 
-  padding-top: 5px; 
-  padding-left: 5px; 
-  padding-bottom: 5px;  
+  padding-left: 20px; 
+   padding-bottom: 40px;
+	padding-top: 20px;  
   color: rgb(0, 0, 0); 
-  max-height: 40%; 
+  max-height: 10%; 
   font-size: 18px;
   /* font-weight: 900;  */
   overflow: hidden;
   text-overflow: ellipsis;
-  background: rgb(255, 255, 255);
-  text-decoration: underline;
-  width: calc(100% - 5px); 
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  /* margin-bottom: 100px; */
+  background: rgba(255,255,255,0.2);
+	text-decoration: underline;
+  width: calc(100% - 20px); 
 }
 
 
 
 .projectDate{
   position: absolute;
-  margin-left: 30px;
-  margin: 10px; 
-  color: rgb(0, 0, 0); 
-}
-
+  margin-left: 0px;
+	top: calc(100% -20px);
+	right:20px;
+	bottom: 20px;
+	color: rgb(0, 0, 0); 
+	font-size: 18px;
+	font-family:'Roboto Light', sans-serif; }
+/*
 .projectTags{
-  /* border: 1px solid rgb(255, 0, 0); */
   position: absolute;
-  margin-right: 30px;
-  margin: 10px; 
+  margin-right: 0px;
+  margin: 10px;
+  vertical-align: bottom;
+display: inline-block; 
   color: rgb(0, 0, 0);
-  max-width: calc(var(--image-wh)- 50px); 
+  max-width: calc(var(--image-wh)- 0px); 
   max-height: calc(60% - 30px); 
   overflow: hidden;
-  /* width: calc(100% - 20px);  */
-  /* background-color: #ffffff63; */
   padding-top:calc(60% ); 
+}
+*/
+
+.projectTags{
+	position: absolute;
+	bottom:0px;  
+	margin:20px;
+	color: rgba(0,0,0,1);
+
 }
 
 
@@ -328,8 +357,8 @@ body, html {
 
 
 .project img{
-  width: 200px ;
-  height: 200px;
+  width: 790px ;
+  height: 500px;
 }
 .projectTags{
   max-width: 200px

@@ -49,7 +49,7 @@ for (var projectName in content.projects) {
       startImg.src = "/src/extra/end.png"
       // Loop over images and create <img> tags
       
-      spanTag.appendChild(startImg);
+      // spanTag.appendChild(startImg);
       
 
 

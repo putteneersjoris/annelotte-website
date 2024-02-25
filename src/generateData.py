@@ -85,7 +85,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
                             # print(allTags)
         # tags_content = "textile, eco, smart, student"
         tag_list = [f"#{tag.strip()}" for tag in tags_content.split(",")]
-        tag_string = ", ".join(tag_list)
+        tag_string = ",<br> ".join(tag_list)
         project_tags.append(tag_string)
         # print(project_tags)           
                 
@@ -98,7 +98,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
             "date": project_date
         }
         
-
+        print(tags_content)
         # print(tags_content.replace(',','#'))
 
 
