@@ -1,7 +1,7 @@
 :root {
   --font-size: 18px; 
   --header-height: 10%;
-  --bg-color: rgb(255,255,0);
+  --bg-color: rgb(0,255,0);
   /* --border-radius:20px; */
   --image-wh:270px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
