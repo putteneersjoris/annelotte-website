@@ -1,7 +1,7 @@
 :root {
   --font-size: 18px; 
   --header-height: 10%;
-  --bg-color: rgb(50,50,50);
+  --bg-color: rgb(255,255,0);
   /* --border-radius:20px; */
   --image-wh:270px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
@@ -252,6 +252,9 @@ body, html {
   border-bottom: 1px solid black;
   /* margin-bottom: 100px; */
 }
+
+
+
 .projectDate{
   position: absolute;
   margin-left: 30px;
@@ -363,19 +366,12 @@ body, html {
 }
 
 
-
-
   
   #imagePage img{
     /* pointer-events: none; */
     width: 98%;
   /* height: 50%; */
   }
-}
-
-
-
-
 
 
 
@@ -383,10 +379,6 @@ body, html {
   background-color: #4c4d4e; /* Background color of the selected text */
   color: #ffffff; /* Color of the selected text */
 }
-
-
-
-
 
 
 
