@@ -1,7 +1,6 @@
 var PIXELDISTANCE = 4
 
 
-
 var projectsData = content.projects;
 
 var barData = "";
@@ -11,7 +10,6 @@ for (var i = 0; i < barArray.length; i++) {
   barData += barArray[i];
 }
 document.getElementById('barContent').innerHTML = barData
-
 
 
 
@@ -59,8 +57,8 @@ for (var projectName in content.projects) {
       project.images.forEach(function(imageSrc, index) {
           var imgTag = document.createElement("img");
           imgTag.src = imageSrc;
-          imgTag.style.top = `${index * PIXELDISTANCE}px`
-          imgTag.style.left = `${index * PIXELDISTANCE}px`
+          // imgTag.style.top = `${index * PIXELDISTANCE}px`
+          // imgTag.style.left = `${index * PIXELDISTANCE}px`
           // imgTag.style.borderRadius = `${index*5}px`;
 
           nImg +=1
@@ -80,24 +78,24 @@ for (var projectName in content.projects) {
       var divProjectName = document.createElement("div");
       divProjectName.classList.add("projectName");
       divProjectName.textContent = projectName;
-      divProjectName.style.top = `${nImg * PIXELDISTANCE}px`;
-      divProjectName.style.left = `${nImg * PIXELDISTANCE}px`;
+      // divProjectName.style.top = `${nImg * PIXELDISTANCE}px`;
+      // divProjectName.style.left = `${nImg * PIXELDISTANCE}px`;
       
 
 
       var divProjectDate = document.createElement("div");
       divProjectDate.classList.add("projectDate");
       divProjectDate.textContent = project.date;
-      divProjectDate.style.bottom = `-${nImg * PIXELDISTANCE}px`;
-      divProjectDate.style.right = `-${30 + nImg * PIXELDISTANCE}px`;
+      // divProjectDate.style.bottom = `-${nImg * PIXELDISTANCE}px`;
+      // divProjectDate.style.right = `-${30 + nImg * PIXELDISTANCE}px`;
       console.log(project.date);
 
       // Create the <div> element with class "projectTags"
       var divProjectTags = document.createElement("div");
       divProjectTags.classList.add("projectTags");
       divProjectTags.innerHTML = project.tags
-      divProjectTags.style.bottom = `-${nImg * PIXELDISTANCE}px`;
-      divProjectTags.style.left = `${30 + nImg * PIXELDISTANCE}px`;
+      // divProjectTags.style.bottom = `-${nImg * PIXELDISTANCE}px`;
+      // divProjectTags.style.left = `${30 + nImg * PIXELDISTANCE}px`;
 
       divEndImg.appendChild(divProjectName);
       divEndImg.appendChild(divProjectDate);
