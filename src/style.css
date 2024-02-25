@@ -3,7 +3,7 @@
   --header-height: 10%;
   --bg-color: rgb(230,230,230);
   /* --border-radius:20px; */
-  --image-wh:350px;
+  --image-wh:450px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
 	--font: url('./extra/font/Roboto-Black.ttf');
 
@@ -40,28 +40,27 @@ body, html {
 
 
 #header {
-  height: var(--header-height);
-  width: 100%;
-  /*display: flex;
-	/*border: 1px solid red;*/
+	float:left;
+	border:1px solid red;
+	width: 75%;
 }
 
 #title {
   background-color: var(--bg-color);
-  height: calc(100% - var(--font-size));
-  width: 80%;
   overflow: hidden; 
   display: flex;
-  align-items: center; 
 	font-family: 'Roboto Black', sans-serif;
-	margin:20px;
 
   /*box-shadow: inset -1px 0px 0px 0px #000000;*/
   /*background: linear-gradient(to top, var(--bg-color), #ffffff);*/
+
+
+	background-color: rgb(100,100,30);
 }
 
 #title h1 {
-  margin: 20px;
+  
+	border:1px solid olive;
   font-size: 3em;
   white-space: nowrap; /* Prevent line breaks */
   overflow: hidden; /* Hide any overflowing text */
@@ -69,6 +68,9 @@ body, html {
 }
 
 #titlePage h1 {
+
+
+	background-color: rgb(100,200,30);
   margin: 20px;
   font-size: 3em;
   white-space: nowrap; /* Prevent line breaks */
@@ -120,12 +122,6 @@ body, html {
   color: blue;
   /* font-size: 18px; */
 }
-
-#tags {
-  width: 40%;
-  display: flex;
-  align-items: center;
-}
 /*
 #tags {
   background-color: var(--bg-color);
@@ -146,14 +142,13 @@ body, html {
 }
 
 #tags-wrapper {
-  cursor: pointer;
-  height: var(--tags-wrapper-height);
-  /* font-weight: 600; */
+ 	border: 10px solid green;
+ cursor: pointer;
+	width:20%;
+	float:left;
+  height: 100%;/* font-weight: 600; */
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 3%;
-  color: rgb(0, 0, 0);
   /* No need to specify align-content for each case */
 }
 
@@ -165,12 +160,12 @@ body, html {
 
 #bar {
   background-color: var(--bg-color);
-  /* background-color: rgb(0, 0, 0); */
+  background-color: rgb(0, 0, 0); 
   height: var(--font-size);
   width: 100%;
 	overflow: hidden;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 	font-family: 'Roboto MediumItalic', sans-serif;
 }
 
@@ -223,7 +218,7 @@ body, html {
   position: relative;
   margin: 0px ;
   display: inline-block;
-  margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 30px;
   /* border: 10px solid red; */
 
@@ -383,13 +378,6 @@ display: inline-block;
   display: none;
 }
 
-#header {
-  height: 150px;
-  width: 100%;
-  display: block;
-  flex-wrap:wrap;
-
-}
 #title h1 {
   /* top: 30px; */
   margin: 30px;
