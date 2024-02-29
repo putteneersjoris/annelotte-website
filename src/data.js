@@ -14,20 +14,20 @@ var content = {
             ],
             "date": "2/3/2023"
         },
-        "ABOUT (copy)": {
+        "ABOUT": {
             "images": [
-                "./content/ABOUT (copy)/rotate_cropped_image2 (3rd copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (4th copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (5th copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (6th copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (7th copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (8th copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (another copy).png",
-                "./content/ABOUT (copy)/rotate_cropped_image2 (copy).png"
+                "./content/ABOUT/rotate_cropped_image2 (3rd copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (4th copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (5th copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (6th copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (7th copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (8th copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (another copy).png",
+                "./content/ABOUT/rotate_cropped_image2 (copy).png"
             ],
-            "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnitem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
+            "html": "hi there, my name is ssadasadad",
             "tags": [
-                "##about,<br> ##textile"
+                "#about,<br> #textile,<br> #about,<br> #website"
             ],
             "date": "2/3/2021"
         },
@@ -278,29 +278,11 @@ var content = {
                 "#textile,<br> #eco,<br> #smart,<br> #student"
             ],
             "date": "1/3/2024"
-        },
-        "testing_if saved": {
-            "images": [
-                "./content/testing_if saved/rotate_cropped_image2 (3rd copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (4th copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (5th copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (6th copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (7th copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (8th copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (another copy).png",
-                "./content/testing_if saved/rotate_cropped_image2 (copy).png"
-            ],
-            "html": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnitem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
-            "tags": [
-                "##about,<br> ##textile"
-            ],
-            "date": "2/3/2021"
         }
     },
     "allTags": [
-        "<span class='filter' data-filter='#about'>##about</span>",
-        "<span class='filter' data-filter='#textile'>##textile</span>",
         "<span class='filter' data-filter='3d printing'>#3d printing</span>",
+        "<span class='filter' data-filter='about'>#about</span>",
         "<span class='filter' data-filter='big'>#big</span>",
         "<span class='filter' data-filter='bio'>#bio</span>",
         "<span class='filter' data-filter='eco'>#eco</span>",
@@ -317,11 +299,12 @@ var content = {
         "<span class='filter' data-filter='student'>#student</span>",
         "<span class='filter' data-filter='technology'>#technology</span>",
         "<span class='filter' data-filter='textile'>#textile</span>",
-        "<span class='filter' data-filter='texttile'>#texttile</span>"
+        "<span class='filter' data-filter='texttile'>#texttile</span>",
+        "<span class='filter' data-filter='website'>#website</span>"
     ],
     "barContent": [
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -331,9 +314,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -343,9 +325,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -355,9 +336,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -367,9 +347,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -379,9 +358,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -391,9 +369,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -403,9 +380,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -415,9 +391,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -427,9 +402,8 @@ var content = {
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./ABOUT (copy).html'>ABOUT (copy)</a>&ensp;&ensp;",
+        "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
         "<a href='./Biodegradable and Eco-friendly Textile Production Methods (another copy).html'>Biodegradable and Eco-friendly Textile Production Methods (another copy)</a>&ensp;&ensp;",
         "<a href='./Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy).html'>Exploring Smart Textiles: Integration of Electronics and Fabrics (another copy)</a>&ensp;&ensp;",
@@ -438,7 +412,6 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
-        "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
-        "<a href='./testing_if saved.html'>testing_if saved</a>&ensp;&ensp;"
+        "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;"
     ]
 }
