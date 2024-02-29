@@ -65,6 +65,15 @@ body, html {
   text-overflow: ellipsis;
 }
 
+#all{
+text-decoration: underline;
+}
+
+.all_hidden{
+}
+
+.all_selected{
+}
 
 #contentPage {
 	border: 1px solid red;

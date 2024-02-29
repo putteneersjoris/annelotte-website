@@ -14,13 +14,15 @@ document.getElementById('barContent').innerHTML = barData
 
 // set tags
 var allTagsData = "";
-var allTagsDataArray = content.allTags
+var allTagsDataArray =  content.allTags
 for (var i = 0; i < allTagsDataArray.length; i++) {
     allTagsData += allTagsDataArray[i];
 }
 
 // Get the tags-wrapper element and set its innerHTML
-document.getElementById('tags-wrapper').innerHTML = allTagsData;
+
+
+document.getElementById('tags-wrapper').innerHTML = "<span id='all' class='all_hidden'>#all</span>"  +  allTagsData;
 
 // Loop over each project in the "projects" object
 for (var projectName in content.projects) {
@@ -95,36 +97,97 @@ var year = currentDate.getFullYear()
 document.getElementById('footerTextRight').innerHTML = "@" + year
 
 
-// make filter system
+
+
+
 const filters = document.querySelectorAll('.filter');
-        const projects = document.querySelectorAll('.project');
-        const selectedFilters = [];
+const projects = document.querySelectorAll('.project');
+var all = document.getElementById('all');
 
-        filters.forEach(filter => {
-          filter.addEventListener('click', () => {
-            const filterValue = filter.getAttribute('data-filter');
-            const isSelected = selectedFilters.includes(filterValue);
-            
-            // Toggle the selected state
-            if (isSelected) {
-              const index = selectedFilters.indexOf(filterValue);
-              selectedFilters.splice(index, 1);
-              filter.classList.remove('selected');
-            } else {
-              selectedFilters.push(filterValue);
-              filter.classList.add('selected');
-            }
+let selectedFilters = [];
 
-            projects.forEach(project => {
-              const tags = project.getAttribute('data-tags');
-              if (selectedFilters.every(tag => tags.includes(tag))) {
+
+
+
+
+
+var all = document.getElementById("all");
+
+all.addEventListener("click", function() {
+
+	if(all.classList == "all_hidden"){
+		all.style.textDecoration = "none";
+		all.classList.add("all_selected");
+		all.classList.remove("all_hidden");
+	}
+	else{
+		all.classList.remove("all_selected");
+		all.classList.add("all_hidden");
+		all.style.textDecoration = "underline";
+	
+	}
+	
+
+    });
+
+
+
+
+filters.forEach(filter => {
+    filter.addEventListener('click', () => {
+        const filterValue = filter.getAttribute('data-filter');
+        const isSelected = selectedFilters.includes(filterValue);
+
+        // Toggle the selected state
+        if (isSelected) {
+            const index = selectedFilters.indexOf(filterValue);
+            selectedFilters.splice(index, 1);
+            filter.classList.remove('selected');
+        } else {
+            selectedFilters.push(filterValue);
+            filter.classList.add('selected');
+        }
+
+        // Check if "all" is selected
+        const allSelected = selectedFilters.includes('all');
+
+        projects.forEach(project => {
+            const tags = project.getAttribute('data-tags');
+            if (allSelected || selectedFilters.every(tag => tags.includes(tag))) {
                 project.classList.remove('hidden');
-              } else {
+		all.classList.add("all_selected")
+		all.classList.remove("all_hidden")
+            } else {
                 project.classList.add('hidden');
-              }
-            });
-          });
+ 		all.classList.add("all_hidden")
+		all.classList.remove("all_selected")           
+		}
         });
+
+        // Check if no filters are selected and display message
+        if (selectedFilters.length === 0) {
+		all.style.textDecoration = "underline";
+        }
+	else {
+		all.style.textDecoration = "none";
+	}
+
+
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
