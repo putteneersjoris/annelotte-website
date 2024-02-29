@@ -12,7 +12,6 @@ for (var i = 0; i < barArray.length; i++) {
 document.getElementById('barContent').innerHTML = barData
 
 
-
 // set tags
 var allTagsData = "";
 var allTagsDataArray = content.allTags
@@ -36,81 +35,52 @@ for (var projectName in content.projects) {
       var project = content.projects[projectName];
       nProjects +=1
       // Create a <span> tag
-      var spanTag = document.createElement("span");
-      spanTag.classList.add("project")
-      spanTag.style.zIndex = 100-nProjects
-      spanTag.setAttribute("data-tags", project.tags.join(" "));
-      // spanTag.style.zIndex = 99 - index;
+	var spanTag = document.createElement("span");
+	spanTag.classList.add("project")
+	spanTag.style.zIndex = 100-nProjects
+	spanTag.setAttribute("data-tags", project.tags.join(" "));
       
-      // add start image
-      var startImg = document.createElement("img");
-      startImg.classList.add('startImg')
-      // startImg.style.zIndex = 
-      startImg.src = "/src/extra/end.png"
-      // Loop over images and create <img> tags
-      
-      // spanTag.appendChild(startImg);
-      
+	var imgATag = document.createElement("a");
+	imgATag.href = projectName + ".html"
+	var imgTag = document.createElement("img");
+	imgTag.src = project.images[0];
 
-
-      var nImg = -1
-      project.images.forEach(function(imageSrc, index) {
-          var imgTag = document.createElement("img");
-          imgTag.src = imageSrc;
-          // imgTag.style.top = `${index * PIXELDISTANCE}px`
-          // imgTag.style.left = `${index * PIXELDISTANCE}px`
-          // imgTag.style.borderRadius = `${index*5}px`;
-
-          nImg +=1
-          
-          spanTag.appendChild(imgTag);
-      });
-
+	imgATag.appendChild(imgTag)          
+	spanTag.appendChild(imgATag);
 
       
-      // Create an <a> tag with project.html as href
-      var aTag = document.createElement("a");
-      aTag.href = projectName + ".html";
-      var divEndImg = document.createElement("div");
-      divEndImg.classList.add("endImg");
-      // aTag.style
-      
-      var divProjectName = document.createElement("div");
-      divProjectName.classList.add("projectName");
-      divProjectName.textContent = projectName;
-      // divProjectName.style.top = `${nImg * PIXELDISTANCE}px`;
-      // divProjectName.style.left = `${nImg * PIXELDISTANCE}px`;
-      
+	// Create an <a> tag with project.html as href
+	var aTag = document.createElement("a");
+	aTag.href = projectName + ".html";
+	var divEndImg = document.createElement("div");
+	divEndImg.classList.add("endImg");
+	// aTag.style
+
+	var divProjectName = document.createElement("div");
+	divProjectName.classList.add("projectName");
+	divProjectName.textContent = projectName;
 
 
-      var divProjectDate = document.createElement("div");
-      divProjectDate.classList.add("projectDate");
-      divProjectDate.textContent = project.date;
-      // divProjectDate.style.bottom = `-${nImg * PIXELDISTANCE}px`;
-      // divProjectDate.style.right = `-${30 + nImg * PIXELDISTANCE}px`;
-      console.log(project.date);
+	var divProjectDate = document.createElement("div");
+	divProjectDate.classList.add("projectDate");
+	divProjectDate.textContent = project.date;
 
-      // Create the <div> element with class "projectTags"
-      var divProjectTags = document.createElement("div");
-      divProjectTags.classList.add("projectTags");
-      divProjectTags.innerHTML = project.tags
-      // divProjectTags.style.bottom = `-${nImg * PIXELDISTANCE}px`;
-      // divProjectTags.style.left = `${30 + nImg * PIXELDISTANCE}px`;
+	// Create the <div> element with class "projectTags"
+	var divProjectTags = document.createElement("div");
+	divProjectTags.classList.add("projectTags");
+	divProjectTags.innerHTML = project.tags
 
-      divEndImg.appendChild(divProjectName);
-      divEndImg.appendChild(divProjectDate);
-      divEndImg.appendChild(divProjectTags);
-      aTag.appendChild(divEndImg);
+	divEndImg.appendChild(divProjectName);
+	divEndImg.appendChild(divProjectDate);
+	divEndImg.appendChild(divProjectTags);
+	aTag.appendChild(divEndImg);
 
+	spanTag.appendChild(aTag);
 
-      // Append <a> tag to <span> tag
-      // spanTag.style.border = "10px solid red"
-      spanTag.appendChild(aTag);
-      
-      var projectsTag = document.getElementById("projects")
+	var projectsTag = document.getElementById("projects")
 
-      projectsTag.appendChild(spanTag);
-  }
+	projectsTag.appendChild(spanTag);
+	}
 }
 
 
@@ -156,22 +126,5 @@ const filters = document.querySelectorAll('.filter');
           });
         });
 
-
-// in pages make images big when clicked
-
-// function toggleSize(image) {
-//   if (image.style.width === '98.5%') {
-//       image.style.width = '32.5%';
-//       image.style.height = '32.5%';
-//       image.style.objectFit = "cover";
-//     } else {
-//       image.style.width = '98.5%';
-//       image.style.height = '100%';
-//       image.style.objectFit = "cover";
-//       // image.style.objectFit = "none";
-//       // image.style.objectFit = "unset";
-//       // image.style.width = '32.5%';
-//   }
-// }
 
 
