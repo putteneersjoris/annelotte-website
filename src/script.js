@@ -22,7 +22,7 @@ for (var i = 0; i < allTagsDataArray.length; i++) {
 // Get the tags-wrapper element and set its innerHTML
 
 
-document.getElementById('tags-wrapper').innerHTML = "<span id='all' class='all_hidden'>#all</span>"  +  allTagsData;
+document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>#all</span>"  +  allTagsData;
 
 // Loop over each project in the "projects" object
 for (var projectName in content.projects) {
@@ -98,40 +98,31 @@ document.getElementById('footerTextRight').innerHTML = "@" + year
 
 
 
-
-
 const filters = document.querySelectorAll('.filter');
 const projects = document.querySelectorAll('.project');
-var all = document.getElementById('all');
-
+const all = document.getElementById('all');
 let selectedFilters = [];
 
-
-
-
-
-
-var all = document.getElementById("all");
-
 all.addEventListener("click", function() {
+    var styleAttr = all.getAttribute("style");
 
-	if(all.classList == "all_hidden"){
-		all.style.textDecoration = "none";
-		all.classList.add("all_selected");
-		all.classList.remove("all_hidden");
-	}
-	else{
-		all.classList.remove("all_selected");
-		all.classList.add("all_hidden");
-		all.style.textDecoration = "underline";
-	
-	}
-	
-
-    });
-
-
-
+    if (!styleAttr || styleAttr.indexOf('text-decoration: none') === -1) {
+        all.style.textDecoration = "none";
+        console.log("Set all projects to hidden");
+        projects.forEach(project => {
+            project.classList.add('hidden');
+        });
+    } else {
+        all.style.textDecoration = "underline";
+        console.log("Revealing all projects");
+        projects.forEach(project => {
+            project.classList.remove('hidden');
+        });
+        filters.forEach(filter => {
+            filter.classList.remove('selected');
+        });
+    }
+});
 
 filters.forEach(filter => {
     filter.addEventListener('click', () => {
@@ -155,39 +146,16 @@ filters.forEach(filter => {
             const tags = project.getAttribute('data-tags');
             if (allSelected || selectedFilters.every(tag => tags.includes(tag))) {
                 project.classList.remove('hidden');
-		all.classList.add("all_selected")
-		all.classList.remove("all_hidden")
             } else {
                 project.classList.add('hidden');
- 		all.classList.add("all_hidden")
-		all.classList.remove("all_selected")           
-		}
+            }
         });
 
         // Check if no filters are selected and display message
         if (selectedFilters.length === 0) {
-		all.style.textDecoration = "underline";
+            all.style.textDecoration = "underline";
+        } else {
+            all.style.textDecoration = "none";
         }
-	else {
-		all.style.textDecoration = "none";
-	}
-
-
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
