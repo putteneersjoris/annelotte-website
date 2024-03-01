@@ -252,6 +252,17 @@ var content = {
             ],
             "date": "7 january 2024"
         },
+        "project 2": {
+            "images": [
+                "./content/project 2/rotate_cropped_image2.png",
+                "./content/project 2/rotate_cropped_image3.png"
+            ],
+            "html": "here is just the place for some text",
+            "tags": [
+                "#testing,<br> #jfdfd,<br> #dsfdsf,<br> #dfdfdf,<br> #dfdfdfre,<br> #ewwdswed"
+            ],
+            "date": "ddddddddddddddddddddddd"
+        },
         "student work": {
             "images": [
                 "./content/student work/11.jpg",
@@ -314,10 +325,15 @@ var content = {
         "<span class='filter' data-filter='about'>#about</span>",
         "<span class='filter' data-filter='big'>#big</span>",
         "<span class='filter' data-filter='bio'>#bio</span>",
+        "<span class='filter' data-filter='dfdfdf'>#dfdfdf</span>",
+        "<span class='filter' data-filter='dfdfdfre'>#dfdfdfre</span>",
+        "<span class='filter' data-filter='dsfdsf'>#dsfdsf</span>",
         "<span class='filter' data-filter='eco'>#eco</span>",
         "<span class='filter' data-filter='electronics'>#electronics</span>",
+        "<span class='filter' data-filter='ewwdswed'>#ewwdswed</span>",
         "<span class='filter' data-filter='favrib'>#favrib</span>",
         "<span class='filter' data-filter='integration'>#integration</span>",
+        "<span class='filter' data-filter='jfdfd'>#jfdfd</span>",
         "<span class='filter' data-filter='knap'>#knap</span>",
         "<span class='filter' data-filter='materials'>#materials</span>",
         "<span class='filter' data-filter='mooi'>#mooi</span>",
@@ -330,6 +346,7 @@ var content = {
         "<span class='filter' data-filter='smart'>#smart</span>",
         "<span class='filter' data-filter='student'>#student</span>",
         "<span class='filter' data-filter='technology'>#technology</span>",
+        "<span class='filter' data-filter='testing'>#testing</span>",
         "<span class='filter' data-filter='textile'>#textile</span>",
         "<span class='filter' data-filter='texttile'>#texttile</span>",
         "<span class='filter' data-filter='website'>#website</span>"
@@ -345,6 +362,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -357,6 +375,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -369,6 +388,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -381,6 +401,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -393,6 +414,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -405,6 +427,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -417,6 +440,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -429,6 +453,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -441,6 +466,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;",
         "<a href='./3D Printing of Textiles (3rd copy).html'>3D Printing of Textiles (3rd copy)</a>&ensp;&ensp;",
@@ -453,6 +479,7 @@ var content = {
         "<a href='./Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy).html'>Innovative Textile Manufacturing Techniques for Sustainable Fashion (copy)</a>&ensp;&ensp;",
         "<a href='./foobar.html'>foobar</a>&ensp;&ensp;",
         "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
+        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
         "<a href='./student work.html'>student work</a>&ensp;&ensp;",
         "<a href='./student work (3rd copy).html'>student work (3rd copy)</a>&ensp;&ensp;"
     ]

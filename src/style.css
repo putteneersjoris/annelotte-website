@@ -3,7 +3,7 @@
   --header-height: 10%;
   --bg-color: rgb(240,240,240);
   /* --border-radius:20px; */
-  --image-wh:350px;
+  --image-wh:300px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
 	--font: url('./extra/font/Roboto-Black.ttf');
 
