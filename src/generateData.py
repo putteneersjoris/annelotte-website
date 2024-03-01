@@ -1,15 +1,56 @@
 import os
 import json
 import re
+import subprocess
+
 
 contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
 
+
+# Functions
+def resize_file_if_large(filePath, maxBytes):
+    file_size = os.path.getsize(filePath)
+    if file_size > maxBytes:
+        print(f"{filePath} is too big with {file_size} bytes. It will be modified. Max bytes is {maxBytes}")
+        command = f'convert "{filePath}" -resize 512x -quality 80 "{filePath}"'
+        if os.path.splitext(filePath)[1] == ".gif": # Check if GIF
+            command = f'convert "{filePath}" -coalesce -resize 512x -colors 64 -deconstruct "{filePath}"'
+        subprocess.run(command, shell=True)
+
+def remove_unsupported_file(file_path):
+    if os.path.isfile(file_path):
+        supported_extensions = (".jpg", ".png", ".jpeg", ".txt", ".gif")
+        if not file_path.lower().endswith(supported_extensions):
+            os.remove(file_path)
+            print(f'{file_path} is not supported and is removed. Please use one of the supported extensions {supported_extensions}')
+
+
+#remove unsupported files
+for folder in os.listdir(contentFolder):
+    folder_path = os.path.join(contentFolder, folder)
+    if os.path.isdir(folder_path):
+        for item in os.listdir(folder_path):
+            item_path = os.path.join(folder_path, item)
+            remove_unsupported_file(item_path)
+
+
+
+#resice images indeen needed
+for folder in os.listdir(contentFolder):
+    folder_path = os.path.join(contentFolder, folder)
+    if os.path.isdir(folder_path):
+        for item in os.listdir(folder_path):
+            item_path = os.path.join(folder_path, item)
+            resize_file_if_large(item_path, 5000000)
+
+
 # Delete all .html files (excluding index.html) in the output folder
 for filename in os.listdir(outputFolder):
+    filepath = os.path.join(outputFolder, filename)
     if filename.endswith(".html") and filename != "index.html":
-        filepath = os.path.join(outputFolder, filename)
         os.remove(filepath)
+  
 
 # Initialize arrays for images, tags, date, projects, allTags, and barContent
 images = []
@@ -80,6 +121,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
                             tags_formatted = ["#" + tag.strip() + "<br>" for tag in tags_content.split(',')]
                             allTags.extend([
                                 "<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
+
                                 for tag in tags_content.split(',')
                             ])
                             # print(allTags)

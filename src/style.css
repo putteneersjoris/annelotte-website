@@ -135,9 +135,11 @@ text-decoration: underline;
     --tags-wrapper-height: calc(90% - var(--font-size));
   }
 }
+#tags-wrapper span{
+	overflow:hidden;
+}
 
 #tags-wrapper {
-	cursor: pointer;
 	font-size: 18px;
 	margin-top: 250px;
 	margin-left: 20px;
@@ -150,7 +152,22 @@ text-decoration: underline;
 
 .selected {
   text-decoration: underline;
+  animation: fadeIn 1s ease-in-out;
 }
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
 
 #tags-wrapper span { padding-right: 30px;}
 
@@ -212,6 +229,7 @@ text-decoration: underline;
   margin-bottom: 30px;
   /* border: 10px solid red; */
 
+  /*animation: fadeIn 0.2s ease-in-out;*/
 }
 
 
@@ -223,6 +241,7 @@ text-decoration: underline;
   height: var(--image-wh);
   border-radius: var(--border-radius) 0px var(--border-radius)0px;
   object-fit:cover;
+
 }
 
 #projectPage{
