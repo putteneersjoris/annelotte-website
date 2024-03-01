@@ -69,14 +69,29 @@ body, html {
 text-decoration: underline;
 }
 
-.all_hidden{
+
+.containerStatic {
+ display: grid;
+    grid-template-columns: auto 1fr; /* First column auto-sized, second column takes up remaining space */
+    align-items: start; /* Align items at the start of the grid */
+
+
+
 }
 
-.all_selected{
+.menuprevnext {
+    float: left; /* Float the menuprevnext div to the left */
 }
+
+#tagStatic {
+    float: right; /* Float the tagStatic span to the right */
+    color: rgb(255, 0, 0);
+text-align:right;
+}
+
 
 #contentPage {
-	border: 1px solid red;
+	//border: 10px solid red;
 	height: calc(90% - var(--font-size));
   width: 100%;
   display: flex;
@@ -84,9 +99,9 @@ text-decoration: underline;
 }
 
 #textPage {
-  margin-top: 21px;
-  flex: 40%;
-  padding-left: 10px;
+  margin-right: 90px;
+  flex: 50%;
+  /*padding-left: 10px;*/
 
 }
 

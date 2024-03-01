@@ -88,7 +88,7 @@ for (var projectName in content.projects) {
 
 
 // pick next porject when clicking on next button
-var htmlData = content.htmlContent;
+//var htmlData = content.htmlContent;
 
 
 // set date on footer
@@ -159,3 +159,5 @@ filters.forEach(filter => {
         }
     });
 });
+
+
