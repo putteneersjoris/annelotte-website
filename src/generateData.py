@@ -206,9 +206,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
         with open(project_html_path, 'w') as project_html_file:
             project_html_file.write(project_html_content)
 
-#         htmlFiles.append(project_html_path)
-
-# sorted_htmlFiles = (sorted(htmlFiles))
 
 # Sort and deduplicate allTags array
 allTags = list(set(allTags))
@@ -239,8 +236,6 @@ content = {
 # Convert the content dictionary to JSON format
 content_json = json.dumps(content, indent=4)
 
-# Print the JSON object
-# print(content_json)
 
 # Write the JSON content to a file named "dataB.js"
 with open("data.js", "w") as file:
