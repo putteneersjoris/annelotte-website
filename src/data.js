@@ -13,7 +13,7 @@ var content = {
             ],
             "html": "hi there, my name is ssadasadad",
             "tags": [
-                "#about,<br> #textile,<br> #about,<br> #website"
+                "<span>#about</span><br><span>#textile</span><br><span>#about</span><br><span>#website</span><br>"
             ],
             "date": "2/3/2021"
         },
@@ -69,7 +69,7 @@ var content = {
             ],
             "html": "Lorei quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentiuam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><h2>section</h2><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium  ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repud repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><u></u><br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id p animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
             "tags": [
-                "#textile,<br> #materials,<br> #performance,<br> #research"
+                "<span>#textile</span><br><span>#materials</span><br><span>#performance</span><br><span>#research</span><br>"
             ],
             "date": "2/3/2023"
         },
@@ -88,7 +88,7 @@ var content = {
             ],
             "html": "beke tekst he",
             "tags": [
-                "#project,<br> #mooi,<br> #1,<br> #2,<br> #3,<br> #4,<br> #5,<br> #5,<br> #6,<br> #7,<br> #8,<br> #89,<br> #90,<br> #90,<br> #knap"
+                "<span>#project</span><br><span>#mooi</span><br><span>#1</span><br><span>#2</span><br><span>#3</span><br><span>#4</span><br><span>#5</span><br><span>#5</span><br><span>#6</span><br><span>#7</span><br><span>#8</span><br><span>#89</span><br><span>#90</span><br><span>#90</span><br><span>#knap</span><br>"
             ],
             "date": "7 january 2024"
         },
@@ -99,7 +99,7 @@ var content = {
             ],
             "html": "here is just the place<div>ffffffffffffffffffff dsffd sdfdf</div> for some text",
             "tags": [
-                "#testing,<br> #jfdfd,<br> #dsfdsf,<br> #dfdfdf,<br> #dfdfdfre,<br> #ewwdswed"
+                "<span>#testing</span><br><span>#jfdfd</span><br><span>#dsfdsf</span><br><span>#dfdfdf</span><br><span>#dfdfdfre</span><br><span>#ewwdswed</span><br>"
             ],
             "date": "ddddddddddddddddddddddd"
         }

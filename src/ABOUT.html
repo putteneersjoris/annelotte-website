@@ -37,18 +37,7 @@
 										</span>
 									</div>
 									<span id="tagStatic" style="color:rgb(255,0,0);">
-										<!--#about,<br> #textile,<br> #about,<br> #website-->
-										<span>#about</span>
-										<br>
-										<span>#textile</span>
-										<br>
-										<span>#about</span>
-										<br>
-										<span>#website</span>
-										<br>
-										<span>#jjejjee</span>
-										<br>
-										<span>#isdf</span>-->
+										<span>#about</span><br><span>#textile</span><br><span>#about</span><br><span>#website</span><br>
 									</span>
 								</div>
 								<body>
@@ -75,7 +64,26 @@
 
 				<script src="data.js"></script> 
 				<script src="script.js"></script> 
-
+				
+			
+				<script>
+					var tagsWrapper = document.getElementById('tags-wrapper')
+					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
+					var innerTagArray = []
+					for (var i = 0; i < tagStaticElements.length; i++) {
+						innerTagArray.push(tagStaticElements[i].innerHTML.replace('#',''))
+					}
+					var tags = tagsWrapper.getElementsByTagName('span')
+					for (var i = 0; i < tags.length; i++) {
+						var dataFilter = tags[i].getAttribute('data-filter')
+						if (innerTagArray.includes(dataFilter)) {
+							tags[i].style.color = 'red'
+							tags[i].style.textDecoration = 'underline'
+						} else {
+							tags[i].style.color = 'rgb(200,200,200)'
+							tags[i].style.textDecoration = 'none'
+						}
+					}
 				</script>
 			</html>
 		

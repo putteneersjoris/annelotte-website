@@ -12,11 +12,13 @@ outputFolder = "./"     # Specify the folder where you want to save the HTML fil
 def resize_file_if_large(filePath, maxBytes):
 	file_size = os.path.getsize(filePath)
 	command = f'convert "{filePath}" -resize 512x -quality 80 "{filePath}"'
-	if file_size > maxBytes:
-		print(f"{filePath} is too big with {file_size} bytes. It will be modified. Max bytes is {maxBytes}")
-	if os.path.splitext(filePath)[1] == ".gif": # Check if GIF
-		command = f'convert "{filePath}" -coalesce -resize 512x -colors 64 -deconstruct "{filePath}"'
-	subprocess.run(command, shell=True)
+	supported_extensions = (".jpg", ".png")
+	if filePath.lower().endswith(supported_extensions):
+		if file_size > maxBytes:
+			print(f"{filePath} is too big with {file_size} bytes. It will be modified. Max bytes is {maxBytes}")
+		if os.path.splitext(filePath)[1] == ".gif": # Check if GIF
+			command = f'convert "{filePath}" -coalesce -resize 512x -colors 64 -deconstruct "{filePath}"'
+		subprocess.run(command, shell=True)
 
 def remove_unsupported_file(file_path):
 	if os.path.isfile(file_path):
@@ -120,9 +122,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								for tag in tags_content.split(',')
 							])
 							# print(allTags)
-		# tags_content = "textile, eco, smart, student"
-		tag_list = [f"#{tag.strip()}" for tag in tags_content.split(",")]
-		tag_string = ",<br> ".join(tag_list)
+		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
+		tag_string = "".join(tag_list)
 		project_tags.append(tag_string)
 		# print(project_tags)           
                 
@@ -181,18 +182,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 										</span>
 									</div>
 									<span id="tagStatic" style="color:rgb(255,0,0);">
-										<!--{tag_string}-->
-										<span>#about</span>
-										<br>
-										<span>#textile</span>
-										<br>
-										<span>#about</span>
-										<br>
-										<span>#website</span>
-										<br>
-										<span>#jjejjee</span>
-										<br>
-										<span>#isdf</span>-->
+										{tag_string}
 									</span>
 								</div>
 								<body>
@@ -212,7 +202,26 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 				<script src="data.js"></script> 
 				<script src="script.js"></script> 
-
+				
+			
+				<script>
+					var tagsWrapper = document.getElementById('tags-wrapper')
+					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
+					var innerTagArray = []
+					for (var i = 0; i < tagStaticElements.length; i++) {{
+						innerTagArray.push(tagStaticElements[i].innerHTML.replace('#',''))
+					}}
+					var tags = tagsWrapper.getElementsByTagName('span')
+					for (var i = 0; i < tags.length; i++) {{
+						var dataFilter = tags[i].getAttribute('data-filter')
+						if (innerTagArray.includes(dataFilter)) {{
+							tags[i].style.color = 'red'
+							tags[i].style.textDecoration = 'underline'
+						}} else {{
+							tags[i].style.color = 'rgb(200,200,200)'
+							tags[i].style.textDecoration = 'none'
+						}}
+					}}
 				</script>
 			</html>
 		"""
