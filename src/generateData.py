@@ -174,11 +174,11 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 										</span>
 										<br>
 										<span>
-											<a href={previous_htmlFile} class='backButtonPage'>previous</a>
+											<a href='{previous_htmlFile}' class='backButtonPage'>previous</a>
 										</span>
 										<br>
 										<span>
-											<a href= {next_htmlFile} class='backButtonPage'>next</a>
+											<a href= '{next_htmlFile}' class='backButtonPage'>next</a>
 										</span>
 									</div>
 									<span id="tagStatic" style="color:rgb(255,0,0);">
