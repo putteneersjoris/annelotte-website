@@ -27,11 +27,11 @@ Content of an update looks like this:
 
 ### demoproject images
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/1.jpg" width="32%">
-    <img src="./example/2.jpg" width="32%">
-    <img src="./example/3.jpg" width="32%">
-    <img src="./example/4.jpg" width="32%">
-    <img src="./example/5.jpg" width="32%">
+    <img src="./example/demoproject/1.jpg" width="32%">
+    <img src="./example/demoproject/2.jpg" width="32%">
+    <img src="./example/demoproject/3.jpg" width="32%">
+    <img src="./example/demoproject/4.jpg" width="32%">
+    <img src="./example/demoproject/5.jpg" width="32%">
 </div>
 
 re supported
@@ -75,7 +75,8 @@ The research objectives of the project include investigating methods for functio
 
 this demoproject will render out on the website like this:
 
-![header_image](./example/demoproject.png)
+![header_image](./example/demoproject_1.png)
+![header_image](./example/demoproject_2.png)
 
 
 
