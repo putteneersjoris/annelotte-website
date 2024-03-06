@@ -95,11 +95,12 @@ const n_projects = 5;
 console.log(width/ n_projects)
 const projectElements = document.getElementsByClassName('project');
 
+var dist = ( Math.floor(width / n_projects) -3 ) + "px";
 for (let i = 0; i < projectElements.length; i++) {
     let imgTags = projectElements[i].getElementsByTagName('img');
     for (let j = 0; j < imgTags.length; j++) {
-        imgTags[j].style.width = width / n_projects + "px";
-        imgTags[j].style.height = width / n_projects + "px";
+        imgTags[j].style.width = dist;
+        imgTags[j].style.height = dist;
     }
 }
 
@@ -107,8 +108,8 @@ for (let i = 0; i < projectElements.length; i++) {
 const projectElementsImg = document.getElementsByClassName('endImg');
 
 for (let i = 0; i < projectElementsImg.length; i++) {
-    projectElementsImg[i].style.width = width / n_projects + "px";
-    projectElementsImg[i].style.height = width / n_projects + "px";
+    projectElementsImg[i].style.width = dist;
+    projectElementsImg[i].style.height = dist;
 }
 
 
