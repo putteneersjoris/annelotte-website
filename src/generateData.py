@@ -142,7 +142,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 		# Create a project HTML file with images and barContent links
 		images_html = "\n".join([f"<img class='imagesPage'  src='{image_path}' >" for image_path in project_images])
-		
+		num_images = 4	
 		project_html_content = f"""
 			<!DOCTYPE html>
 			<html lang="en">
@@ -207,23 +207,23 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 				<script>
 
 
-
 document.addEventListener('DOMContentLoaded', function () {{
-    // Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
+    // Apply fullscreen styles to images if less than 4 on startup; toggle on click otherwise
     const images = document.querySelectorAll('.imagesPage');
-    images.forEach(img => {{
+    images.forEach((img, index) => {{
         img.addEventListener('click', () => {{
             img.classList.toggle('imagePageFull');
             img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
         }});
-    }});
 
-    if (images.length < 4) {{
-        images.forEach(img => {{
+        if (images.length < {num_images}) {{
             img.classList.add('imagePageFull');
             img.style.width = "100%";
-        }});
-    }}
+        }} else if (images.length > {num_images} && index == 0) {{
+            img.classList.add('imagePageFull');
+            img.style.width = "100%";
+        }}
+    }});
 
     // Make the tags that are present red
     var tagsWrapper = document.getElementById('tags-wrapper');
@@ -245,8 +245,6 @@ document.addEventListener('DOMContentLoaded', function () {{
         }}
     }}
 }});
-
-
 				</script>
 			</html>
 		"""

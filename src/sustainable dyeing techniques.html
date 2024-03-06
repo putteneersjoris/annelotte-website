@@ -64,23 +64,23 @@
 				<script>
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
-    // Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
+    // Apply fullscreen styles to images if less than 4 on startup; toggle on click otherwise
     const images = document.querySelectorAll('.imagesPage');
-    images.forEach(img => {
+    images.forEach((img, index) => {
         img.addEventListener('click', () => {
             img.classList.toggle('imagePageFull');
             img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
         });
-    });
 
-    if (images.length < 2) {
-        images.forEach(img => {
+        if (images.length < 4) {
             img.classList.add('imagePageFull');
             img.style.width = "100%";
-        });
-    }
+        } else if (images.length > 4 && index == 0) {
+            img.classList.add('imagePageFull');
+            img.style.width = "100%";
+        }
+    });
 
     // Make the tags that are present red
     var tagsWrapper = document.getElementById('tags-wrapper');
@@ -102,8 +102,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
-
-
 				</script>
 			</html>
 		
