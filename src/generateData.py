@@ -206,37 +206,47 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 			
 				<script>
 
-					// Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
-					img.addEventListener('click', () => {{
-						img.classList.toggle('imagePageFull');
-							img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
-							}});
-						}});
-						if (images.length < 2) {{
-							images.forEach(img => {{
-								img.classList.add('imagePageFull');
-								img.style.width = "100%";
-								}});
-						}});
 
-					//make the tags that are present red
-					var tagsWrapper = document.getElementById('tags-wrapper')
-					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
-					var innerTagArray = []
-					for (var i = 0; i < tagStaticElements.length; i++) {{
-						innerTagArray.push(tagStaticElements[i].innerHTML.replace('#',''))
-					}}
-					var tags = tagsWrapper.getElementsByTagName('span')
-					for (var i = 0; i < tags.length; i++) {{
-						var dataFilter = tags[i].getAttribute('data-filter')
-						if (innerTagArray.includes(dataFilter)) {{
-							//tags[i].style.color = 'red'
-							//tags[i].style.textDecoration = 'underline'
-						}} else {{
-							tags[i].style.color = 'rgb(200,200,200)'
-							tags[i].style.textDecoration = 'line-through'
-						}}
-					}}
+
+document.addEventListener('DOMContentLoaded', function () {{
+    // Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
+    const images = document.querySelectorAll('.imagesPage');
+    images.forEach(img => {{
+        img.addEventListener('click', () => {{
+            img.classList.toggle('imagePageFull');
+            img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
+        }});
+    }});
+
+    if (images.length < 2) {{
+        images.forEach(img => {{
+            img.classList.add('imagePageFull');
+            img.style.width = "100%";
+        }});
+    }}
+
+    // Make the tags that are present red
+    var tagsWrapper = document.getElementById('tags-wrapper');
+    var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span');
+    var innerTagArray = [];
+    for (var i = 0; i < tagStaticElements.length; i++) {{
+        innerTagArray.push(tagStaticElements[i].innerHTML.replace('#', ''));
+    }}
+
+    var tags = tagsWrapper.getElementsByTagName('span');
+    for (var i = 0; i < tags.length; i++) {{
+        var dataFilter = tags[i].getAttribute('data-filter');
+        if (innerTagArray.includes(dataFilter)) {{
+            //tags[i].style.color = 'red';
+            //tags[i].style.textDecoration = 'underline';
+        }} else {{
+            tags[i].style.color = 'rgb(200,200,200)';
+            tags[i].style.textDecoration = 'line-through';
+        }}
+    }}
+}});
+
+
 				</script>
 			</html>
 		"""
