@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {{
         }});
     }});
 
-    if (images.length < 2) {{
+    if (images.length < 4) {{
         images.forEach(img => {{
             img.classList.add('imagePageFull');
             img.style.width = "100%";
