@@ -5,7 +5,6 @@ basedir = os.getcwd()
 src_folder = os.path.join(basedir, "src")
 file_paths = [
     os.path.join(src_folder, "index.html"),
-    os.path.join(src_folder, "style.css"),
     os.path.join(src_folder, "staticHtmlString.py"),
     os.path.join(src_folder, "generateData.py"),
     os.path.join(src_folder, "data.js"),
@@ -27,7 +26,11 @@ Every push update (git cmd or GitHub web UI) triggers a GitHub Actions workflow 
 
 ### How:
 
+
+```bash
 Content of an update looks like this:
+
+
 ├── demoproject
 │ ├── 1.jpg
 │ ├── 2.jpg
@@ -35,6 +38,8 @@ Content of an update looks like this:
 │ ├── 4.jpg
 │ ├── 5.jpg
 │ └── description.txt
+
+```
 
 
 - 1 folder (demoproject) with images (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
