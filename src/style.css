@@ -3,7 +3,6 @@
   --header-height: 10%;
   --bg-color: rgb(240,240,240);
   /* --border-radius:20px; */
-  --image-wh:290px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
 	--font: url('./extra/font/Roboto-Black.ttf');
 
@@ -247,8 +246,6 @@ text-align:right;
   position: absolute;
   /*border: black 1px solid;*/
   margin-left: 0px;
- width: var(--image-wh) ;
- height: var(--image-wh);
   object-fit:cover;
 
 }
@@ -339,9 +336,10 @@ display: inline-block;
 
 #footer {
   z-index: 100;
+	font-size:14px;
   position:fixed;
   bottom: 14px;
-  left: 20px;
+  left: 10px;
   padding-bottom: 3px;
   margin-left: 14px;
 

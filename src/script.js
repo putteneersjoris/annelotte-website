@@ -90,14 +90,17 @@ for (var projectName in content.projects) {
 const projectsDiv = document.getElementById("projects");
 const width = projectsDiv.offsetWidth;
 console.log(width)
-console.log("dddddddddd")
 // Set the width of each "project" class to a width of width/4
 const n_projects = 5;
+console.log(width/ n_projects)
 const projectElements = document.getElementsByClassName('project');
 
 for (let i = 0; i < projectElements.length; i++) {
-    projectElements[i].style.width = width / n_projects + "px";
-    projectElements[i].style.height = width / n_projects + "px";
+    let imgTags = projectElements[i].getElementsByTagName('img');
+    for (let j = 0; j < imgTags.length; j++) {
+        imgTags[j].style.width = width / n_projects + "px";
+        imgTags[j].style.height = width / n_projects + "px";
+    }
 }
 
 
