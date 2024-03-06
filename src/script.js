@@ -101,6 +101,14 @@ for (let i = 0; i < projectElements.length; i++) {
 }
 
 
+const projectElementsImg = document.getElementsByClassName('endImg');
+
+for (let i = 0; i < projectElementsImg.length; i++) {
+    projectElementsImg[i].style.width = width / n_projects + "px";
+    projectElementsImg[i].style.height = width / n_projects + "px";
+}
+
+
 
 
 
