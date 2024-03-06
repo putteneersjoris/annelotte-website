@@ -217,7 +217,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								img.classList.add('imagePageFull');
 								img.style.width = "100%";
 								}});
-							}}
 						}});
 
 					//make the tags that are present red
