@@ -86,34 +86,41 @@ for (var projectName in content.projects) {
 }
 
 
-// Get the total width of the div with id "projects"
+// Get the div with id "projects"
 const projectsDiv = document.getElementById("projects");
-const width = projectsDiv.offsetWidth;
-console.log(width)
-// Set the width of each "project" class to a width of width/4
-const n_projects = 5;
-console.log(width/ n_projects)
-const projectElements = document.getElementsByClassName('project');
 
-var dist = ( Math.floor(width / n_projects) -3 ) + "px";
-for (let i = 0; i < projectElements.length; i++) {
-    let imgTags = projectElements[i].getElementsByTagName('img');
-    for (let j = 0; j < imgTags.length; j++) {
-        imgTags[j].style.width = dist;
-        imgTags[j].style.height = dist;
+// Define a function to update the width of the elements based on the div's width
+function updateWidth() {
+    // Get the current width of the div
+    const width = projectsDiv.offsetWidth;
+   console.log(width) 
+    // Calculate the width for each "project" class
+    const n_projects = 5;
+    const dist = (Math.floor(width / n_projects) - 3) + "px";
+    
+    // Set the width for each "project" class
+    const projectElements = document.getElementsByClassName('project');
+    for (let i = 0; i < projectElements.length; i++) {
+        let imgTags = projectElements[i].getElementsByTagName('img');
+        for (let j = 0; j < imgTags.length; j++) {
+            imgTags[j].style.width = dist;
+            imgTags[j].style.height = dist;
+        }
+    }
+    
+    // Set the width for each element with class "endImg"
+    const projectElementsImg = document.getElementsByClassName('endImg');
+    for (let i = 0; i < projectElementsImg.length; i++) {
+        projectElementsImg[i].style.width = dist;
+        projectElementsImg[i].style.height = dist;
     }
 }
 
+// Call updateWidth initially to set the initial width
+updateWidth();
 
-const projectElementsImg = document.getElementsByClassName('endImg');
-
-for (let i = 0; i < projectElementsImg.length; i++) {
-    projectElementsImg[i].style.width = dist;
-    projectElementsImg[i].style.height = dist;
-}
-
-
-
+// Add a resize event listener to the window object to call updateWidth whenever the window is resized
+window.addEventListener('resize', updateWidth);
 
 
 // set date on footer

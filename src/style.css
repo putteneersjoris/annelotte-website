@@ -53,7 +53,7 @@ body, html {
 #title h1 {
 	margin-top: 50px;
 	margin-bottom: 20px;
-  font-size:2em;
+  font-size:32px
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -151,7 +151,7 @@ text-align:right;
 
 #tags-wrapper {
 	font-size: 14px;
-	margin-top: 250px;
+	margin-top: 198px;
 	margin-left: 20px;
 	width:15%;
 	float:left;

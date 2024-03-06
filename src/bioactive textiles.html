@@ -65,24 +65,20 @@
 				
 			
 				<script>
-					//resize the images in imagesPages to 100% when clicked. and back to normal size when clicked aggain
-					document.addEventListener('DOMContentLoaded', function () {
-						const elements = document.querySelectorAll('.imagesPage');
-						elements.forEach(element => {
-							element.addEventListener('click', fullscreen);
-						});
 
-						function fullscreen() {
-							const img = this; // 'this' refers to the clicked element
-							if (!img.classList.contains('imagePageFull')) {
+					// Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
+					img.addEventListener('click', () => {
+						img.classList.toggle('imagePageFull');
+							img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
+							});
+						});
+						if (images.length < 2) {
+							images.forEach(img => {
 								img.classList.add('imagePageFull');
 								img.style.width = "100%";
-							} else {
-								img.classList.remove('imagePageFull');
-								img.style.width = "32.2%";
+								});
 							}
-						}
-					});  
+						});
 
 					//make the tags that are present red
 					var tagsWrapper = document.getElementById('tags-wrapper')

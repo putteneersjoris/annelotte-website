@@ -62,11 +62,16 @@
 				<script>
 
 					// Apply fullscreen styles to images if less than 2 on startup; toggle on click otherwise
-					img.addEventListener('click', () => {
-						img.classList.toggle('imagePageFull');
-							img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
+					document.addEventListener('DOMContentLoaded', function () {
+						const images = document.querySelectorAll('.imagesPage');
+
+						images.forEach(img => {
+							img.addEventListener('click', () => {
+								img.classList.toggle('imagePageFull');
+								img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
 							});
 						});
+
 						if (images.length < 2) {
 							images.forEach(img => {
 								img.classList.add('imagePageFull');
