@@ -23,9 +23,6 @@ var content = {
         "Smart Fabrics: Integrating Sensors for Health Monitoring": {
             "images": [
                 "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/1_670.jpg",
-                "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/3_670.jpg",
-                "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/4_670.jpg",
-                "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/6_670.jpg",
                 "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/7_670.jpg",
                 "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/9_670.jpg"
             ],
@@ -48,8 +45,6 @@ var content = {
         },
         "bioactive textiles": {
             "images": [
-                "./content/bioactive textiles/DSC03629_670.jpg",
-                "./content/bioactive textiles/boo32m_670.jpg",
                 "./content/bioactive textiles/boom_670.jpg",
                 "./content/bioactive textiles/vlcsnap-2020-07-27d-01h10m44s415_670.jpg",
                 "./content/bioactive textiles/vlcsnap-2020-08-02-02h31m34s763_670.jpg"
@@ -62,8 +57,6 @@ var content = {
         },
         "demoproject": {
             "images": [
-                "./content/demoproject/DSC03629_670.jpg",
-                "./content/demoproject/boo32m_670.jpg",
                 "./content/demoproject/boom_670.jpg",
                 "./content/demoproject/vlcsnap-2020-07-27d-01h10m44s415_670.jpg",
                 "./content/demoproject/vlcsnap-2020-08-02-02h31m34s763_670.jpg"

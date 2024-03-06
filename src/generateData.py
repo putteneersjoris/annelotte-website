@@ -122,6 +122,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								for tag in tags_content.split(',')
 							])
 							# print(allTags)
+					#break out of the loop after procvessing the first file
+					break
 		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
 		tag_string = "".join(tag_list)
 		project_tags.append(tag_string)
