@@ -100,6 +100,61 @@ this demoproject will render out on the website like this:
 ![header_image](./example/demoproject_1.png)
 ![header_image](./example/demoproject_2.png)
 
+## how to upload?
+
+```md
+
+├── content
+│   ├── ABOUT
+│   │   ├── 068_Vtol_Murmansk_part2_PRMK__1340_c_670.jpg
+│   │   ├── description2.txt
+│   │   └── description.txt
+│   ├── advanced textile composites
+│   │   ├── 3_1340_c_670.jpg
+│   │   ├── description.txt
+│   │   └── DSC08966_1340_c_670.jpg
+│   ├── bioactive textiles
+│   │   ├── boo32m_670.jpg
+│   │   ├── boom_670.jpg
+│   │   ├── description.txt
+│   │   ├── DSC03629_670.jpg
+│   │   ├── vlcsnap-2020-07-27d-01h10m44s415_670.jpg
+│   │   └── vlcsnap-2020-08-02-02h31m34s763_670.jpg
+│   ├── demoproject
+│   │   ├── 1.jpg
+│   │   ├── 2.jpg
+│   │   ├── 3.jpg
+│   │   ├── 4.jpg
+│   │   └── description.txt
+│   ├── Digital Fabrication Techniques
+│   │   ├── description.txt
+│   │   └── Screen-Shot-2020-12-22-at-8.38.03-PM_670.png
+│   ├── Smart Fabrics: Integrating Sensors for Health Monitoring
+│   │   ├── 1_670.jpg
+│   │   ├── 3_670.jpg
+│   │   ├── 4_670.jpg
+│   │   ├── 6_670.jpg
+│   │   ├── 7_670.jpg
+│   │   ├── 9_670.jpg
+│   │   └── description.txt
+│   └── sustainable dyeing techniques
+│       ├── description.txt
+│       ├── DSC03501_670.jpg
+│       ├── DSC03513_670.jpg
+│       └── DSC03526_670.jpg
+
+
+```
+
+
+1 go to the conternt folder located under annelotte_website/src/content/
+2 click on "upload files" and drop your dolder
+3 done
+
+
+
+
+
 
 
 Once the content of this folder is final, we can upload it to the GitHub repository.
