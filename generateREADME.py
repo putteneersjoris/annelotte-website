@@ -3,7 +3,9 @@ import os
 # Define paths to files and directories
 basedir = os.getcwd()
 src_folder = os.path.join(basedir, "src")
+actions_folder = os.path.join(basedir, ".github/workflows/")
 file_paths = [
+    os.path.join(actions_folder, "default.yaml"),
     os.path.join(src_folder, "index.html"),
     os.path.join(src_folder, "staticHtmlString.py"),
     os.path.join(src_folder, "generateData.py"),

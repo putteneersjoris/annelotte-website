@@ -40,6 +40,43 @@ Once the content of this folder is final, we can upload it to the GitHub reposit
 GitHub Actions executes the commands in `./github/workflows/default.yaml` file. This includes copying all files to `gh-pages` branch, updating the Ubuntu instance, installing ImageMagick, updating Image
 
 
+<details open><summary>default.yaml</summary>
+
+```
+name: default
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Update imagemagick rights Policy
+        run: |
+          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
+      - name: python generate data.js and html pages
+        working-directory: src/
+        run: python ./generateData.py
+      - name: Deploy to Github Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: src
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+```
+</details>
+
+
+
 <details open><summary>index.html</summary>
 
 ```
