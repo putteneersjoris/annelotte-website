@@ -1,9 +1,9 @@
 :root {
-  --font-size: 14px; 
+  --font-size: 28px; 
   --header-height: 10%;
   --bg-color: rgb(240,240,240);
   /* --border-radius:20px; */
-  --image-wh:250px;
+  --image-wh:376px;
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
 	--font: url('./extra/font/Roboto-Black.ttf');
 
@@ -51,8 +51,8 @@ body, html {
 }
 
 #title h1 {
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 80px;
+	margin-bottom: 40px;
   font-size:2em;
   white-space: nowrap;
   overflow: hidden;
@@ -100,7 +100,7 @@ text-align:right;
 #textPage  {
   margin-right: 90px;
   flex: 50%;
-  /*padding-left: 14px;*/
+  /*padding-left: 10px;*/
 
 }
 
@@ -112,7 +112,7 @@ text-align:right;
 }
 
 #imagePage img{
-  width: 32.2%;
+  width: 33.2%;
   /*max-width: 32.5%;*/
   /*max-height: 50.5%;*/
   object-fit: cover;
@@ -150,7 +150,7 @@ text-align:right;
 }
 
 #tags-wrapper {
-	font-size: 14px;
+	font-size: 18px;
 	margin-top: 250px;
 	margin-left: 20px;
 	width:15%;
@@ -162,7 +162,7 @@ text-align:right;
 
 .selected {
   text-decoration: underline;
-  /*animation: fadeIn 1s ease-in-out;*/
+  animation: fadeIn 1s ease-in-out;
 }
 
 
@@ -184,7 +184,7 @@ text-align:right;
 #bar {
 	width: 100%;
 	overflow: hidden;
-	padding-top: 14px;
+	padding-top: 10px;
   	padding-bottom: 50px;
 	font-family: 'Roboto MediumItalic', sans-serif;
 }
@@ -201,7 +201,7 @@ text-align:right;
 	cursor: pointer;
 	/*color: rgb(0, 4, 255);*/
 	color: black;
-	font-size: 14px;
+	font-size: 18px;
 
 }
 
@@ -228,7 +228,7 @@ text-align:right;
 
 #projects {
   height: calc(80% - 100px);
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .project{
@@ -237,7 +237,7 @@ text-align:right;
   display: inline-block;
   /*margin-right: 30px;*/
   /*margin-bottom: 30px;*/
-  /* border: 14px solid red; */
+  /* border: 10px solid red; */
 
   /*animation: fadeIn 0.2s ease-in-out;*/
 }
@@ -251,12 +251,6 @@ text-align:right;
  height: var(--image-wh);
   object-fit:cover;
 
-}
-
-
-
-.filter{
-	cursor:pointer;
 }
 
 #projectPage{
@@ -304,13 +298,13 @@ text-align:right;
 	right:20px;
 	bottom: 20px;
 	color: rgb(0, 0, 0); 
-	font-size: 14px;
+	font-size: 18px;
 	font-family:'Roboto Light', sans-serif; }
 /*
 .projectTags{
   position: absolute;
   margin-right: 0px;
-  margin: 14px;
+  margin: 10px;
   vertical-align: bottom;
 display: inline-block; 
   color: rgb(0, 0, 0);
@@ -323,7 +317,6 @@ display: inline-block;
 
 .projectTags{
 	position: absolute;
-	font-size: 14px;
 	bottom:0px;  
 	margin:20px;
 	color: rgba(0,0,0,1);
@@ -344,10 +337,10 @@ display: inline-block;
 #footer {
   z-index: 100;
   position:fixed;
-  bottom: 14px;
+  bottom: 10px;
   left: 20px;
   padding-bottom: 3px;
-  margin-left: 14px;
+  margin-left: 10px;
 
 }
 
@@ -374,7 +367,7 @@ display: inline-block;
 @media (max-width: 500px) {
   #title {
     width: 100%;
-    font-size:14px;
+    font-size:18px;
   }
   #tags {
     display: none;
@@ -406,7 +399,7 @@ display: inline-block;
 #title h1 {
   /* top: 30px; */
   margin: 30px;
-  font-size: 14px;
+  font-size: 3em;
   white-space:unset; /* Prevent line breaks */
   overflow:visible; /* Hide any overflowing text */
   text-overflow:unset;

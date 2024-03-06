@@ -141,7 +141,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 
 		# Create a project HTML file with images and barContent links
-		images_html = "\n".join([f"<a href='{image_path}' target='_blank'><img class='imagesPage'  src='{image_path}' ></a>" for image_path in project_images])
+		images_html = "\n".join([f"<img class='imagesPage'  src='{image_path}' >" for image_path in project_images])
 		
 		project_html_content = f"""
 			<!DOCTYPE html>
@@ -181,7 +181,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 											<a href= '{next_htmlFile}' class='backButtonPage'>next</a>
 										</span>
 									</div>
-									<span id="tagStatic" style="color:rgb(255,0,0);">
+									<span id="tagStatic" style="color:rgb(0,0,0);">
 										{tag_string}
 									</span>
 								</div>
@@ -205,6 +205,26 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 				
 			
 				<script>
+					//resize the images in imagesPages to 100% when clicked. and back to normal size when clicked aggain
+					document.addEventListener('DOMContentLoaded', function () {{
+						const elements = document.querySelectorAll('.imagesPage');
+						elements.forEach(element => {{
+							element.addEventListener('click', fullscreen);
+						}});
+
+						function fullscreen() {{
+							const img = this; // 'this' refers to the clicked element
+							if (!img.classList.contains('imagePageFull')) {{
+								img.classList.add('imagePageFull');
+								img.style.width = "100%";
+							}} else {{
+								img.classList.remove('imagePageFull');
+								img.style.width = "32.2%";
+							}}
+						}}
+					}});  
+
+					//make the tags that are present red
 					var tagsWrapper = document.getElementById('tags-wrapper')
 					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
 					var innerTagArray = []
@@ -215,11 +235,11 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 					for (var i = 0; i < tags.length; i++) {{
 						var dataFilter = tags[i].getAttribute('data-filter')
 						if (innerTagArray.includes(dataFilter)) {{
-							tags[i].style.color = 'red'
-							tags[i].style.textDecoration = 'underline'
+							//tags[i].style.color = 'red'
+							//tags[i].style.textDecoration = 'underline'
 						}} else {{
 							tags[i].style.color = 'rgb(200,200,200)'
-							tags[i].style.textDecoration = 'none'
+							tags[i].style.textDecoration = 'line-through'
 						}}
 					}}
 				</script>

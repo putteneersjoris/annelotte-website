@@ -1,0 +1,107 @@
+
+			<!DOCTYPE html>
+			<html lang="en">
+					<head>
+					<meta charset="UTF-8">
+					<meta http-equiv="X-UA-Compatible" content="IE=edge">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Annelotte Lammertse</title>
+					<link rel="stylesheet" href="./style.css">
+				</head>
+				<body>
+					<span id="tags-wrapper"></span> <!-- set tags here > -->
+					<div id="header">
+						<div id="title">
+							<h1>
+								<a href="./index.html" style="color: black; text-decoration: none;">Annelotte Lammertse</a>
+							</h1>
+						</div>
+						<div id="bar">
+							<div id="barContent"></div> <!-- set bar content projects here > -->
+						</div>
+						<div id="contentPage">
+							<div id="textPage">
+								<h1>Digital Fabrication Techniques March 5, 2024</h1>  <!-- add back, next, and menu buttons here -->
+								<div class="containerStatic">
+									<div class="menuprevnext">
+										<span>
+											<a href='./index.html' class='backButtonPage'> menu</a>
+										</span>
+										<br>
+										<span>
+											<a href='./ABOUT.html' class='backButtonPage'>previous</a>
+										</span>
+										<br>
+										<span>
+											<a href= './Smart Fabrics: Integrating Sensors for Health Monitoring.html' class='backButtonPage'>next</a>
+										</span>
+									</div>
+									<span id="tagStatic" style="color:rgb(0,0,0);">
+										<span>#textile</span><br><span>#digital fabrication</span><br><span>#3D printing</span><br><span>#additive manufacturing</span><br>
+									</span>
+								</div>
+								<body>
+									<p><h2>Project Overview</h2><br>    <p><br>        This project explores the integration of digital fabrication techniques, specifically 3D printing and additive manufacturing, into textile design processes. By leveraging the capabilities of digital fabrication technologies, we aim to push the boundaries of traditional textile manufacturing and create innovative textile structures with enhanced functionality and aesthetics.<br>    </p><br>    <p><br>        Digital fabrication offers unique opportunities for customization, complexity, and rapid prototyping in textile design. By digitally modeling textile structures and using computer-aided design (CAD) software, designers can create intricate patterns, textures, and geometries that would be challenging or impossible to achieve using traditional techniques. 3D printing and additive manufacturing enable precise control over material deposition, layer-by-layer construction, and spatial arrangement, allowing for the fabrication of complex textile structures with varying properties and functionalities.<br>    </p><br>    <p><br>        The research objectives of the project include developing novel design algorithms and computational tools for generating parametric textile patterns, optimizing printing parameters for different textile materials, and exploring post-processing techniques for enhancing the mechanical properties and surface finishes of printed textiles. Additionally, the project aims to investigate the integration of smart materials and functional additives into 3D printed textiles for applications such as wearable technology, protective gear, and architectural textiles.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of advanced digital fabrication techniques for textile design that enable greater design freedom, efficiency, and sustainability. These techniques have the potential to revolutionize the way textiles are designed, produced, and utilized across various industries, from fashion and apparel to automotive and architecture.<br>    </p></p>  <!-- body text here -->
+								</body>
+							</div>
+							<div id="imagePage"> <!-- add all imiages here -->
+								<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC08506_670.jpg' >
+<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC0850s4_670.jpg' >
+<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC08519_670.jpg' >
+<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC08581_670.jpg' >
+<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC08589_670.jpg' >
+<img class='imagesPage'  src='./content/Digital Fabrication Techniques/DSC08645_670.jpg' >
+							</div>
+						</div>
+						<div id="footer">
+							<span> Annelotte Lammertse </span>
+							<span id="footerTextRight"></span>
+						</div>
+					</div>
+				</body>
+
+				<script src="data.js"></script> 
+				<script src="script.js"></script> 
+				
+			
+				<script>
+					//resize the images in imagesPages to 100% when clicked. and back to normal size when clicked aggain
+					document.addEventListener('DOMContentLoaded', function () {
+						const elements = document.querySelectorAll('.imagesPage');
+						elements.forEach(element => {
+							element.addEventListener('click', fullscreen);
+						});
+
+						function fullscreen() {
+							const img = this; // 'this' refers to the clicked element
+							if (!img.classList.contains('imagePageFull')) {
+								img.classList.add('imagePageFull');
+								img.style.width = "100%";
+							} else {
+								img.classList.remove('imagePageFull');
+								img.style.width = "32.2%";
+							}
+						}
+					});  
+
+					//make the tags that are present red
+					var tagsWrapper = document.getElementById('tags-wrapper')
+					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
+					var innerTagArray = []
+					for (var i = 0; i < tagStaticElements.length; i++) {
+						innerTagArray.push(tagStaticElements[i].innerHTML.replace('#',''))
+					}
+					var tags = tagsWrapper.getElementsByTagName('span')
+					for (var i = 0; i < tags.length; i++) {
+						var dataFilter = tags[i].getAttribute('data-filter')
+						if (innerTagArray.includes(dataFilter)) {
+							//tags[i].style.color = 'red'
+							//tags[i].style.textDecoration = 'underline'
+						} else {
+							tags[i].style.color = 'rgb(200,200,200)'
+							tags[i].style.textDecoration = 'line-through'
+						}
+					}
+				</script>
+			</html>
+		

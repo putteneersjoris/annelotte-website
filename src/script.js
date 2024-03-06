@@ -86,16 +86,28 @@ for (var projectName in content.projects) {
 }
 
 
+// Get the total width of the div with id "projects"
+const projectsDiv = document.getElementById("projects");
+const width = projectsDiv.offsetWidth;
+console.log(width)
+console.log("dddddddddd")
+// Set the width of each "project" class to a width of width/4
+const n_projects = 5;
+const projectElements = document.getElementsByClassName('project');
 
-// pick next porject when clicking on next button
-//var htmlData = content.htmlContent;
+for (let i = 0; i < projectElements.length; i++) {
+    projectElements[i].style.width = width / n_projects + "px";
+    projectElements[i].style.height = width / n_projects + "px";
+}
+
+
+
 
 
 // set date on footer
 var currentDate = new Date
 var year = currentDate.getFullYear()
 document.getElementById('footerTextRight').innerHTML = "@" + year
-
 
 
 const filters = document.querySelectorAll('.filter');

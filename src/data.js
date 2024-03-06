@@ -2,14 +2,7 @@ var content = {
     "projects": {
         "ABOUT": {
             "images": [
-                "./content/ABOUT/rotate_cropped_image2 (3rd copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (4th copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (5th copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (6th copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (7th copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (8th copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (another copy).png",
-                "./content/ABOUT/rotate_cropped_image2 (copy).png"
+                "./content/ABOUT/Screen-Shot-2021-03-16-at-1.41.36-AM_670.png"
             ],
             "html": "hi there, my name is ssadasadad",
             "tags": [
@@ -17,160 +10,148 @@ var content = {
             ],
             "date": "2/3/2021"
         },
-        "Advanced Textile Materials: Enhancing Performance and Durability (another copy)": {
+        "Digital Fabrication Techniques": {
             "images": [
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/1 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/1.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/11.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/12.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/13.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/14.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/15.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/16.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/17 (3rd copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/17 (another copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/17 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/17.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/18.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/19.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/2 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/2.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/20.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/21 (3rd copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/21 (another copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/21 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/21.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/22.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (3rd copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (4th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (5th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (6th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (7th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (another copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/3.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/4 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/4.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/5 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/5.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/6 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/6.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/7 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/7.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/8 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/8.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9 (3rd copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9 (4th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9 (5th copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9 (another copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9 (copy).jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/9.jpg",
-                "./content/Advanced Textile Materials: Enhancing Performance and Durability (another copy)/aaa.jpg"
+                "./content/Digital Fabrication Techniques/DSC08506_670.jpg",
+                "./content/Digital Fabrication Techniques/DSC0850s4_670.jpg",
+                "./content/Digital Fabrication Techniques/DSC08519_670.jpg",
+                "./content/Digital Fabrication Techniques/DSC08581_670.jpg",
+                "./content/Digital Fabrication Techniques/DSC08589_670.jpg",
+                "./content/Digital Fabrication Techniques/DSC08645_670.jpg"
             ],
-            "html": "Lorei quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentiuam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><h2>section</h2><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumesentium  ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repud repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentiumum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium<br><br><u></u><br><br>esentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id p animi quibusdam repudiandae.<br><br>praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore <br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad<br><br>voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius omnis tempore ut repellendus molestias impedit quaerat dolore voluptatem ex, magni quas qui id praesentium animi quibusdam repudiandae.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus totam minus eius <br>assadasadad",
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project explores the integration of digital fabrication techniques, specifically 3D printing and additive manufacturing, into textile design processes. By leveraging the capabilities of digital fabrication technologies, we aim to push the boundaries of traditional textile manufacturing and create innovative textile structures with enhanced functionality and aesthetics.<br>    </p><br>    <p><br>        Digital fabrication offers unique opportunities for customization, complexity, and rapid prototyping in textile design. By digitally modeling textile structures and using computer-aided design (CAD) software, designers can create intricate patterns, textures, and geometries that would be challenging or impossible to achieve using traditional techniques. 3D printing and additive manufacturing enable precise control over material deposition, layer-by-layer construction, and spatial arrangement, allowing for the fabrication of complex textile structures with varying properties and functionalities.<br>    </p><br>    <p><br>        The research objectives of the project include developing novel design algorithms and computational tools for generating parametric textile patterns, optimizing printing parameters for different textile materials, and exploring post-processing techniques for enhancing the mechanical properties and surface finishes of printed textiles. Additionally, the project aims to investigate the integration of smart materials and functional additives into 3D printed textiles for applications such as wearable technology, protective gear, and architectural textiles.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of advanced digital fabrication techniques for textile design that enable greater design freedom, efficiency, and sustainability. These techniques have the potential to revolutionize the way textiles are designed, produced, and utilized across various industries, from fashion and apparel to automotive and architecture.<br>    </p>",
             "tags": [
-                "<span>#textile</span><br><span>#materials</span><br><span>#performance</span><br><span>#research</span><br>"
+                "<span>#textile</span><br><span>#digital fabrication</span><br><span>#3D printing</span><br><span>#additive manufacturing</span><br>"
             ],
-            "date": "2/3/2023"
+            "date": "March 5, 2024"
         },
-        "project 1": {
+        "Smart Fabrics: Integrating Sensors for Health Monitoring": {
             "images": [
-                "./content/project 1/rotate_cropped_image3 (3rd copy).png",
-                "./content/project 1/rotate_cropped_image3 (4th copy).png",
-                "./content/project 1/rotate_cropped_image3 (5th copy).png",
-                "./content/project 1/rotate_cropped_image3 (6th copy).png",
-                "./content/project 1/rotate_cropped_image3 (7th copy).png",
-                "./content/project 1/rotate_cropped_image3 (8th copy).png",
-                "./content/project 1/rotate_cropped_image3 (9th copy).png",
-                "./content/project 1/rotate_cropped_image3 (another copy).png",
-                "./content/project 1/rotate_cropped_image3 (copy).png",
-                "./content/project 1/rotate_cropped_image3.png"
+                "./content/Smart Fabrics: Integrating Sensors for Health Monitoring/Screen-Shot-2020-12-22-at-8.38.03-PM_670.png"
             ],
-            "html": "beke tekst he",
+            "html": "<h2>Project Overview</h2><br>    <p><br>        The project aims to revolutionize the field of healthcare by integrating sensors into fabrics for continuous health monitoring. By embedding sensors within textiles, we aim to create smart fabrics capable of monitoring vital signs and health parameters seamlessly.<br>    </p><br>    <br>    <h2>Research Objectives</h2><br>    <ul><br>        <li>Developing textile-based sensor technologies for accurate health monitoring.</li><br>        <li>Investigating methods for integrating sensors into various types of fabrics.</li><br>        <li>Exploring wireless communication protocols for transmitting health data.</li><br>        <li>Evaluating the usability and comfort of smart fabrics in daily life.</li><br>    </ul><br>    <br>    <h2>Methodology</h2><br>    <p><br>        The project will involve several phases, including sensor development, fabric integration, prototype testing, and user feedback collection. Advanced textile manufacturing techniques will be employed to embed sensors seamlessly into fabrics without compromising their comfort or functionality.<br>    </p><br>    <br>    <h2>Expected Outcomes</h2><br>    <p><br>        The project is expected to yield smart fabrics capable of monitoring vital signs such as heart rate, respiration rate, and body temperature. These fabrics will provide real-time health data, enabling early detection of health issues and continuous monitoring of chronic conditions.<br>    </p>",
             "tags": [
-                "<span>#project</span><br><span>#mooi</span><br><span>#1</span><br><span>#2</span><br><span>#3</span><br><span>#4</span><br><span>#5</span><br><span>#5</span><br><span>#6</span><br><span>#7</span><br><span>#8</span><br><span>#89</span><br><span>#90</span><br><span>#90</span><br><span>#knap</span><br>"
+                "<span>#textile</span><br><span>#fabric</span><br><span>#sensors</span><br><span>#health monitoring</span><br>"
             ],
-            "date": "7 january 2024"
+            "date": "March 5, 2024"
         },
-        "project 2": {
+        "advanced textile composites": {
             "images": [
-                "./content/project 2/rotate_cropped_image2.png",
-                "./content/project 2/rotate_cropped_image3.png"
+                "./content/advanced textile composites/GALERIJA_KAPELICA_Dmitry_Morozov_vtol_Duga_20231127_Hana_Marn-01_670.jpg",
+                "./content/advanced textile composites/GALERIJA_KAPELICA_Dmitry_Morozov_vtol_Duga_20231127_Hana_Marn-03_670.jpg",
+                "./content/advanced textile composites/GALERIJA_KAPELICA_Dmitry_Morozov_vtol_Duga_20231127_Hana_Marn-04_670.jpg",
+                "./content/advanced textile composites/GALERIJA_KAPELICA_Dmitry_Morozov_vtol_Duga_20231127_Hana_Marn-06_670.jpg",
+                "./content/advanced textile composites/GALERIJA_KAPELICA_Dmitry_Morozov_vtol_Duga_20231127_Hana_Marn-24_670.jpg"
             ],
-            "html": "here is just the place<div>ffffffffffffffffffff dsffd sdfdf</div> for some text",
+            "html": "",
             "tags": [
-                "<span>#testing</span><br><span>#jfdfd</span><br><span>#dsfdsf</span><br><span>#dfdfdf</span><br><span>#dfdfdfre</span><br><span>#ewwdswed</span><br>"
+                "<span>#textile</span><br><span>#fabric</span><br><span>#sensors</span><br><span>#health monitoring</span><br>"
             ],
-            "date": "ddddddddddddddddddddddd"
+            "date": []
+        },
+        "bioactive textiles": {
+            "images": [
+                "./content/bioactive textiles/DSC08551_670.jpg",
+                "./content/bioactive textiles/DSC08563_5_670.jpg",
+                "./content/bioactive textiles/DSC08568_670.jpg",
+                "./content/bioactive textiles/DSC08588-copy_670.jpg",
+                "./content/bioactive textiles/DSC08605_670.jpg",
+                "./content/bioactive textiles/vlcsnap-2023-09-23-13h10m30s991_1_670.jpg"
+            ],
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
+            "tags": [
+                "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
+            ],
+            "date": "March 5, 2024"
+        },
+        "sustainable dyeing techniques": {
+            "images": [
+                "./content/sustainable dyeing techniques/_ARTgallery151221_00_670.jpg"
+            ],
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on addressing the environmental impact of traditional textile dyeing processes by developing sustainable dyeing techniques using natural pigments and eco-friendly processes. By reducing the use of harmful chemicals and minimizing water consumption, we aim to promote environmental sustainability in the textile industry.<br>    </p><br>    <br>    <h2>Research Objectives</h2><br>    <ul><br>        <li>Exploring natural sources of pigments suitable for textile dyeing.</li><br>        <li>Developing eco-friendly dyeing processes that minimize water and energy consumption.</li><br>        <li>Evaluating the colorfastness and durability of textiles dyed using natural pigments.</li><br>        <li>Assessing the environmental impact of sustainable dyeing techniques compared to conventional methods.</li><br>    </ul><br>    <br>    <h2>Methodology</h2><br>    <p><br>        The project will involve sourcing natural pigments from various sources such as plants, minerals, and insects. These pigments will be tested for their suitability for textile dyeing, considering factors such as color vibrancy, fastness, and eco-friendliness. Eco-friendly dyeing processes, such as low-water immersion dyeing and natural mordanting, will be developed and optimized to achieve desired color outcomes while minimizing environmental impact.<br>    </p><br>    <br>    <h2>Expected Outcomes</h2><br>    <p><br>        The project aims to provide textile manufacturers with sustainable alternatives to conventional dyeing methods. By utilizing natural pigments and eco-friendly processes, we anticipate reducing water consumption, minimizing pollution, and promoting biodiversity conservation. Additionally, textiles dyed using sustainable techniques are expected to appeal to environmentally conscious consumers, driving market demand for eco-friendly products.<br>    </p>",
+            "tags": [
+                "<span>#textile</span><br><span>#dyeing</span><br><span>#sustainability</span><br><span>#natural pigments</span><br>"
+            ],
+            "date": "March 5, 2024"
         }
     },
     "allTags": [
-        "<span class='filter' data-filter='1'>#1</span>",
-        "<span class='filter' data-filter='2'>#2</span>",
-        "<span class='filter' data-filter='3'>#3</span>",
-        "<span class='filter' data-filter='4'>#4</span>",
-        "<span class='filter' data-filter='5'>#5</span>",
-        "<span class='filter' data-filter='6'>#6</span>",
-        "<span class='filter' data-filter='7'>#7</span>",
-        "<span class='filter' data-filter='8'>#8</span>",
-        "<span class='filter' data-filter='89'>#89</span>",
-        "<span class='filter' data-filter='90'>#90</span>",
+        "<span class='filter' data-filter='3D printing'>#3D printing</span>",
         "<span class='filter' data-filter='about'>#about</span>",
-        "<span class='filter' data-filter='dfdfdf'>#dfdfdf</span>",
-        "<span class='filter' data-filter='dfdfdfre'>#dfdfdfre</span>",
-        "<span class='filter' data-filter='dsfdsf'>#dsfdsf</span>",
-        "<span class='filter' data-filter='ewwdswed'>#ewwdswed</span>",
-        "<span class='filter' data-filter='jfdfd'>#jfdfd</span>",
-        "<span class='filter' data-filter='knap'>#knap</span>",
-        "<span class='filter' data-filter='materials'>#materials</span>",
-        "<span class='filter' data-filter='mooi'>#mooi</span>",
-        "<span class='filter' data-filter='performance'>#performance</span>",
-        "<span class='filter' data-filter='project'>#project</span>",
-        "<span class='filter' data-filter='research'>#research</span>",
-        "<span class='filter' data-filter='testing'>#testing</span>",
+        "<span class='filter' data-filter='additive manufacturing'>#additive manufacturing</span>",
+        "<span class='filter' data-filter='bioactive'>#bioactive</span>",
+        "<span class='filter' data-filter='digital fabrication'>#digital fabrication</span>",
+        "<span class='filter' data-filter='dyeing'>#dyeing</span>",
+        "<span class='filter' data-filter='fabric'>#fabric</span>",
+        "<span class='filter' data-filter='health monitoring'>#health monitoring</span>",
+        "<span class='filter' data-filter='healthcare'>#healthcare</span>",
+        "<span class='filter' data-filter='natural pigments'>#natural pigments</span>",
+        "<span class='filter' data-filter='sensors'>#sensors</span>",
+        "<span class='filter' data-filter='sustainability'>#sustainability</span>",
         "<span class='filter' data-filter='textile'>#textile</span>",
-        "<span class='filter' data-filter='website'>#website</span>"
+        "<span class='filter' data-filter='website'>#website</span>",
+        "<span class='filter' data-filter='wound healing'>#wound healing</span>"
     ],
     "barContent": [
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;",
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
-        "<a href='./Advanced Textile Materials: Enhancing Performance and Durability (another copy).html'>Advanced Textile Materials: Enhancing Performance and Durability (another copy)</a>&ensp;&ensp;",
-        "<a href='./project 1.html'>project 1</a>&ensp;&ensp;",
-        "<a href='./project 2.html'>project 2</a>&ensp;&ensp;"
+        "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
+        "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
+        "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
+        "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;"
     ]
 }

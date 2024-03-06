@@ -1,0 +1,112 @@
+
+			<!DOCTYPE html>
+			<html lang="en">
+					<head>
+					<meta charset="UTF-8">
+					<meta http-equiv="X-UA-Compatible" content="IE=edge">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Annelotte Lammertse</title>
+					<link rel="stylesheet" href="./style.css">
+				</head>
+				<body>
+					<span id="tags-wrapper"></span> <!-- set tags here > -->
+					<div id="header">
+						<div id="title">
+							<h1>
+								<a href="./index.html" style="color: black; text-decoration: none;">Annelotte Lammertse</a>
+							</h1>
+						</div>
+						<div id="bar">
+							<div id="barContent"></div> <!-- set bar content projects here > -->
+						</div>
+						<div id="contentPage">
+							<div id="textPage">
+								<h1>project 3 7 january 2024</h1>  <!-- add back, next, and menu buttons here -->
+								<div class="containerStatic">
+									<div class="menuprevnext">
+										<span>
+											<a href='./index.html' class='backButtonPage'> menu</a>
+										</span>
+										<br>
+										<span>
+											<a href='./project 2.html' class='backButtonPage'>previous</a>
+										</span>
+										<br>
+										<span>
+											<a href= './ABOUT.html' class='backButtonPage'>next</a>
+										</span>
+									</div>
+									<span id="tagStatic" style="color:rgb(255,0,0);">
+										<span>#project</span><br><span>#mooi</span><br><span>#1</span><br><span>#2</span><br><span>#3</span><br><span>#4</span><br><span>#5</span><br><span>#5</span><br><span>#6</span><br><span>#7</span><br><span>#8</span><br><span>#89</span><br><span>#90</span><br><span>#90</span><br><span>#knap</span><br>
+									</span>
+								</div>
+								<body>
+									<p>beke tekst he</p>  <!-- body text here -->
+								</body>
+							</div>
+							<div id="imagePage"> <!-- add all imiages here -->
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-45-44.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-46-32.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-47-09.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-49-11.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-49-36.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-50-34.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-51-01.png' >
+								<img class='imagesPage'  src='./content/project 3/Screenshot from 2023-09-29 15-51-43.png' >
+							</div>
+						</div>
+						<div id="footer">
+							<span> Annelotte Lammertse </span>
+							<span id="footerTextRight"></span>
+						</div>
+					</div>
+				</body>
+
+				<script src="data.js"></script> 
+				<script src="script.js"></script> 
+				
+			
+				<script>
+					//get the element when clicked on the imagesaPage class, when clicked it will either add or remove the .imagePageFull class
+					document.addEventListener('DOMContentLoaded', function () {
+					    const elements = document.querySelectorAll('.imagesPage');
+					    elements.forEach(element => {
+						element.addEventListener('click', fullscreen);
+					    });
+
+					    function fullscreen() {
+						const img = this; // 'this' refers to the clicked element
+						if (!img.classList.contains('imagePageFull')) {
+						    img.classList.add('imagePageFull');
+						    img.style.width = "100%";
+						} else {
+						    img.classList.remove('imagePageFull');
+						    img.style.width = "33.2%";
+						}
+					    }
+					});	
+
+
+
+
+
+					var tagsWrapper = document.getElementById('tags-wrapper')
+					var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span')
+					var innerTagArray = []
+					for (var i = 0; i < tagStaticElements.length; i++) {
+						innerTagArray.push(tagStaticElements[i].innerHTML.replace('#',''))
+					}
+					var tags = tagsWrapper.getElementsByTagName('span')
+					for (var i = 0; i < tags.length; i++) {
+						var dataFilter = tags[i].getAttribute('data-filter')
+						if (innerTagArray.includes(dataFilter)) {
+							tags[i].style.color = 'red'
+							tags[i].style.textDecoration = 'underline'
+						} else {
+							tags[i].style.color = 'rgb(200,200,200)'
+							tags[i].style.textDecoration = 'none'
+						}
+					}
+				</script>
+			</html>
+		
