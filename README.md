@@ -193,7 +193,7 @@ jobs:
 105     return project_html_content
 
 ```
-/details>
+</details>
 
 
 
