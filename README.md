@@ -22,16 +22,62 @@ Content of an update looks like this:
 ```
 
 
-- 1 folder (demoproject) with images (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
+- 1 folder (demoproject) with images `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`, `5.jpg` (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
 
-* --> all symbols are supported. this can be emoji's, spaces, underscores etc
-** --> multiple tags are supported
 
-- 1 `.txt` file containing the following tags:
+### demoproject images
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./example/1.jpg" width="32%">
+    <img src="./example/2.jpg" width="32%">
+    <img src="./example/3.jpg" width="32%">
+    <img src="./example/4.jpg" width="32%">
+    <img src="./example/5.jpg" width="32%">
+</div>
+
+re supported
+
+- 1 `description.txt` file containing the following tags:
   - `<title>my_title*</title>`
   - `<date>11/2/2024*</date>`
   - `<body>main text**</body>`
   - `<tags>textile, weaving, digital*</tags>`
+
+An example of hoz such a description.txt file
+
+
+* --> all symbols are supported. this can be emoji's, spaces, underscores etc
+** --> multiple tags a
+
+```html
+
+
+<title>Bioactive Textiles: Functionalization for Wound Healing and Healthcare</title>
+<date>10/10/2024</date>
+<tags>textile, bioactive, healthcare, wound healing</tags>
+<body>
+<h2>Project Overview</h2>
+This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
+The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
+
+The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
+
+<details><summary>Click for more details</summary>This section contains additional details about the project.
+<a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
+<a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
+<details><summary>Click for more details</summary>This section contains additional details about the project.</details>
+
+<p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
+</body>
+
+
+```
+
+this demoproject will render out on the website like this:
+
+![header_image](./example/demoproject.png)
+
+
 
 Once the content of this folder is final, we can upload it to the GitHub repository.
 
@@ -521,14 +567,13 @@ var content = {
         "demoproject": {
             "images": [
                 "./content/demoproject/3.jpg",
-                "./content/demoproject/4.jpg",
-                "./content/demoproject/5.jpg"
+                "./content/demoproject/4.jpg"
             ],
-            "html": "<h2>Project Overview</h2><br>This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  <br><br>The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br><br><details><summary>Click for more details</summary>This section contains additional details about the project.<br><a href=\"https://www.sciencedirect.com/science/article/pii/S014296121830642X\">Read this paper</a><br><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/\">Explore this study</a><br><a href=\"https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full\">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details><br><details><summary>Click for more details</summary>This section contains additional details about the project.</details><br><br><p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>",
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
                 "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
             ],
-            "date": "10/10/2024"
+            "date": "March 5, 2024"
         },
         "sustainable dyeing techniques": {
             "images": [
