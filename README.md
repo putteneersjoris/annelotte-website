@@ -16,13 +16,12 @@ Content of an update looks like this:
 │ ├── 2.jpg
 │ ├── 3.jpg
 │ ├── 4.jpg
-│ ├── 5.jpg
 │ └── description.txt
 
 ```
 
 
-- 1 folder (demoproject) with images `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`, `5.jpg` (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
+- 1 folder (demoproject) with images `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`,  (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
 
 
 ### demoproject images
@@ -31,7 +30,6 @@ Content of an update looks like this:
     <img src="./example/demoproject/2.jpg" width="32%">
     <img src="./example/demoproject/3.jpg" width="32%">
     <img src="./example/demoproject/4.jpg" width="32%">
-    <img src="./example/demoproject/5.jpg" width="32%">
 </div>
 
 re supported
