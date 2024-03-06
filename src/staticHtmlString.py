@@ -1,4 +1,5 @@
-
+def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images):
+    project_html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +22,7 @@
         </div>
         <div id="contentPage">
             <div id="textPage">
-                <h1>ABOUT <br><span style="font-size:14px">2/3/2021</span></h1>  <!-- add back, next, and menu buttons here -->
+                <h1>{folderName} <br><span style="font-size:14px">{project_date}</span></h1>  <!-- add back, next, and menu buttons here -->
                 <div class="containerStatic">
                     <div class="menuprevnext">
                         <span>
@@ -29,23 +30,23 @@
                         </span>
                         <br>
                         <span>
-                            <a href='./sustainable dyeing techniques.html' class='backButtonPage'>previous</a>
+                            <a href='{previous_htmlFile}' class='backButtonPage'>previous</a>
                         </span>
                         <br>
                         <span>
-                            <a href= './Digital Fabrication Techniques.html' class='backButtonPage'>next</a>
+                            <a href= '{next_htmlFile}' class='backButtonPage'>next</a>
                         </span>
                     </div>
                     <span id="tagStatic" style="color:rgb(0,0,0);">
-                        <span>#about</span><br><span>#textile</span><br><span>#about</span><br><span>#website</span><br>
+                        {tag_string}
                     </span>
                 </div>
                 <body>
-                    <p>hi there, my name is ssadasadad</p>  <!-- body text here -->
+                    <p>{project_html}</p>  <!-- body text here -->
                 </body>
             </div>
             <div id="imagePage"> <!-- add all images here -->
-                <img class='imagesPage'  src='./content/ABOUT/068_Vtol_Murmansk_part2_PRMK__1340_c_670.jpg' >
+                {images_html}
             </div>
         </div>
         <div id="footer">
@@ -59,43 +60,46 @@
 <script src="script.js"></script> 
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {{
         // Apply fullscreen styles to images if less than 4 on startup; toggle on click otherwise
         const images = document.querySelectorAll('.imagesPage');
-        images.forEach((img, index) => {
-            img.addEventListener('click', () => {
+        images.forEach((img, index) => {{
+            img.addEventListener('click', () => {{
                 img.classList.toggle('imagePageFull');
                 img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
-            });
+            }});
 
-            if (images.length < 4) {
+            if (images.length < {num_images}) {{
                 img.classList.add('imagePageFull');
                 img.style.width = "100%";
-            } else if (images.length > 4 && index == 0) {
+            }} else if (images.length > {num_images} && index == 0) {{
                 img.classList.add('imagePageFull');
                 img.style.width = "100%";
-            }
-        });
+            }}
+        }});
 
         // Make the tags that are present red
         var tagsWrapper = document.getElementById('tags-wrapper');
         var tagStaticElements = document.getElementById('tagStatic').getElementsByTagName('span');
         var innerTagArray = [];
-        for (var i = 0; i < tagStaticElements.length; i++) {
+        for (var i = 0; i < tagStaticElements.length; i++) {{
             innerTagArray.push(tagStaticElements[i].innerHTML.replace('#', ''));
-        }
+        }}
 
         var tags = tagsWrapper.getElementsByTagName('span');
-        for (var i = 0; i < tags.length; i++) {
+        for (var i = 0; i < tags.length; i++) {{
             var dataFilter = tags[i].getAttribute('data-filter');
-            if (innerTagArray.includes(dataFilter)) {
+            if (innerTagArray.includes(dataFilter)) {{
                 tags[i].style.pointerEvents = 'none';
                 //tags[i].style.textDecoration = 'underline';
-            } else {
+            }} else {{
                 tags[i].style.color = 'rgba(0,0,0,0.1)'
                 tags[i].style.textDecoration = 'line-through';
-            }
-        }
-    });
+            }}
+        }}
+    }});
 </script>
 </html>
+"""
+
+    return project_html_content
