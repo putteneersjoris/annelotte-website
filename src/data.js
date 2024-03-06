@@ -40,11 +40,11 @@ var content = {
                 "./content/advanced textile composites/3_1340_c_670.jpg",
                 "./content/advanced textile composites/DSC08966_1340_c_670.jpg"
             ],
-            "html": "",
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
-                "<span>#textile</span><br><span>#fabric</span><br><span>#sensors</span><br><span>#health monitoring</span><br>"
+                "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
             ],
-            "date": []
+            "date": "March 5, 2024"
         },
         "bioactive textiles": {
             "images": [
@@ -59,6 +59,20 @@ var content = {
                 "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
             ],
             "date": "March 5, 2024"
+        },
+        "demoproject": {
+            "images": [
+                "./content/demoproject/DSC03629_670.jpg",
+                "./content/demoproject/boo32m_670.jpg",
+                "./content/demoproject/boom_670.jpg",
+                "./content/demoproject/vlcsnap-2020-07-27d-01h10m44s415_670.jpg",
+                "./content/demoproject/vlcsnap-2020-08-02-02h31m34s763_670.jpg"
+            ],
+            "html": "<h2>Project Overview</h2><br>This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  <br><br>The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br><br><details><summary>Click for more details</summary>This section contains additional details about the project.<br><a href=\"https://www.sciencedirect.com/science/article/pii/S014296121830642X\">Read this paper</a><br><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/\">Explore this study</a><br><a href=\"https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full\">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details><br><details><summary>Click for more details</summary>This section contains additional details about the project.</details><br><br><p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>",
+            "tags": [
+                "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
+            ],
+            "date": "10/10/2024"
         },
         "sustainable dyeing techniques": {
             "images": [
@@ -96,60 +110,70 @@ var content = {
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
         "<a href='./Smart Fabrics: Integrating Sensors for Health Monitoring.html'>Smart Fabrics: Integrating Sensors for Health Monitoring</a>&ensp;&ensp;",
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;"
     ]
 }

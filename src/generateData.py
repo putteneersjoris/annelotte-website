@@ -166,7 +166,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 						</div>
 						<div id="contentPage">
 							<div id="textPage">
-								<h1>{folderName} {project_date}</h1>  <!-- add back, next, and menu buttons here -->
+								<h1>{folderName} <br><span style="font-size:14px">{project_date}</span></h1>  <!-- add back, next, and menu buttons here -->
 								<div class="containerStatic">
 									<div class="menuprevnext">
 										<span>
@@ -237,10 +237,10 @@ document.addEventListener('DOMContentLoaded', function () {{
     for (var i = 0; i < tags.length; i++) {{
         var dataFilter = tags[i].getAttribute('data-filter');
         if (innerTagArray.includes(dataFilter)) {{
-            //tags[i].style.color = 'red';
+            tags[i].style.pointerEvents = 'none';
             //tags[i].style.textDecoration = 'underline';
         }} else {{
-            tags[i].style.color = 'rgb(200,200,200)';
+            tags[i].style.color = 'rgba(0,0,0,0.1)'
             tags[i].style.textDecoration = 'line-through';
         }}
     }}

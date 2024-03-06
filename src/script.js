@@ -22,7 +22,7 @@ for (var i = 0; i < allTagsDataArray.length; i++) {
 // Get the tags-wrapper element and set its innerHTML
 
 
-document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>#all</span>"  +  allTagsData;
+document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>#all<br><br><br></span>"  +  allTagsData;
 
 // Loop over each project in the "projects" object
 for (var projectName in content.projects) {
