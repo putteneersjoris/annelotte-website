@@ -40,7 +40,7 @@ Once the content of this folder is final, we can upload it to the GitHub reposit
 GitHub Actions executes the commands in `./github/workflows/default.yaml` file. This includes copying all files to `gh-pages` branch, updating the Ubuntu instance, installing ImageMagick, updating Image
 
 
-<details open><summary>default.yaml</summary>
+<details><summary>default.yaml</summary>
 
 ```
 name: default
@@ -77,7 +77,7 @@ jobs:
 
 
 
-<details open><summary>index.html</summary>
+<details><summary>index.html</summary>
 
 ```
 <!DOCTYPE html>
@@ -118,7 +118,7 @@ jobs:
 
 
 
-<details open><summary>staticHtmlString.py</summary>
+<details><summary>staticHtmlString.py</summary>
 
 ```
 def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images):
@@ -232,7 +232,7 @@ def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_
 
 
 
-<details open><summary>generateData.py</summary>
+<details><summary>generateData.py</summary>
 
 ```
 import os
@@ -458,7 +458,7 @@ print("File 'dataB.js' saved successfully.")
 
 
 
-<details open><summary>data.js</summary>
+<details><summary>data.js</summary>
 
 ```
 var content = {
@@ -638,7 +638,7 @@ var content = {
 
 
 
-<details open><summary>script.js</summary>
+<details><summary>script.js</summary>
 
 ```
 var PIXELDISTANCE = 4
@@ -841,7 +841,7 @@ filters.forEach(filter => {
 
 
 
-<details open><summary>style.css</summary>
+<details><summary>style.css</summary>
 
 ```
 :root {

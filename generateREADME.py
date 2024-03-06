@@ -66,7 +66,7 @@ for file_path in file_paths:
     if os.path.exists(file_path):
         file_name = os.path.basename(file_path)
         file_content = read_file_content(file_path)
-        readme_content += f'\n\n<details open><summary>{file_name}</summary>\n\n```\n{file_content}\n```\n</details>\n\n'
+        readme_content += f'\n\n<details><summary>{file_name}</summary>\n\n```\n{file_content}\n```\n</details>\n\n'
 
 # Write README file
 with open('README.md', 'w') as readme_file:
