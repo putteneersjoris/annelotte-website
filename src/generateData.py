@@ -44,7 +44,7 @@ for folder in os.listdir(contentFolder):
 	if os.path.isdir(folder_path):
 		for item in os.listdir(folder_path):
 			item_path = os.path.join(folder_path, item)
-			resize_file_if_large(item_path, 5000000)
+			# resize_file_if_large(item_path, 5000000)
 
 
 # Delete all .html files (excluding index.html) in the output folder
