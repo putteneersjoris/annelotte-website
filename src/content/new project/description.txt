@@ -1,10 +1,10 @@
 <title>Bioactive Textiles: Functionalization for Wound Healing and Healthcare</title>
-<date>March 5, 2024</date>
+<date>March 5, 2023</date>
 <tags>textile, bioactive,project_tags,  new_tag, healthcare, wound healing</tags>
 <body>
     <h2>new title</h2>
     <p>
-        This phealthcare outcomes. The project involves a multidisciplinary testing that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
+        This phealthcare outcomes. The prchange some text   erials science, and medical research to design innovative solutions for medical textiles.
     </p>
    
     <p>
