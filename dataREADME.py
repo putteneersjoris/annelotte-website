@@ -54,10 +54,14 @@ The original repository can be found [here](https://github.com/putteneersjoris/{
 1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
 
 2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
-   - The original repository can be found [here](https://github.com/putteneersjoris/{{admin_repository_name}}).
+
 """
 
 admin_upload_project = f"""
+## {admin}
+
+### upload
+
 <details><summary>1. How do I ({admin}) upload projects?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
@@ -67,7 +71,11 @@ admin_upload_project = f"""
 </details>
 
  """
-admin_remove_project = f""" <details><summary>2. How do I ({admin}) remove projects?</summary>
+admin_remove_project = f"""
+
+### remove
+
+<details><summary>2. How do I ({admin}) remove projects?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
 │   ![Remove Project]({admin_remove_project})
@@ -75,7 +83,11 @@ admin_remove_project = f""" <details><summary>2. How do I ({admin}) remove proje
 </details>
 
 """
-admin_update_project = f""" <details><summary>3. How do I ({admin}) update a project?</summary>
+admin_update_project = f""" 
+
+### update
+
+<details><summary>3. How do I ({admin}) update a project?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
 │   In the following video, it shows how to update the description as well as removing and adding images.
@@ -84,7 +96,11 @@ admin_update_project = f""" <details><summary>3. How do I ({admin}) update a pro
 </details>
 
 """
-admin_approve_project = f""" <details><summary>4. How do I ({admin}) approve a student project?</summary>
+admin_approve_project = f"""
+
+### approve
+
+<details><summary>4. How do I ({admin}) approve a student project?</summary>
 │   Option 1: Approve the pull requests of the {user} as shown in the video.
 │   │   ![Approve Project]({admin_approve_project})
 │       
@@ -103,7 +119,13 @@ Make sure you have a GitHub account.
 Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
 
 """
-user_upload_project = f""" <details><summary>1. How do I ({user}) upload a project?</summary>
+user_upload_project = f""" 
+
+## {user}
+
+### upload
+
+<details><summary>1. How do I ({user}) upload a project?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
 │   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
@@ -118,7 +140,26 @@ user_upload_project = f""" <details><summary>1. How do I ({user}) upload a proje
 </details>
 
 """
-user_remove_project = f""" <details><summary>3. How do I ({user}) remove a project?</summary>
+user_remove_project = f""" 
+
+## remove
+ 
+ < d e t a i l s > < s u m m a r y > 3 .   H o w   d o   I   ( { u s e r } )   r e m o v e   a   p r o j e c t ? < / s u m m a r y >
+ │       P l e a s e   e n s u r e   t h a t   y o u   a r e   l o g g e d   i n   t o   G i t H u b .
+ │       G o   t o   y o u r   i n s t a n c e   o f   { a d m i n } ' s   w e b s i t e   l o c a t e d   a t   ( { u s e r _ g i t h u b _ a c c o u n t } / { u s e r _ r e p o s i t o r y _ n a m e } ) .
+ │       S y n c   f o r k   ( t h i s   m a k e s   s u r e   y o u   h a v e   t h e   l a t e s t   v e r s i o n   s o   t h e r e   a r e   n o   c o n f l i c t s   b e t w e e n   o t h e r   u s e r s ) .
+ │       G o   t o   t h e   c o n t e n t   f o l d e r :   ( { u s e r _ g i t h u b _ a c c o u n t } / { u s e r _ r e p o s i t o r y _ n a m e } / t r e e / m a i n / s r c / c o n t e n t ) .
+ │      
+ │               │       R e m o v e   y o u r   p r o j e c t   a s   s h o w n   i n   t h e   f o l l o w i n g   v i d e o .
+ │       ! [ R e m o v e   P r o j e c t ] ( { u s e r _ r e m o v e _ p r o j e c t } )
+ │      
+ │       C o n t r i b u t e   b y   o p e n i n g   u p   a   ' p u l l   r e q u e s t   >   c r e a t e   p u l l   r e q u e s t ' .
+ │       N o w   { a d m i n }   w i l l   g e t   a n   e m a i l   n o t i f i c a t i o n ,   a s   w e l l   a s   h a v i n g   a n   o p e n   p u l l   r e q u e s t   t h a t   c a n   b e   a p p r o v e d   o r   d i s a p p r o v e d .
+ │       Y o u   n o w   h a v e   s u c c e s s f u l l y   r e m o v e d   a   p r o j e c t .   O n c e   { a d m i n }   a p p r o v e s   o f   t h e   c h a n g e s ,   y o u   c a n   s e e   y o u r   p r o j e c t   o n   t h e   o f f i c i a l   w e b s i t e .
+ < / d e t a i l s >
+
+
+<details><summary>3. How do I ({user}) remove a project?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
 │   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
@@ -133,19 +174,24 @@ user_remove_project = f""" <details><summary>3. How do I ({user}) remove a proje
 </details>
 
 
+
 """
-user_update_project = f""" <details><summary>2. How do I ({user}) update a project?</summary>
-│   Please ensure that you are logged in to GitHub.
-│   Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
-│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-│   Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
-│   
-│   Update your project as shown in the following video.
-│   ![Update Project]({user_update_project})
-│   
-│   Contribute by opening up a 'pull request > create pull request'.
-│   Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
-│   You now have successfully updated a project. Once {admin} approves of the changes, you can see your project on the official website.
+user_update_project = f"""
+
+## update
+
+	<details><summary>2. How do I ({user}) update a project?</summary>
+	Please ensure that you are logged in to GitHub.
+	Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
+	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
+	Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
+	
+	Update your project as shown in the following video.
+	![Update Project]({user_update_project})
+	  
+	Contribute by opening up a 'pull request > create pull request'.
+	Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
+	You now have successfully updated a project. Once {admin} approves of the changes, you can see your project on the official website.
 </details>
 
 """
