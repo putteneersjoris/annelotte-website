@@ -34,22 +34,9 @@ project_navigation = "./example/project_navigation.png"
 admin_setup = f""" 
 
 # Website: {admin_fullname}
+## instructions: {admin}
 
-## Uploading, Updating, Removing, Confirming Projects
-
-First setup ({admin}) (only once)
-
-Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
-
-Setup the repository so it has correct GitHub actions, bot permissions, etc.
-The original repository can be found [here](https://github.com/putteneersjoris/{admin_repository_name}).
-
-
-# Website: {admin_fullname}
-
-## Uploading, Updating, Removing, Confirming Projects
-
-### First setup ({admin}) (only once)
+### First setup (only once)
 
 1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
 
@@ -58,16 +45,15 @@ The original repository can be found [here](https://github.com/putteneersjoris/{
 """
 
 admin_upload_project = f"""
-## {admin}
 
 ### upload
 
 <details><summary>1. How do I ({admin}) upload projects?</summary>
-Please ensure that you are logged in to GitHub.
-Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-![Upload Project]({admin_upload_project})
-You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	Please ensure that you are logged in to GitHub.
+	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
+	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
+	![Upload Project]({admin_upload_project})
+	You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
 </details>
 
  """
@@ -76,10 +62,10 @@ admin_remove_project = f"""
 ### remove
 
 <details><summary>2. How do I ({admin}) remove projects?</summary>
-Please ensure that you are logged in to GitHub.
-Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-![Remove Project]({admin_remove_project})
-You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	Please ensure that you are logged in to GitHub.
+	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
+	![Remove Project]({admin_remove_project})
+	You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
 </details>
 
 """
@@ -88,11 +74,11 @@ admin_update_project = f"""
 ### update
 
 <details><summary>3. How do I ({admin}) update a project?</summary>
-Please ensure that you are logged in to GitHub.
-Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-In the following video, it shows how to update the description as well as removing and adding images.
-![Update Project]({admin_update_project})
-You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	Please ensure that you are logged in to GitHub.
+	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
+	In the following video, it shows how to update the description as well as removing and adding images.
+	![Update Project]({admin_update_project})
+	You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
 </details>
 
 """
@@ -101,42 +87,62 @@ admin_approve_project = f"""
 ### approve
 
 <details><summary>4. How do I ({admin}) approve a student project?</summary>
-Option 1: Approve the pull requests of the {user} as shown in the video.
-![Approve Project]({admin_approve_project})
-    
-Option 2: You will receive an email from GitHub regarding an update.
-![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.
+	Option 1: Approve the pull requests of the {user} as shown in the video.
+	![Approve Project]({admin_approve_project})
+	    
+	Option 2: You will receive an email from GitHub regarding an update.
+	![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.
 
-You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
 </details>
 
 """
 
 
 #user
-user_setup = f""" First setup ({user}) (only once)
-Make sure you have a GitHub account.
-Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
+user_setup = f""" 
+
+
+## instructions: {admin}
+
+### First setup (only once)
+
+1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
+
+2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
 
 """
 user_upload_project = f""" 
 
-## {user}
-
 ### upload
 
 <details><summary>1. How do I ({user}) upload a project?</summary>
-Please ensure that you are logged in to GitHub.
-Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
-Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
-You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-Upload your project as shown in the following video.
-![Upload Project]({user_upload_project})
+	Please ensure that you are logged in to GitHub.
+	Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
+	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
+	Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
+	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
+	Upload your project as shown in the following video.
+	![Upload Project]({user_upload_project})
 
-Contribute by opening up a 'pull request > create pull request'.
-Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
-You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.
+	Contribute by opening up a 'pull request > create pull request'.
+	Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
+	You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.
+</details>
+
+
+
+<details><summary>1. How do I ({user}) upload a project?</summary>
+│   Please ensure that you are logged in to GitHub.<br>
+│   Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).<br>
+│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).<br>
+│   Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).<br>
+│   You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.<br>
+│   Upload your project as shown in the following video.<br>
+│   ![Upload Project]({user_upload_project})<br>
+│   Contribute by opening up a 'pull request > create pull request'.<br>
+│   Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.<br>
+│   You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.<br>
 </details>
 
 """
