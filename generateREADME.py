@@ -1,3 +1,8 @@
+#this script generates the README file for annelotte's website.
+# you run this script by `python generateREADME.py`. this will write a custom readme file
+# tho change the content of the file, this can be found in dataREADME.py under the many variables
+
+
 import os
 from dataREADME import ( admin_instructions, user_instructions, demoproject, navigation_overview, workflow )
 
