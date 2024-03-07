@@ -2,7 +2,7 @@
 
 ## Stack:
 
-Every push update (git cmd or GitHub web UI) triggers a GitHub Actions workflow that generates the static webpages.
+sdfEvery push update (git cmd or GitHub web UI) triggers a GitHub Actions workflow that generates the static webpages.
 
 ### How:
 
