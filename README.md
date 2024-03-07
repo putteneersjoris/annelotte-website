@@ -1,12 +1,28 @@
- # Website: Annelotte Lammertse
+ 
+
+# Website: Annelotte Lammertse
 
 ## Uploading, Updating, Removing, Confirming Projects
 
 First setup (Annelotte) (only once)
 
 Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)
+
 Setup the repository so it has correct GitHub actions, bot permissions, etc.
 The original repository can be found [here](https://github.com/putteneersjoris/annelottelammertse).
+
+
+# Website: Annelotte Lammertse
+
+## Uploading, Updating, Removing, Confirming Projects
+
+### First setup (Annelotte) (only once)
+
+1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
+
+2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
+   - The original repository can be found [here](https://github.com/putteneersjoris/{admin_repository_name}).
+
 <details><summary>1. How do I (Annelotte) upload projects?</summary>
 │   Please ensure that you are logged in to GitHub.
 │   Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).

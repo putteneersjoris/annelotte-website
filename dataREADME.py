@@ -31,15 +31,31 @@ menu_navigation = "./example/manu_navigation.png"
 project_navigation = "./example/project_navigation.png"
 
 #admin
-admin_setup = f""" # Website: {admin_fullname}
+admin_setup = f""" 
+
+# Website: {admin_fullname}
 
 ## Uploading, Updating, Removing, Confirming Projects
 
 First setup ({admin}) (only once)
 
 Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
+
 Setup the repository so it has correct GitHub actions, bot permissions, etc.
-The original repository can be found [here](https://github.com/putteneersjoris/{admin_repository_name})."""
+The original repository can be found [here](https://github.com/putteneersjoris/{admin_repository_name}).
+
+
+# Website: {admin_fullname}
+
+## Uploading, Updating, Removing, Confirming Projects
+
+### First setup ({admin}) (only once)
+
+1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
+
+2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
+   - The original repository can be found [here](https://github.com/putteneersjoris/{{admin_repository_name}}).
+"""
 
 admin_upload_project = f"""
 <details><summary>1. How do I ({admin}) upload projects?</summary>
