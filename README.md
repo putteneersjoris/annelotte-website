@@ -1,17 +1,102 @@
 # Website: Annelotte Lammertse
 
-## Stack:
+## Uploading, Updating, Removing, Confirming Projects
 
-sdfEvery push update (git cmd or GitHub web UI) triggers a GitHub Actions workflow that generates the static webpages.
+First setup (Annelotte) (only once)
+Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)
+Setup the repository so it has correct GitHub actions, bot permissions, etc.
+The original repository can be found [here](https://github.com/putteneersjoris/annelottelammertse).
 
-### How:
+<details><summary>1. How do I (Annelotte) upload projects?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
+│   You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
+│   ![Upload Project](./example/admin_upload_project.gif)
+│   You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+</details>
+
+<details><summary>2. How do I (Annelotte) remove projects?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
+│   ![Remove Project](./example/admin_remove_project.gif)
+│   You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+</details>
+
+<details><summary>3. How do I (Annelotte) update a project?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
+│   In the following video, it shows how to update the description as well as removing and adding images.
+│   ![Update Project](./example/admin_update_project.gif)
+│   You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+</details>
+
+<details><summary>4. How do I (Annelotte) approve a student project?</summary>
+│   Option 1: Approve the pull requests of the student as shown in the video.
+│   │   ![Approve Project](./example/admin_approve_project.gif)
+│       
+│   Option 2: You will receive an email from GitHub regarding an update.
+│   │   ![Confirmation Email](./example/admin_confirmation_email.jpg) You can approve the student project by clicking the provided link.
+│   
+│   You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+</details>
+
+First setup (student) (only once)
+Make sure you have a GitHub account.
+Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
+
+<details><summary>1. How do I (student) upload a project?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
+│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
+│   Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
+│   You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
+│   Upload your project as shown in the following video.
+│   ![Upload Project](./example/user_upload_project.gif)
+│   
+│   Contribute by opening up a 'pull request > create pull request'.
+│   Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
+│   You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.
+</details>
+
+<details><summary>2. How do I (student) update a project?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
+│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
+│   Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
+│   
+│   Update your project as shown in the following video.
+│   ![Update Project](./example/user_update_project.gif)
+│   
+│   Contribute by opening up a 'pull request > create pull request'.
+│   Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
+│   You now have successfully updated a project. Once Annelotte approves of the changes, you can see your project on the official website.
+</details>
+
+<details><summary>3. How do I (student) remove a project?</summary>
+│   Please ensure that you are logged in to GitHub.
+│   Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
+│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
+│   Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
+│   
+	│   Remove your project as shown in the following video.
+│   ![Remove Project](./example/user_remove_project.gif)
+│   
+│   Contribute by opening up a 'pull request > create pull request'.
+│   Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
+│   You now have successfully removed a project. Once Annelotte approves of the changes, you can see your project on the official website.
+</details>
+
+
+
+
+### demoproject
+In the following section a overview and demo project is provided.You can the coresponding files [here](https://github.com/AnnelotteLammertse/annelottelammertse/example/demoproject)
 
 
 ```bash
-Content of an update looks like this:
+demo project tree:
 
-
-├── demoproject
+├── project_name
 │ ├── 1.jpg
 │ ├── 2.jpg
 │ ├── 3.jpg
@@ -22,10 +107,61 @@ Content of an update looks like this:
 ```
 
 
-- 1 folder (demoproject) with images `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg`, `5.jpg` (varying resolution, filesize is allowed. `.jpg`, `.png`, `.gif` are supported. also png transparency is supported)
+```bash
+demo `content` folder tree
+.
+├── Annelotte
+│   ├── shot_1.jpg
+│   └── about_me.txt
+├── project_1
+│   ├── 1.jpg
+│   ├── description
+│   └── 2.png
+├── project_2
+│   ├── 3.jpg 
+│   ├── 4.jpg 
+│   ├── description.txt
+│   ├── 5.png 
+│   ├── 6.png 
+│   └── 7.jpg 
+├── project_3
+│   ├── 1.gif
+│   ├── 8.jpg
+│   ├── 9.png
+│   ├── 10.jpg
+│   └── description.txt
+├── project_4
+│   ├── description.txt
+│   └── 11.png
+├── project_5
+│   ├── 11.jpg
+│   ├── description.txt
+│   └── 12.gif
+├── project_6
+│   ├── 13.png
+│   ├── 14.png
+│   ├── 15.jpg
+│   ├── 15.jpg
+│   ├── 16.jpg
+│   └── text.txt
+└── project_7
+    ├── description.txt
+    ├── 17.gif 
+    ├── 18.png
+    └── 19.jpg 
+
+8 directories, 33 files
+
+```
 
 
-### demoproject images
+
+### images
+
+Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+The max image filezize is 10mb.
+the max resolution is 5000x5000 pixels
+
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./example/demoproject/1.jpg" width="32%">
     <img src="./example/demoproject/2.jpg" width="32%">
@@ -34,112 +170,85 @@ Content of an update looks like this:
     <img src="./example/demoproject/5.jpg" width="32%">
 </div>
 
-re supported
+### description
+You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+It can have filenames with spaces, and characters.
+word, or other office documents or any other word processor is not supported. it can only have a .txt file extension. 
 
-- 1 `description.txt` file containing the following tags:
-  - `<title>my_title*</title>`
-  - `<date>11/2/2024*</date>`
-  - `<body>main text**</body>`
-  - `<tags>textile, weaving, digital*</tags>`
+Every `.txt` file in every project should have 4 tags. `<title></title>`, `<date>,</date>`, `<body></body>`, `<tags></tags>`:
 
-An example of hoz such a description.txt file
+They can be used like this:
+`<title>the title of your project</title> `
+`<date>the date of you project</date>` * this can be in any format you like
+`<tags>textile, bioactive, healthcare, wound healing</tags>` *tags (hashtags) are seperated by a comma `,`
+`<body>
+	the body text of your project.
+	you cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported
+	
+	optionally, it also supports html styling and tags
 
+	<h2>subtitle</h2>
+	<details><summary>dropdown menu</summary>
+		content of a dropdown menu
+	</details>
 
-* --> all symbols are supported. this can be emoji's, spaces, underscores etc
-** --> multiple tags a
+	<p>paragraphs can be used to make different sections</p>
+
+	<p style='color:red; text-decoration:underline; background-color:blue'>
+		 You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.
+	</p>
+	
+	<a href="https://duckduckgo.com/">internal or internal links are also supported</a>
+
+</body>`
+
+Below is an example of such a `.txt` file
 
 ```html
 
 
-<title>Bioactive Textiles: Functionalization for Wound Healing and Healthcare</title>
+<title>Project 1</title>
 <date>10/10/2024</date>
 <tags>textile, bioactive, healthcare, wound healing</tags>
 <body>
-<h2>Project Overview</h2>
-This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
-The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
+	<h2>Project Overview</h2>
+	This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
+	The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
 
-The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
+	The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
 
-<details><summary>Click for more details</summary>This section contains additional details about the project.
-<a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
-<a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
-<details><summary>Click for more details</summary>This section contains additional details about the project.</details>
+	<details><summary>Click for more details</summary>This section contains additional details about the project.
+	<a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
+	<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
+	<a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
+	<details><summary>Click for more details</summary>This section contains additional details about the project.</details>
 
-<p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
+	<p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
 </body>
-
-
 ```
 
 this demoproject will render out on the website like this:
 
-![header_image](./example/demoproject_1.png)
-![header_image](./example/demoproject_2.png)
-
-## how to upload?
-
-```md
-
-├── content
-│   ├── ABOUT
-│   │   ├── 068_Vtol_Murmansk_part2_PRMK__1340_c_670.jpg
-│   │   ├── description2.txt
-│   │   └── description.txt
-│   ├── advanced textile composites
-│   │   ├── 3_1340_c_670.jpg
-│   │   ├── description.txt
-│   │   └── DSC08966_1340_c_670.jpg
-│   ├── bioactive textiles
-│   │   ├── boo32m_670.jpg
-│   │   ├── boom_670.jpg
-│   │   ├── description.txt
-│   │   ├── DSC03629_670.jpg
-│   │   ├── vlcsnap-2020-07-27d-01h10m44s415_670.jpg
-│   │   └── vlcsnap-2020-08-02-02h31m34s763_670.jpg
-│   ├── demoproject
-│   │   ├── 1.jpg
-│   │   ├── 2.jpg
-│   │   ├── 3.jpg
-│   │   ├── 4.jpg
-│   │   └── description.txt
-│   ├── Digital Fabrication Techniques
-│   │   ├── description.txt
-│   │   └── Screen-Shot-2020-12-22-at-8.38.03-PM_670.png
-│   ├── Smart Fabrics: Integrating Sensors for Health Monitoring
-│   │   ├── 1_670.jpg
-│   │   ├── 3_670.jpg
-│   │   ├── 4_670.jpg
-│   │   ├── 6_670.jpg
-│   │   ├── 7_670.jpg
-│   │   ├── 9_670.jpg
-│   │   └── description.txt
-│   └── sustainable dyeing techniques
-│       ├── description.txt
-│       ├── DSC03501_670.jpg
-│       ├── DSC03513_670.jpg
-│       └── DSC03526_670.jpg
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="./example/demoproject/demoproject_text.jpg" width="49%">
+    <img src="./example/demoproject/demoproject_web.jpg" width="49%">
+</div>
 
 
-```
+## scripts
 
+every push request activates a github actions protocal  that:
+installs:
+	1.imagemagick for image processing
+	
+generates:
+	1. the static .html webpages for every project.
+	2. the data.js file that is needed for script.js
 
-1 go to the conternt folder located under annelotte_website/src/content/
-2 click on "upload files" and drop your dolder
-3 done
+uploads:
+	script.js
+	index.html
 
-
-
-
-
-
-
-Once the content of this folder is final, we can upload it to the GitHub repository.
-
-(If you are a student, you need to fork this first, The owner of the repository needs to approve it first)
-
-GitHub Actions executes the commands in `./github/workflows/default.yaml` file. This includes copying all files to `gh-pages` branch, updating the Ubuntu instance, installing ImageMagick, updating Image
 
 
 <details><summary>default.yaml</summary>
@@ -948,7 +1057,7 @@ filters.forEach(filter => {
 :root {
   --font-size: 14px; 
   --header-height: 10%;
-  --bg-color: rgb(240,240,240);
+  --bg-color: rgb(240,240,40);
   /* --border-radius:20px; */
   --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
 	--font: url('./extra/font/Roboto-Black.ttf');
