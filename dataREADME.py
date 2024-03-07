@@ -1,6 +1,7 @@
 #README content using raw string
 
 admin = "Annelotte"
+admin_fullname = "Annelotte Lammertse"
 user = "student"
 admin_github_account = "https://github.com/AnnelotteLammertse"
 admin_repository_name = "annelottelammertse"
@@ -30,11 +31,12 @@ menu_navigation = "./example/manu_navigation.png"
 project_navigation = "./example/project_navigation.png"
 
 #admin
-admin_setup = f""" # Website: Annelotte Lammertse
+admin_setup = f""" # Website: {admin_fullname}
 
 ## Uploading, Updating, Removing, Confirming Projects
 
 First setup ({admin}) (only once)
+
 Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
 Setup the repository so it has correct GitHub actions, bot permissions, etc.
 The original repository can be found [here](https://github.com/putteneersjoris/{admin_repository_name})."""

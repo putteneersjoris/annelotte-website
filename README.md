@@ -3,6 +3,7 @@
 ## Uploading, Updating, Removing, Confirming Projects
 
 First setup (Annelotte) (only once)
+
 Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)
 Setup the repository so it has correct GitHub actions, bot permissions, etc.
 The original repository can be found [here](https://github.com/putteneersjoris/annelottelammertse).
