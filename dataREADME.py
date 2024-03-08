@@ -46,54 +46,73 @@ admin_setup = f"""
 
 admin_upload_project = f"""
 
-### upload
+## upload
 
-<details><summary>1. How do I ({admin}) upload projects?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-	![Upload Project]({admin_upload_project})
-	You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>1. How do I ({admin}) upload projects?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+    <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
+    <li><img src="{admin_upload_project}" alt="Upload Project"></li>
+    <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
 
  """
 admin_remove_project = f"""
 
-### remove
+## remove
 
-<details><summary>2. How do I ({admin}) remove projects?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-	![Remove Project]({admin_remove_project})
-	You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>2. How do I ({admin}) remove projects?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+    <li><img src="{admin_remove_project}" alt="Remove Project"></li>
+    <li>You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
 
 """
 admin_update_project = f""" 
 
-### update
+## update
 
-<details><summary>3. How do I ({admin}) update a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).
-	In the following video, it shows how to update the description as well as removing and adding images.
-	![Update Project]({admin_update_project})
-	You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>3. How do I ({admin}) update a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+    <li>In the following video, it shows how to update the description as well as removing and adding images.<br>
+      <img src="{admin_update_project}" alt="Update Project">
+    </li>
+    <li>You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
-
 """
 admin_approve_project = f"""
 
-### approve
+## approve
 
 <details><summary>4. How do I ({admin}) approve a student project?</summary>
-	Option 1: Approve the pull requests of the {user} as shown in the video.
-	![Approve Project]({admin_approve_project})
+	<br>
+	<ul>
+	<li>Option 1: Approve the pull requests of the {user} as shown in the video.</li>
+	<li>![Approve Project]({admin_approve_project})</li>
 	    
-	Option 2: You will receive an email from GitHub regarding an update.
-	![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.
+	<li>Option 2: You will receive an email from GitHub regarding an update.</li>
+	<li>![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.</li>
 
-	You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	<li>You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+	</ul>
+	<br>
 </details>
 
 """
@@ -114,22 +133,7 @@ user_setup = f"""
 """
 user_upload_project = f""" 
 
-### upload
-
-<details><summary>1. How do I ({user}) upload a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
-	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-	Upload your project as shown in the following video.
-	![Upload Project]({user_upload_project})
-
-	Contribute by opening up a 'pull request > create pull request'.
-	Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.
-</details>
-
+## upload
 
 <details>
   <summary>1. How do I ({user}) upload a project?</summary>
@@ -149,7 +153,6 @@ user_upload_project = f"""
     <li>You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
   </ul>
   <br>
-
 </details>
 
 
@@ -158,47 +161,52 @@ user_remove_project = f"""
 
 ## remove
 
-<details><summary>3. How do I ({user}) remove a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
-
-	Remove your project as shown in the following video.
-	![Remove Project]({user_remove_project})
-
-	Contribute by opening up a 'pull request > create pull request'.
-	Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully removed a project. Once {admin} approves of the changes, you can see your project on the official website.
+<details>
+  <summary>3. How do I ({user}) remove a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
+    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
+    <li>Remove your project as shown in the following video.<br>
+      <img src="{user_remove_project}" alt="Remove Project">
+    </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully removed a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
+  </ul>
+  <br>
 </details>
-
-
 """
 user_update_project = f"""
 
 ## update
 
-	<details><summary>2. How do I ({user}) update a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).
-	
-	Update your project as shown in the following video.
-	![Update Project]({user_update_project})
-	  
-	Contribute by opening up a 'pull request > create pull request'.
-	Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully updated a project. Once {admin} approves of the changes, you can see your project on the official website.
+<details>
+  <summary>2. How do I ({user}) update a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
+    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
+    <li>Update your project as shown in the following video.<br>
+      <img src="{user_update_project}" alt="Update Project">
+    </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully updated a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
+  </ul>
+  <br>
 </details>
-
 """
 
 
 
 #demoproject
 demoproject_intro = f""" 
-### demoproject
+## demoproject
 In the following section a overview and demo project is provided.You can the coresponding files [here](https://github.com/AnnelotteLammertse/annelottelammertse/example/demoproject)
 
 """

@@ -11,51 +11,70 @@
 
 
 
-### upload
+## upload
 
-<details><summary>1. How do I (Annelotte) upload projects?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
-	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-	![Upload Project](./example/admin_upload_project.gif)
-	You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>1. How do I (Annelotte) upload projects?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).</li>
+    <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
+    <li><img src="./example/admin_upload_project.gif" alt="Upload Project"></li>
+    <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
 
  
 
-### remove
+## remove
 
-<details><summary>2. How do I (Annelotte) remove projects?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
-	![Remove Project](./example/admin_remove_project.gif)
-	You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>2. How do I (Annelotte) remove projects?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).</li>
+    <li><img src="./example/admin_remove_project.gif" alt="Remove Project"></li>
+    <li>You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
 
  
 
-### update
+## update
 
-<details><summary>3. How do I (Annelotte) update a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).
-	In the following video, it shows how to update the description as well as removing and adding images.
-	![Update Project](./example/admin_update_project.gif)
-	You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+<details>
+  <summary>3. How do I (Annelotte) update a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).</li>
+    <li>In the following video, it shows how to update the description as well as removing and adding images.<br>
+      <img src="./example/admin_update_project.gif" alt="Update Project">
+    </li>
+    <li>You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+  </ul>
+  <br>
 </details>
 
 
-
-### approve
+## approve
 
 <details><summary>4. How do I (Annelotte) approve a student project?</summary>
-	Option 1: Approve the pull requests of the student as shown in the video.
-	![Approve Project](./example/admin_approve_project.gif)
+	<br>
+	<ul>
+	<li>Option 1: Approve the pull requests of the student as shown in the video.</li>
+	<li>![Approve Project](./example/admin_approve_project.gif)</li>
 	    
-	Option 2: You will receive an email from GitHub regarding an update.
-	![Confirmation Email](./example/admin_confirmation_email.jpg) You can approve the student project by clicking the provided link.
+	<li>Option 2: You will receive an email from GitHub regarding an update.</li>
+	<li>![Confirmation Email](./example/admin_confirmation_email.jpg) You can approve the student project by clicking the provided link.</li>
 
-	You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.
+	<li>You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+	</ul>
+	<br>
 </details>
 
  
@@ -71,22 +90,7 @@
 
  
 
-### upload
-
-<details><summary>1. How do I (student) upload a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
-	You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.
-	Upload your project as shown in the following video.
-	![Upload Project](./example/user_upload_project.gif)
-
-	Contribute by opening up a 'pull request > create pull request'.
-	Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.
-</details>
-
+## upload
 
 <details>
   <summary>1. How do I (student) upload a project?</summary>
@@ -106,7 +110,6 @@
     <li>You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
   </ul>
   <br>
-
 </details>
 
 
@@ -114,41 +117,46 @@
 
 ## remove
 
-<details><summary>3. How do I (student) remove a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
-
-	Remove your project as shown in the following video.
-	![Remove Project](./example/user_remove_project.gif)
-
-	Contribute by opening up a 'pull request > create pull request'.
-	Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully removed a project. Once Annelotte approves of the changes, you can see your project on the official website.
+<details>
+  <summary>3. How do I (student) remove a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
+    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+    <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
+    <li>Remove your project as shown in the following video.<br>
+      <img src="./example/user_remove_project.gif" alt="Remove Project">
+    </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully removed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+  </ul>
+  <br>
 </details>
-
-
 
 
 ## update
 
-	<details><summary>2. How do I (student) update a project?</summary>
-	Please ensure that you are logged in to GitHub.
-	Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).
-	Sync fork (this makes sure you have the latest version so there are no conflicts between other users).
-	Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).
-	
-	Update your project as shown in the following video.
-	![Update Project](./example/user_update_project.gif)
-	  
-	Contribute by opening up a 'pull request > create pull request'.
-	Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
-	You now have successfully updated a project. Once Annelotte approves of the changes, you can see your project on the official website.
+<details>
+  <summary>2. How do I (student) update a project?</summary>
+  <br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
+    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+    <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
+    <li>Update your project as shown in the following video.<br>
+      <img src="./example/user_update_project.gif" alt="Update Project">
+    </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully updated a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+  </ul>
+  <br>
 </details>
-
  
-### demoproject
+## demoproject
 In the following section a overview and demo project is provided.You can the coresponding files [here](https://github.com/AnnelotteLammertse/annelottelammertse/example/demoproject)
 
  
