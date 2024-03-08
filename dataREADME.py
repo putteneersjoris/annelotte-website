@@ -75,7 +75,7 @@ user_setup = f"""
   <summary><u> First setup (only once)</u></summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: e.g:<a href="{user_github_account}">{user_github_account}</li>
+    <li>1. Make sure you have a GitHub account: e.g:<a href="{user_github_account}">{user_github_account}</a></li>
     <li>2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
     <li><img src="./example/placeholder.png"></li>
   </ul>
@@ -96,7 +96,7 @@ for i,item in enumerate(admin_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+<li>Go to the content directory <a href=""{admin_github_account}/{admin_repository_name}/tree/main/src/content> ({admin_github_account}/{admin_repository_name}/tree/main/src/content)</a>.</li>
 <li>You can {item[0]} a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > '{item[0]} files'.</li>
 <li><img src="{item[1]}" alt="{item[0]} Project"></li>
 <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -118,7 +118,7 @@ for i,item in enumerate(user_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
+<li>Go to your instance of {admin}'s website located at  <a href=""{user_github_account}/{user_repository_name}/tree/main/src/content> ({user_github_account}/{user_repository_name}/tree/main/src/content)</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
 <li> {item[0]} your project as shown in the following video.<br>
