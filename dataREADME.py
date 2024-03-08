@@ -1,8 +1,8 @@
 #README content using raw string
 
-admin = "Atte"
-admin_fullname = "Annmmertse"
-user = "udent"
+admin = "Annelotte"
+admin_fullname = "Annelotte Lammertse"
+user = "student"
 domain_name = "test.com"
 admin_github_account = "https://github.com/AnnelotteLammertse"
 admin_repository_name = "annelottelammertse"
@@ -45,8 +45,48 @@ admin_instructions = [
     ["approve", "./example/vid4"]
 ]
 
+
+#admin_setup
+admin_setup = f""" 
+
+# Website: {admin_fullname}
+
+## [website]({domain_name})
+
+## instructions: {admin}
+
+<details>
+ <summary>First setup (only once)</summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
+    <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
+  </ul>
+  <br>
+</details>
+"""
+
+#user_setup
+user_setup = f""" 
+
+## instructions: {user}
+
+<details>
+  <summary><u> First setup (only once)</u></summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
+    <li>2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
+    <li><img src="./example/placeholder.png"></li>
+  </ul>
+  <br>
+</details>
+    
+"""
+
+#admin_content
+
 admin_content = ""
-user_content = ""
 
 for i,item in enumerate(admin_instructions):
     admin_content += f"""
@@ -66,7 +106,9 @@ for i,item in enumerate(admin_instructions):
 
 """
 
+#user_content
 
+user_content = ""
 
 for i,item in enumerate(user_instructions):
     user_content += f"""
@@ -88,49 +130,6 @@ for i,item in enumerate(user_instructions):
 </ul>
 <br>
 </details>
-"""
-
-
-
-#setup
-
-#admin
-admin_setup = f""" 
-
-# Website: {admin_fullname}
-
-## [website]({domain_name})
-
-## instructions: {admin}
-
-<details>
- <summary>First setup (only once)</summary>
-  <br>
-  <ul>
-    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
-    <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
-  </ul>
-  <br>
-</details>
-"""
-
-
-#user
-user_setup = f""" 
-
-## instructions: {user}
-
-<details>
-  <summary><u> First setup (only once)</u></summary>
-  <br>
-  <ul>
-    <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
-    <li>2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
-    <li><img src="./example/placeholder.png"></li>
-  </ul>
-  <br>
-</details>
-    
 """
 
 
@@ -243,38 +242,6 @@ Every push request activates a github actions protocal  that:
 - uploads:
     - script.js
     - index.html
-
-```yaml
-name: default
-on:
-  push:
-    branches:
-      - main
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set up ImageMagick
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-      - name: Update imagemagick rights Policy
-        run: |
-          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
-      - name: python generate data.js and html pages
-        working-directory: src/
-        run: python ./generateData.py
-      - name: Deploy to Github Pages
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: gh-pages
-          build_dir: src
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
 
 """
 

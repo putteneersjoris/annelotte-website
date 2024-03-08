@@ -1,10 +1,10 @@
  
 
-# Website: Annmmertse
+# Website: Annelotte Lammertse
 
 ## [website](test.com)
 
-## instructions: Atte
+## instructions: Annelotte
 
 <details>
  <summary>First setup (only once)</summary>
@@ -18,7 +18,7 @@
 
 
 <details>
-<summary>1: upload a project (Atte)</summary>
+<summary>1: upload a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -33,7 +33,7 @@
 
 
 <details>
-<summary>2: remove a project (Atte)</summary>
+<summary>2: remove a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -48,7 +48,7 @@
 
 
 <details>
-<summary>3: update a project (Atte)</summary>
+<summary>3: update a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -63,7 +63,7 @@
 
 
 <details>
-<summary>4: approve a project (Atte)</summary>
+<summary>4: approve a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -77,14 +77,14 @@
 
  
 
-## instructions: udent
+## instructions: student
 
 <details>
   <summary><u> First setup (only once)</u></summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
-    <li>2. Fork the repository located under Atte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
+    <li>2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
     <li><img src="./example/placeholder.png"></li>
   </ul>
   <br>
@@ -93,57 +93,57 @@
 
 
 <details>
-<summary>1: upload a project (udent)</summary>
+<summary>1: upload a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Atte's website located at (https://github.com/studentName/annelottelammertse).</li>
+<li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> upload your project as shown in the following video.<br>
 <li><img ./example/vid1"></li>
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
-<li>Now Atte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully upload a project. Once Atte approves of the changes, you can see your project on the official website.</li>
+<li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+<li>You now have successfully upload a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
 
 
 <details>
-<summary>2: remove a project (udent)</summary>
+<summary>2: remove a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Atte's website located at (https://github.com/studentName/annelottelammertse).</li>
+<li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> remove your project as shown in the following video.<br>
 <li><img ./example/vid2"></li>
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
-<li>Now Atte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully remove a project. Once Atte approves of the changes, you can see your project on the official website.</li>
+<li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+<li>You now have successfully remove a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
 
 
 <details>
-<summary>3: update a project (udent)</summary>
+<summary>3: update a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Atte's website located at (https://github.com/studentName/annelottelammertse).</li>
+<li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> update your project as shown in the following video.<br>
 <li><img ./example/vid3"></li>
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
-<li>Now Atte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully update a project. Once Atte approves of the changes, you can see your project on the official website.</li>
+<li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+<li>You now have successfully update a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
@@ -237,41 +237,9 @@ Every push request activates a github actions protocal  that:
     - script.js
     - index.html
 
-```yaml
-name: default
-on:
-  push:
-    branches:
-      - main
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set up ImageMagick
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-      - name: Update imagemagick rights Policy
-        run: |
-          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
-      - name: python generate data.js and html pages
-        working-directory: src/
-        run: python ./generateData.py
-      - name: Deploy to Github Pages
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: gh-pages
-          build_dir: src
-        env:
-          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
-```
-
-
 ## code
 
-<details><summary>0: default.yaml</summary>
+<details ><summary>0: default.yaml</summary>
 
 ```
 name: default
@@ -308,7 +276,7 @@ jobs:
 
 
 
-<details><summary>1: index.html</summary>
+<details ><summary>1: index.html</summary>
 
 ```
 <!DOCTYPE html>
@@ -349,7 +317,7 @@ jobs:
 
 
 
-<details><summary>2: staticHtmlString.py</summary>
+<details ><summary>2: staticHtmlString.py</summary>
 
 ```
 def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images):
@@ -463,7 +431,7 @@ def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_
 
 
 
-<details><summary>3: generateData.py</summary>
+<details ><summary>3: generateData.py</summary>
 
 ```
 import os
@@ -689,7 +657,7 @@ print("File 'dataB.js' saved successfully.")
 
 
 
-<details><summary>4: data.js</summary>
+<details ><summary>4: data.js</summary>
 
 ```
 var content = {
@@ -868,7 +836,7 @@ var content = {
 
 
 
-<details><summary>5: script.js</summary>
+<details ><summary>5: script.js</summary>
 
 ```
 var PIXELDISTANCE = 4
@@ -1071,7 +1039,7 @@ filters.forEach(filter => {
 
 
 
-<details><summary>6: style.css</summary>
+<details ><summary>6: style.css</summary>
 
 ```
 :root {
