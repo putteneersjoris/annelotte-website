@@ -30,7 +30,90 @@ user_remove_project = "./example/user_remove_project.gif"
 menu_navigation = "./example/manu_navigation.png"
 project_navigation = "./example/project_navigation.png"
 
+
+#0-------------------------------------------------------
+
+user_instructions = [
+     ["upload", "./example/vid1"],
+     ["remove", "./example/vid2"],
+     ["update", "./example/vid3"]
+]
+
+admin_instructions = [
+    ["upload", "./example/vid1"],
+    ["remove", "./example/vid2"],
+    ["update", "./example/vid3"],
+    ["approve", "./example/vid4"]
+]
+
+admin_content = ""
+user_content = ""
+
+for item in admin_instructions:
+    admin_content += f"""
+    
+    ### {item[0]} a project
+    
+    <details>
+      <summary>How do I ({admin}) {item[0]} projects?</summary>
+      <br>
+      <ul>
+        <li>Please ensure that you are logged in to GitHub.</li>
+        <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+        <li>You can {item[0]} a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > '{item[0]} files'.</li>
+        <li><img src="{item[1]}" alt="{item[0]} Project"></li>
+        <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+      </ul>
+      <br>
+    </details>
+
+    """
+
+
+
+for item in user_instructions:
+    user_content += f"""
+    
+    ### {item[0]} a project
+
+	<details>
+	  <summary>. How do I ({user}) {item[0]}  projects?</summary>
+	  <br>
+	  <ul>
+	    <li>Please ensure that you are logged in to GitHub.</li>
+	    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
+	    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+	    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
+	    <li> {item[0]} your project as shown in the following video.<br>
+	    <li><img {item[1]}"></li>
+	    </li>
+	    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+	    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+	    <li>You now have successfully {item[0]} a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
+	  </ul>
+	  <br>
+	</details>
+"""
+
+
+#0-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 #admin
+
+
+
+
+
 admin_setup = f""" 
 
 # Website: {admin_fullname}
@@ -50,6 +133,12 @@ admin_setup = f"""
 </details>
 """
 
+
+
+
+
+
+'''
 admin_upload_project = f"""
 
 ### upload a project
@@ -124,7 +213,7 @@ admin_approve_project = f"""
 </details>
 
 """
-
+'''
 
 #user
 user_setup = f""" 
@@ -135,7 +224,7 @@ user_setup = f"""
 ### First setup (only once)
 
 <details>
-  <summary></summary>
+  <summary>setup</summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
@@ -146,6 +235,11 @@ user_setup = f"""
 </details>
     
 """
+
+
+
+
+'''
 user_upload_project = f""" 
 
 ### upload a project
@@ -223,7 +317,7 @@ user_update_project = f"""
 </details>
 """
 
-
+'''
 
 #demoproject
 demoproject_intro = f""" 
@@ -247,7 +341,7 @@ demo project tree:
 """
 content_tree = f""" 
 
-<details><summary>content tree</summary>
+<details><summary>full content tree can be seen here</summary>
 
 ```bash
 demo `content` folder tree
@@ -316,7 +410,6 @@ folder_images = f"""
     <img src="./example/demoproject/1.jpg" width="32%">
     <img src="./example/demoproject/2.jpg" width="32%">
     <img src="./example/demoproject/3.jpg" width="32%">
-    <img src="./example/demoproject/4.jpg" width="32%">
 </div>
 
 """
@@ -400,9 +493,9 @@ This demoproject will render out on the website like this:
 
 
 
-admin_instructions =admin_setup + admin_upload_project + admin_remove_project + admin_update_project + admin_approve_project
-user_instructions =user_setup + user_upload_project + user_remove_project + user_update_project 
-demoproject =demoproject_intro + content_tree + folder_tree + folder_images + folder_description + folder_description_example + example_visualized
+admin_instructions =admin_setup + admin_content
+user_instructions =user_setup + user_content
+demoproject =demoproject_intro + folder_tree + content_tree + folder_images + folder_description + folder_description_example + example_visualized
 
 #navigation
 navigation_overview = f""" 
