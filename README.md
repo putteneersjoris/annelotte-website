@@ -445,7 +445,7 @@ contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
 max_bytes =math.floor( 0.1 * 1048576) # 5mb
 processed_addition = "__processed"
-approved_extensions = ("jpg", "png", "jpeg", "txt", "gif", "heic"):
+approved_extensions = ("jpg", "png", "jpeg", "txt", "gif", "heic")
 
 # Functions
 
@@ -588,10 +588,21 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 		project_date = []
 		project_html = ""
 
+
+
 		for item in os.listdir(folderPath):
 			itemPath = os.path.join(folderPath, item)
+
 			if os.path.isfile(itemPath):
-				if item.endswith(approved_extensions):
+				#if item.endswith(".gif"):
+					#images.append(itemPath)
+					#project_images.append(itemPath)
+
+				if item.endswith((".jpg", ".png", ".heic", ".gif")):
+					#itemPath_base = os.path.splitext(os.path.basename(itemPath))[0]
+					#itemPath_ext = os.path.splitext(os.path.basename(itemPath))[1]
+					#itemPath_resized = os.path.join(folderPath,itemPath_base + "_resized" + itemPath_ext)
+					#os.system(f'convert "{itemPath}"  -sharpen 0x.2 -resize x350 "{itemPath}"')
 					images.append(itemPath)
 					project_images.append(itemPath)
 
@@ -615,8 +626,13 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								"<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
 								for tag in tags_content.split(',')
 							])
+							# print(allTags)
 					#break out of the loop after procvessing the first file
 					break
+
+
+
+
 		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
 		tag_string = "".join(tag_list)
 		project_tags.append(tag_string)
@@ -702,7 +718,9 @@ var content = {
             "date": "2/3/2021"
         },
         "Digital Fabrication Techniques": {
-            "images": [],
+            "images": [
+                "./content/Digital Fabrication Techniques/sdf___processed.png"
+            ],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project explores the integration of digital fabrication techniques, specifically 3D printing and additive manufacturing, into textile design processes. By leveraging the capabilities of digital fabrication technologies, we aim to push the boundaries of traditional textile manufacturing and create innovative textile structures with enhanced functionality and aesthetics.<br>    </p><br>    <p><br>        Digital fabrication offers unique opportunities for customization, complexity, and rapid prototyping in textile desigally modeling textile structures and using computer-aided design (CAD) software, designers can create intricate patterns, textures, and geometries that would be challenging or impossibleooo to achieve using traditional techniques. 3D printing and additive manufacturing enable precise control over material deposition, layer-by-layer construction, and spatial arrangement, allowing for the fabrication of complex textile structures with varying properties and functionalities.<br>    </p><br>    <p><br>        The research objectives of the project include developing novel design algorithms and computational tools for generating parametric textile patterns, optimizing printing parameters for different textile materials, and exploring post-processing techniques for enhancing the mechanical properties and surface finishes of printed textiles. Additionally, the project aims to investigate the integration of smart materials and functional additives into 3D printed textiles for applications such as wearable technology, protective gear, and architectural textiles.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of advanced digital fabrication techniques for textile design that enable greater design freedom, efficiency, and sustainability. These techniques have the potential to revolutionize the way textiles are designed, produced, and utilized across various industries, from fashion and apparel to automotive and architecture.<br>    </p>",
             "tags": [
                 "<span>#textile</span><br><span>#digital fabrication</span><br><span>#3D printing</span><br><span>#additive manufacturing</span><br>"
