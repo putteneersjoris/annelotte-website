@@ -10,7 +10,7 @@
  <summary>First setup (only once)</summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)</li>
+    <li>1. Make sure you have a GitHub account: e.g:<a href="https://github.com/AnnelotteLammertse">https://github.com/AnnelotteLammertse</li>
     <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
   </ul>
   <br>
@@ -83,7 +83,7 @@
   <summary><u> First setup (only once)</u></summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
+    <li>1. Make sure you have a GitHub account: e.g:<a href="https://github.com/studentName">https://github.com/studentName</li>
     <li>2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
     <li><img src="./example/placeholder.png"></li>
   </ul>

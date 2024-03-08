@@ -59,7 +59,7 @@ admin_setup = f"""
  <summary>First setup (only once)</summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
+    <li>1. Make sure you have a GitHub account: e.g:<a href="{admin_github_account}">{admin_github_account}</li>
     <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
   </ul>
   <br>
@@ -75,7 +75,7 @@ user_setup = f"""
   <summary><u> First setup (only once)</u></summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
+    <li>1. Make sure you have a GitHub account: e.g:<a href="{user_github_account}">{user_github_account}</li>
     <li>2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
     <li><img src="./example/placeholder.png"></li>
   </ul>
