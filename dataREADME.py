@@ -118,7 +118,7 @@ for i,item in enumerate(user_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of {admin}'s website located at  <a href=""{user_github_account}/{user_repository_name}>{user_github_account}/{user_repository_name}</a></li>
+<li>Go to your instance of {admin}'s website repository located at  <a href=""{user_github_account}/{user_repository_name}>{user_github_account}/{user_repository_name}</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
 <li> {item[0]} your project as shown in the following video.<br>
@@ -136,7 +136,7 @@ for i,item in enumerate(user_instructions):
 #demoproject
 demoproject_intro = f""" 
 ## demoproject
-In the following section a overview and demo project is provided.You can the coresponding files [here](https://github.com/AnnelotteLammertse/annelottelammertse/example/demoproject)
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="{user_github_account}/{user_repository_name}/{demoproject}">{user_github_account}/{user_repository_name}/{demoproject}</a>
 
 """
 folder_tree = f""" 
