@@ -32,11 +32,11 @@ def read_file_content(file_path):
         return file.read()
 
 
-for file_path in file_paths:
+for i,file_path in enumerate(file_paths):
     if os.path.exists(file_path):
         file_name = os.path.basename(file_path)
         file_content = read_file_content(file_path)
-        workflow += f'\n\n<details><summary>{file_name}</summary>\n\n```\n{file_content}\n```\n</details>\n\n'
+        workflow += f'\n\n<details><summary>{i}: {file_name}</summary>\n\n```\n{file_content}\n```\n</details>\n\n'
 
 readme_content +=workflow
 

@@ -238,7 +238,7 @@ Every push request activates a github actions protocal  that:
 
 
 
-<details><summary>default.yaml</summary>
+<details><summary>0: default.yaml</summary>
 
 ```
 name: default
@@ -275,7 +275,7 @@ jobs:
 
 
 
-<details><summary>index.html</summary>
+<details><summary>1: index.html</summary>
 
 ```
 <!DOCTYPE html>
@@ -316,7 +316,7 @@ jobs:
 
 
 
-<details><summary>staticHtmlString.py</summary>
+<details><summary>2: staticHtmlString.py</summary>
 
 ```
 def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images):
@@ -430,7 +430,7 @@ def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_
 
 
 
-<details><summary>generateData.py</summary>
+<details><summary>3: generateData.py</summary>
 
 ```
 import os
@@ -656,7 +656,7 @@ print("File 'dataB.js' saved successfully.")
 
 
 
-<details><summary>data.js</summary>
+<details><summary>4: data.js</summary>
 
 ```
 var content = {
@@ -835,7 +835,7 @@ var content = {
 
 
 
-<details><summary>script.js</summary>
+<details><summary>5: script.js</summary>
 
 ```
 var PIXELDISTANCE = 4
@@ -1038,7 +1038,7 @@ filters.forEach(filter => {
 
 
 
-<details><summary>style.css</summary>
+<details><summary>6: style.css</summary>
 
 ```
 :root {
