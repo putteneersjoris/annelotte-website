@@ -218,11 +218,11 @@ They can be used like this:
 ## example description
 
 ```html
-<title>Project 1</title>
-<date>10/10/2024</date>
-<tags>textile, bioactive, healthcare, wound healing</tags>
-<body>
-    <h2>Project Overview</h2>
+<title>Project 1</title> <!-- PROJECTTITLE-->
+<date>10/10/2024</date> <!-- PROJECDATE-->
+<tags>textile, bioactive, healthcare, wound healing</tags> <!-- TAGS, SEPERATED BY COMMA-->
+<body> <!-- MAIN TEXT-->
+    <h2>Project Overview</h2> <!-- SUBTITLE-->
     This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
     The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
 
