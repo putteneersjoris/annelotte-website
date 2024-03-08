@@ -186,36 +186,6 @@ folder_description = f"""
 They can be used like this:
 
 ```html
-
-<title>the title of your project</title> 
-<date>the date of you project</date>` * this can be in any format you like
-<tags>textile, bioactive, healthcare, wound healing</tags>` *tags (hashtags) are seperated by a comma `,`
-<body>
-	the body text of your project.
-	you cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported
-	optionally, it also supports html styling and tags
-
-	<h2>subtitle</h2>
-	<details><summary>dropdown menu</summary>
-		content of a dropdown menu
-	</details>
-
-	<p>paragraphs can be used to make different sections</p>
-
-	<p style='color:red; text-decoration:underline; background-color:blue'>
-		 You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.
-	</p>
-
-	<a href="https://duckduckgo.com/">internal or internal links are also supported</a>
-</body>
-```
-
-"""
-folder_description_example = f""" 
-
-## example description
-
-```html
 <title>Project 1</title> <!-- PROJECTTITLE-->
 <date>10/10/2024</date> <!-- PROJECDATE-->
 <tags>textile, bioactive, healthcare, wound healing</tags> <!-- TAGS, SEPERATED BY COMMA-->
@@ -226,16 +196,17 @@ folder_description_example = f"""
 
     The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
 
-    <details><summary>Click for more details</summary>This section contains additional details about the project.
-	    <a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
+    <details><summary>Click for more details</summary>This section contains additional details about the project.<!-- EXPANDIBLE SECTION-->
+	    <a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a> <!-- LINKS-->
 	    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
 	    <a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
     <details><summary>Click for more details</summary>This section contains additional details about the project.</details>
 
-    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
+    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p><!-- PROJECT PARAGRAPH-->
 </body>
 ```
 """
+
 example_visualized = f""" 
 
 This demoproject will render out on the website like this:
@@ -251,7 +222,7 @@ This demoproject will render out on the website like this:
 
 admin_instructions =admin_setup + admin_content
 user_instructions =user_setup + user_content
-demoproject =demoproject_intro + folder_tree + folder_images + folder_description + folder_description_example + example_visualized
+demoproject =demoproject_intro + folder_tree + folder_images + folder_description +  example_visualized
 
 #navigation
 navigation_overview = f""" 
