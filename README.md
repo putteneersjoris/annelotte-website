@@ -75,7 +75,6 @@
 
  
 
-
 ## instructions: student
 
 <details>
@@ -235,6 +234,38 @@ Every push request activates a github actions protocal  that:
 - uploads:
     - script.js
     - index.html
+
+```yaml
+name: default
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Update imagemagick rights Policy
+        run: |
+          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
+      - name: python generate data.js and html pages
+        working-directory: src/
+        run: python ./generateData.py
+      - name: Deploy to Github Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: src
+        env:
+          GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
+```
+
 
 ## code
 

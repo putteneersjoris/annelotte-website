@@ -31,8 +31,6 @@ menu_navigation = "./example/manu_navigation.png"
 project_navigation = "./example/project_navigation.png"
 
 
-#0-------------------------------------------------------
-
 user_instructions = [
      ["upload", "./example/vid1"],
      ["remove", "./example/vid2"],
@@ -117,7 +115,6 @@ admin_setup = f"""
 #user
 user_setup = f""" 
 
-
 ## instructions: {user}
 
 <details>
@@ -132,8 +129,6 @@ user_setup = f"""
 </details>
     
 """
-
-
 
 
 #demoproject
@@ -218,8 +213,6 @@ This demoproject will render out on the website like this:
 """
 
 
-
-
 admin_instructions =admin_setup + admin_content
 user_instructions =user_setup + user_content
 demoproject =demoproject_intro + folder_tree + folder_images + folder_description +  example_visualized
@@ -247,6 +240,38 @@ Every push request activates a github actions protocal  that:
 - uploads:
     - script.js
     - index.html
+
+```yaml
+name: default
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Update imagemagick rights Policy
+        run: |
+          sudo sed -i 's#<policy domain="path" rights="none" pattern="@\*"/>#<!-- <policy domain="path" rights="none" pattern="@*"/> -->#' /etc/ImageMagick-6/policy.xml
+      - name: python generate data.js and html pages
+        working-directory: src/
+        run: python ./generateData.py
+      - name: Deploy to Github Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: src
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
 
 """
 
