@@ -153,7 +153,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 		project_html = ""
 
 
-
 		for item in os.listdir(folderPath):
 			itemPath = os.path.join(folderPath, item)
 
@@ -193,9 +192,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 							# print(allTags)
 					#break out of the loop after procvessing the first file
 					break
-
-
-
 
 		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
 		tag_string = "".join(tag_list)
