@@ -136,7 +136,7 @@ for i,item in enumerate(user_instructions):
 #demoproject
 demoproject_intro = f""" 
 ## demoproject
-In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="{user_github_account}/{user_repository_name}/demoproject">{user_github_account}/{user_repository_name}/demoproject</a>
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="{user_github_account}/{user_repository_name}/example/demoproject">{user_github_account}/{user_repository_name}/example/demoproject</a>
 
 """
 folder_tree = f""" 

@@ -149,7 +149,7 @@
 </details>
  
 ## demoproject
-In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/studentName/annelottelammertse/demoproject">https://github.com/studentName/annelottelammertse/demoproject</a>
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/studentName/annelottelammertse/example/demoproject">https://github.com/studentName/annelottelammertse/example/demoproject</a>
 
  
 ```bash
