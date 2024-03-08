@@ -99,7 +99,7 @@ admin_setup = f"""
 
 # Website: {admin_fullname}
 
-## {domain_name}
+## [website]({domain_name})
 
 ## instructions: {admin}
 
