@@ -36,7 +36,7 @@
   <ul>
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).</li>
-    <li><img src="./example/admin_remove_project.gif" alt="Remove Project"></li>
+    <li><img src="./example/placeholder.png"></li>
     <li>You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
   </ul>
   <br>
@@ -53,7 +53,7 @@
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to the content directory (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content).</li>
     <li>In the following video, it shows how to update the description as well as removing and adding images.<br>
-      <img src="./example/admin_update_project.gif" alt="Update Project">
+    <li><img src="./example/placeholder.png"></li>
     </li>
     <li>You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
   </ul>
@@ -67,11 +67,13 @@
 	<br>
 	<ul>
 	<li>Option 1: Approve the pull requests of the student as shown in the video.</li>
-	<li>![Approve Project](./example/admin_approve_project.gif)</li>
+    <li><img src="./example/placeholder.png"></li>
 	    
 	<li>Option 2: You will receive an email from GitHub regarding an update.</li>
 	<li>![Confirmation Email](./example/admin_confirmation_email.jpg) You can approve the student project by clicking the provided link.</li>
 
+    <li><img src="./example/placeholder.png"></li>
+	    
 	<li>You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 	</ul>
 	<br>
@@ -88,6 +90,8 @@
 
 2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
 
+    <li><img src="./example/placeholder.png"></li>
+	    
  
 
 ### upload a project
@@ -104,6 +108,8 @@
     <li>Upload your project as shown in the following video.<br>
       <img src="./example/user_upload_project.gif" alt="Upload Project">
       <img src="./example/demoproject/1.jpg" alt="Upload Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -127,6 +133,8 @@
     <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
     <li>Remove your project as shown in the following video.<br>
       <img src="./example/user_remove_project.gif" alt="Remove Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -148,6 +156,8 @@
     <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
     <li>Update your project as shown in the following video.<br>
       <img src="./example/user_update_project.gif" alt="Update Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -229,7 +239,9 @@ demo project tree:
 ### images
 
 1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+
 2. The max image filezize is 10mb.
+
 3. the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -244,8 +256,11 @@ demo project tree:
 ### description
 
 1. You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+
 2. It can have filenames with spaces, and characters.
+
 3. word, or other office documents or any other word processor is not supported. it can only have a .txt file extension. 
+
 4. Every `.txt` file in every project should have 4 tags. `<title></title>`, `<date>,</date>`, `<body></body>`, `<tags></tags>`:
 
 They can be used like this:
@@ -314,6 +329,10 @@ This demoproject will render out on the website like this:
 ## navigation
 
 
+    <li><img src="./example/placeholder.png"></li>
+    <li><img src="./example/placeholder.png"></li>
+	    
+	    
 ![./example/manu_navigation.png](./example/manu_navigation.png)
 ![./example/project_navigation.png](./example/project_navigation.png)
 

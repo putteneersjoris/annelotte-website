@@ -72,7 +72,7 @@ admin_remove_project = f"""
   <ul>
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
-    <li><img src="{admin_remove_project}" alt="Remove Project"></li>
+    <li><img src="./example/placeholder.png"></li>
     <li>You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
   </ul>
   <br>
@@ -90,7 +90,7 @@ admin_update_project = f"""
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
     <li>In the following video, it shows how to update the description as well as removing and adding images.<br>
-      <img src="{admin_update_project}" alt="Update Project">
+    <li><img src="./example/placeholder.png"></li>
     </li>
     <li>You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
   </ul>
@@ -105,11 +105,13 @@ admin_approve_project = f"""
 	<br>
 	<ul>
 	<li>Option 1: Approve the pull requests of the {user} as shown in the video.</li>
-	<li>![Approve Project]({admin_approve_project})</li>
+    <li><img src="./example/placeholder.png"></li>
 	    
 	<li>Option 2: You will receive an email from GitHub regarding an update.</li>
 	<li>![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.</li>
 
+    <li><img src="./example/placeholder.png"></li>
+	    
 	<li>You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 	</ul>
 	<br>
@@ -130,6 +132,8 @@ user_setup = f"""
 
 2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
 
+    <li><img src="./example/placeholder.png"></li>
+	    
 """
 user_upload_project = f""" 
 
@@ -147,6 +151,8 @@ user_upload_project = f"""
     <li>Upload your project as shown in the following video.<br>
       <img src="{user_upload_project}" alt="Upload Project">
       <img src="./example/demoproject/1.jpg" alt="Upload Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -171,6 +177,8 @@ user_remove_project = f"""
     <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
     <li>Remove your project as shown in the following video.<br>
       <img src="{user_remove_project}" alt="Remove Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -193,6 +201,8 @@ user_update_project = f"""
     <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
     <li>Update your project as shown in the following video.<br>
       <img src="{user_update_project}" alt="Update Project">
+    <li><img src="./example/placeholder.png"></li>
+	    
     </li>
     <li>Contribute by opening up a 'pull request > create pull request'.</li>
     <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
@@ -286,7 +296,9 @@ folder_images = f"""
 ### images
 
 1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+
 2. The max image filezize is 10mb.
+
 3. the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -302,8 +314,11 @@ folder_description = f"""
 ### description
 
 1. You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+
 2. It can have filenames with spaces, and characters.
+
 3. word, or other office documents or any other word processor is not supported. it can only have a .txt file extension. 
+
 4. Every `.txt` file in every project should have 4 tags. `<title></title>`, `<date>,</date>`, `<body></body>`, `<tags></tags>`:
 
 They can be used like this:
@@ -384,6 +399,10 @@ navigation_overview = f"""
 ## navigation
 
 
+    <li><img src="./example/placeholder.png"></li>
+    <li><img src="./example/placeholder.png"></li>
+	    
+	    
 ![{menu_navigation}]({menu_navigation})
 ![{project_navigation}]({project_navigation})
 
