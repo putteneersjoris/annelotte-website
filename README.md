@@ -88,11 +88,9 @@
 </details>
 
 
-
-
-
 <details>
   <summary>1. How do I (student) upload a project?</summary>
+
   <ul>
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
@@ -101,26 +99,14 @@
     <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
     <li>Upload your project as shown in the following video.<br>
       <img src="./example/user_upload_project.gif" alt="Upload Project">
+      <img src="./example/demoproject/1.jpg" alt="Upload Project">
     </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
   </ul>
 
-   Contribute by opening up a 'pull request > create pull request'.
-   Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
-   You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  
