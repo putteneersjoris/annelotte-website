@@ -96,24 +96,10 @@ for item in user_instructions:
 """
 
 
-#0-------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
+#setup
 
 #admin
-
-
-
-
-
 admin_setup = f""" 
 
 # Website: {admin_fullname}
@@ -133,87 +119,6 @@ admin_setup = f"""
 </details>
 """
 
-
-
-
-
-
-'''
-admin_upload_project = f"""
-
-### upload a project
-
-<details>
-  <summary>1. How do I ({admin}) upload projects?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
-    <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
-    <li><img src="./example/placeholder.png"></li>
-    <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
-  </ul>
-  <br>
-</details>
-
- """
-admin_remove_project = f"""
-
-### remove a project
-
-<details>
-  <summary>2. How do I ({admin}) remove projects?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
-    <li><img src="./example/placeholder.png"></li>
-    <li>You have successfully removed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
-  </ul>
-  <br>
-</details>
-
-"""
-admin_update_project = f""" 
-
-### update a project
-
-<details>
-  <summary>3. How do I ({admin}) update a project?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
-    <li>In the following video, it shows how to update the description as well as removing and adding images.<br>
-    <li><img src="./example/placeholder.png"></li>
-    </li>
-    <li>You have successfully updated a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
-  </ul>
-  <br>
-</details>
-"""
-admin_approve_project = f"""
-
-### approve a project
-
-<details><summary>4. How do I ({admin}) approve a student project?</summary>
-	<br>
-	<ul>
-	<li>Option 1: Approve the pull requests of the {user} as shown in the video.</li>
-    <li><img src="./example/placeholder.png"></li>
-	    
-	<li>Option 2: You will receive an email from GitHub regarding an update.</li>
-	<li>![Confirmation Email]({admin_confirmation_email}) You can approve the {user} project by clicking the provided link.</li>
-
-    <li><img src="./example/placeholder.png"></li>
-	    
-	<li>You have successfully confirmed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
-	</ul>
-	<br>
-</details>
-
-"""
-'''
 
 #user
 user_setup = f""" 
@@ -239,86 +144,6 @@ user_setup = f"""
 
 
 
-'''
-user_upload_project = f""" 
-
-### upload a project
-
-<details>
-  <summary>1. How do I ({user}) upload a project?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
-    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
-    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
-    <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
-    <li>Upload your project as shown in the following video.<br>
-      <img src="{user_upload_project}" alt="Upload Project">
-      <img src="./example/demoproject/1.jpg" alt="Upload Project">
-    <li><img src="./example/placeholder.png"></li>
-	    
-    </li>
-    <li>Contribute by opening up a 'pull request > create pull request'.</li>
-    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-    <li>You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
-  </ul>
-  <br>
-</details>
-
-
-"""
-user_remove_project = f""" 
-
-### remove a project
-
-<details>
-  <summary>3. How do I ({user}) remove a project?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
-    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
-    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
-    <li>Remove your project as shown in the following video.<br>
-      <img src="{user_remove_project}" alt="Remove Project">
-    <li><img src="./example/placeholder.png"></li>
-	    
-    </li>
-    <li>Contribute by opening up a 'pull request > create pull request'.</li>
-    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-    <li>You now have successfully removed a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
-  </ul>
-  <br>
-</details>
-"""
-user_update_project = f"""
-
-### update a project
-
-<details>
-  <summary>2. How do I ({user}) update a project?</summary>
-  <br>
-  <ul>
-    <li>Please ensure that you are logged in to GitHub.</li>
-    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
-    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
-    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
-    <li>Update your project as shown in the following video.<br>
-      <img src="{user_update_project}" alt="Update Project">
-    <li><img src="./example/placeholder.png"></li>
-	    
-    </li>
-    <li>Contribute by opening up a 'pull request > create pull request'.</li>
-    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-    <li>You now have successfully updated a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
-  </ul>
-  <br>
-</details>
-"""
-
-'''
-
 #demoproject
 demoproject_intro = f""" 
 ## demoproject
@@ -339,60 +164,6 @@ demo project tree:
 
 ```
 """
-content_tree = f""" 
-
-<details><summary>full content tree can be seen here</summary>
-
-```bash
-demo `content` folder tree
-.
-├── {admin}
-│   ├── shot_1.jpg
-│   └── about_me.txt
-├── project_1
-│   ├── 1.jpg
-│   ├── description
-│   └── 2.png
-├── project_2
-│   ├── 3.jpg 
-│   ├── 4.jpg 
-│   ├── description.txt
-│   ├── 5.png 
-│   ├── 6.png 
-│   └── 7.jpg 
-├── project_3
-│   ├── 1.gif
-│   ├── 8.jpg
-│   ├── 9.png
-│   ├── 10.jpg
-│   └── description.txt
-├── project_4
-│   ├── description.txt
-│   └── 11.png
-├── project_5
-│   ├── 11.jpg
-│   ├── description.txt
-│   └── 12.gif
-├── project_6
-│   ├── 13.png
-│   ├── 14.png
-│   ├── 15.jpg
-│   ├── 15.jpg
-│   ├── 16.jpg
-│   └── text.txt
-└── project_7
-    ├── description.txt
-    ├── 17.gif 
-    ├── 18.png
-    └── 19.jpg 
-
-8 directories, 33 files
-
-```
-
-</details>
-"""
-
 
 
 #demoproject_images
@@ -417,7 +188,7 @@ folder_description = f"""
 
 ### description
 
-1. You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+1. You can only have 1 description. You can upload more but only alphabetically first one will be read.
 
 2. It can have filenames with spaces, and characters.
 
@@ -479,6 +250,21 @@ folder_description_example = f"""
 	    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
 	</body>
 ```
+
+
+| Example Description              | Explanation                                                      |
+|---------------------------------|------------------------------------------------------------------|
+| ```html                         | ```html                                                          |
+| <title>Project 1</title>       | <title>the title of your project</title>                        |
+| <date>10/10/2024</date>        | <date>the date of you project</date> * this can be in any format you like |
+| <tags>textile, bioactive, healthcare, wound healing</tags> | <tags>textile, bioactive, healthcare, wound healing</tags> *tags (hashtags) are seperated by a comma `,` |
+| <body>                          | <body>                                                           |
+| <h2>Project Overview</h2>      | the body text of your project.<br>You cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported<br><br>optionally, it also supports html styling and tags |
+| This project focuses on...     | <h2>subtitle</h2><br><details><summary>dropdown menu</summary><br>content of a dropdown menu</details><br><br><p>paragraphs can be used to make different sections</p><br><p style='color:red; text-decoration:underline; background-color:blue'>You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.</p><br><a href="https://duckduckgo.com/">internal or internal links are also supported</a> |
+| ...fabrication techniques for...|                                                                  |
+| <details><summary>Click for more details</summary>...|                                                                   |
+| ...of regenerative medicine.</p>  |                                                                  |
+| ```                             | ```                                                              |
 """
 example_visualized = f""" 
 
@@ -495,7 +281,7 @@ This demoproject will render out on the website like this:
 
 admin_instructions =admin_setup + admin_content
 user_instructions =user_setup + user_content
-demoproject =demoproject_intro + folder_tree + content_tree + folder_images + folder_description + folder_description_example + example_visualized
+demoproject =demoproject_intro + folder_tree + folder_images + folder_description + folder_description_example + example_visualized
 
 #navigation
 navigation_overview = f""" 

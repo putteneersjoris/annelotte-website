@@ -183,58 +183,6 @@ demo project tree:
 ```
  
 
-<details><summary>full content tree can be seen here</summary>
-
-```bash
-demo `content` folder tree
-.
-├── Annelotte
-│   ├── shot_1.jpg
-│   └── about_me.txt
-├── project_1
-│   ├── 1.jpg
-│   ├── description
-│   └── 2.png
-├── project_2
-│   ├── 3.jpg 
-│   ├── 4.jpg 
-│   ├── description.txt
-│   ├── 5.png 
-│   ├── 6.png 
-│   └── 7.jpg 
-├── project_3
-│   ├── 1.gif
-│   ├── 8.jpg
-│   ├── 9.png
-│   ├── 10.jpg
-│   └── description.txt
-├── project_4
-│   ├── description.txt
-│   └── 11.png
-├── project_5
-│   ├── 11.jpg
-│   ├── description.txt
-│   └── 12.gif
-├── project_6
-│   ├── 13.png
-│   ├── 14.png
-│   ├── 15.jpg
-│   ├── 15.jpg
-│   ├── 16.jpg
-│   └── text.txt
-└── project_7
-    ├── description.txt
-    ├── 17.gif 
-    ├── 18.png
-    └── 19.jpg 
-
-8 directories, 33 files
-
-```
-
-</details>
- 
-
 ### images
 
 1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
@@ -253,7 +201,7 @@ demo `content` folder tree
 
 ### description
 
-1. You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+1. You can only have 1 description. You can upload more but only alphabetically first one will be read.
 
 2. It can have filenames with spaces, and characters.
 
@@ -314,6 +262,21 @@ They can be used like this:
 	    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
 	</body>
 ```
+
+
+| Example Description              | Explanation                                                      |
+|---------------------------------|------------------------------------------------------------------|
+| ```html                         | ```html                                                          |
+| <title>Project 1</title>       | <title>the title of your project</title>                        |
+| <date>10/10/2024</date>        | <date>the date of you project</date> * this can be in any format you like |
+| <tags>textile, bioactive, healthcare, wound healing</tags> | <tags>textile, bioactive, healthcare, wound healing</tags> *tags (hashtags) are seperated by a comma `,` |
+| <body>                          | <body>                                                           |
+| <h2>Project Overview</h2>      | the body text of your project.<br>You cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported<br><br>optionally, it also supports html styling and tags |
+| This project focuses on...     | <h2>subtitle</h2><br><details><summary>dropdown menu</summary><br>content of a dropdown menu</details><br><br><p>paragraphs can be used to make different sections</p><br><p style='color:red; text-decoration:underline; background-color:blue'>You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.</p><br><a href="https://duckduckgo.com/">internal or internal links are also supported</a> |
+| ...fabrication techniques for...|                                                                  |
+| <details><summary>Click for more details</summary>...|                                                                   |
+| ...of regenerative medicine.</p>  |                                                                  |
+| ```                             | ```                                                              |
  
 
 This demoproject will render out on the website like this:
