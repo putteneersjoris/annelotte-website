@@ -88,19 +88,40 @@
 </details>
 
 
+
+
+
 <details>
   <summary>1. How do I (student) upload a project?</summary>
-  Please ensure that you are logged in to GitHub.<br>
-  Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).<br>
-  Sync fork (this makes sure you have the latest version so there are no conflicts between other users).<br>
-  Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).<br>
-  You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.<br>
-  Upload your project as shown in the following video.<br>
-  <img src="./example/user_upload_project.gif" alt="Upload Project"><br>
-  Contribute by opening up a 'pull request > create pull request'.<br>
-  Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.<br>
-  You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.<br>
+  <ul>
+    <li>Please ensure that you are logged in to GitHub.</li>
+    <li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
+    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+    <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
+    <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
+    <li>Upload your project as shown in the following video.<br>
+      <img src="./example/user_upload_project.gif" alt="Upload Project">
+    </li>
+    <li>Contribute by opening up a 'pull request > create pull request'.</li>
+    <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+    <li>You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+  </ul>
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 ## remove
