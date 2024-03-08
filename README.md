@@ -102,10 +102,11 @@
     <li>Upload your project as shown in the following video.<br>
       <img src="./example/user_upload_project.gif" alt="Upload Project">
     </li>
-    <li>Contribute by opening up a 'pull request > create pull request'.</li>
-    <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-    <li>You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
   </ul>
+
+   Contribute by opening up a 'pull request > create pull request'.
+   Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.
+   You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.
 </details>
 
 
