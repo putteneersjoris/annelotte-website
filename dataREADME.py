@@ -109,7 +109,7 @@ admin_setup = f"""
 ### First setup (only once)
 
 <details>
-  <summary>setup</summary>
+first setup   <summary>setup</summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
@@ -129,7 +129,7 @@ user_setup = f"""
 ### First setup (only once)
 
 <details>
-  <summary><h2 style='margin:0px; padding 0px;'>setup</h2></summary>
+  <summary>setup</summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
