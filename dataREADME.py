@@ -129,7 +129,7 @@ user_setup = f"""
 ### First setup (only once)
 
 <details>
-  <summary>setup</summary>
+  <summary><h2>setup</h2></summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
@@ -250,21 +250,6 @@ folder_description_example = f"""
 	    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
 	</body>
 ```
-
-
-| Example Description              | Explanation                                                      |
-|---------------------------------|------------------------------------------------------------------|
-| ```html                         | ```html                                                          |
-| <title>Project 1</title>       | <title>the title of your project</title>                        |
-| <date>10/10/2024</date>        | <date>the date of you project</date> * this can be in any format you like |
-| <tags>textile, bioactive, healthcare, wound healing</tags> | <tags>textile, bioactive, healthcare, wound healing</tags> *tags (hashtags) are seperated by a comma `,` |
-| <body>                          | <body>                                                           |
-| <h2>Project Overview</h2>      | the body text of your project.<br>You cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported<br><br>optionally, it also supports html styling and tags |
-| This project focuses on...     | <h2>subtitle</h2><br><details><summary>dropdown menu</summary><br>content of a dropdown menu</details><br><br><p>paragraphs can be used to make different sections</p><br><p style='color:red; text-decoration:underline; background-color:blue'>You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.</p><br><a href="https://duckduckgo.com/">internal or internal links are also supported</a> |
-| ...fabrication techniques for...|                                                                  |
-| <details><summary>Click for more details</summary>...|                                                                   |
-| ...of regenerative medicine.</p>  |                                                                  |
-| ```                             | ```                                                              |
 """
 example_visualized = f""" 
 
