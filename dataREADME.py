@@ -34,14 +34,20 @@ project_navigation = "./example/project_navigation.png"
 admin_setup = f""" 
 
 # Website: {admin_fullname}
+
 ## instructions: {admin}
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
-
-2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
-
+<details>
+  <summary>setup</summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
+    <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
+  </ul>
+  <br>
+</details>
 """
 
 admin_upload_project = f"""

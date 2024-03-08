@@ -1,14 +1,20 @@
  
 
 # Website: Annelotte Lammertse
+
 ## instructions: Annelotte
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)
-
-2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
-
+<details>
+  <summary>setup</summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)</li>
+    <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
+  </ul>
+  <br>
+</details>
 
 
 ### upload a project
