@@ -239,14 +239,12 @@ workflow = f"""
 
 Every push request activates a github actions protocal  that:
 
-1. installs:
+- installs:
     - imagemagick for image processing
-    
-2. generates:
+-  generates:
     - the static .html webpages for every project.
     - the data.js file that is needed for script.js
-
-3. uploads:
+- uploads:
     - script.js
     - index.html
 
