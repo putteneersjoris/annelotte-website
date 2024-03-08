@@ -51,48 +51,48 @@ user_content = ""
 
 for item in admin_instructions:
     admin_content += f"""
-    
-    ### {item[0]} a project
-    
-    <details>
-      <summary>How do I ({admin}) {item[0]} projects?</summary>
-      <br>
-      <ul>
-        <li>Please ensure that you are logged in to GitHub.</li>
-        <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
-        <li>You can {item[0]} a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > '{item[0]} files'.</li>
-        <li><img src="{item[1]}" alt="{item[0]} Project"></li>
-        <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
-      </ul>
-      <br>
-    </details>
 
-    """
+### {item[0]} a project
+
+<details>
+<summary>How do I ({admin}) {item[0]} projects?</summary>
+<br>
+<ul>
+<li>Please ensure that you are logged in to GitHub.</li>
+<li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
+<li>You can {item[0]} a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > '{item[0]} files'.</li>
+<li><img src="{item[1]}" alt="{item[0]} Project"></li>
+<li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
+</ul>
+<br>
+</details>
+
+"""
 
 
 
 for item in user_instructions:
     user_content += f"""
-    
-    ### {item[0]} a project
 
-	<details>
-	  <summary>. How do I ({user}) {item[0]}  projects?</summary>
-	  <br>
-	  <ul>
-	    <li>Please ensure that you are logged in to GitHub.</li>
-	    <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
-	    <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
-	    <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
-	    <li> {item[0]} your project as shown in the following video.<br>
-	    <li><img {item[1]}"></li>
-	    </li>
-	    <li>Contribute by opening up a 'pull request > create pull request'.</li>
-	    <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-	    <li>You now have successfully {item[0]} a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
-	  </ul>
-	  <br>
-	</details>
+### {item[0]} a project
+
+<details>
+<summary>. How do I ({user}) {item[0]}  projects?</summary>
+<br>
+<ul>
+<li>Please ensure that you are logged in to GitHub.</li>
+<li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
+<li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
+<li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
+<li> {item[0]} your project as shown in the following video.<br>
+<li><img {item[1]}"></li>
+</li>
+<li>Contribute by opening up a 'pull request > create pull request'.</li>
+<li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
+<li>You now have successfully {item[0]} a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
+</ul>
+<br>
+</details>
 """
 
 
