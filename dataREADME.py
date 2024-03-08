@@ -141,7 +141,7 @@ In the following section a demoproject is provided.This includes images and a de
 """
 folder_tree = f""" 
 ```bash
-demo project tree:
+demoproject file tree:
 
 ├── project_name
 │ ├── 1.jpg

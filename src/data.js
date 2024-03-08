@@ -11,10 +11,8 @@ var content = {
             "date": "2/3/2021"
         },
         "Digital Fabrication Techniques": {
-            "images": [
-                "./content/Digital Fabrication Techniques/Screen-Shot-2020-12-22-at-8.38.03-PM_670.png"
-            ],
-            "html": "<h2>Project Overview</h2><br>    <p><br>        This project explores the integration of digital fabrication techniques, specifically 3D printing and additive manufacturing, into textile design processes. By leveraging the capabilities of digital fabrication technologies, we aim to push the boundaries of traditional textile manufacturing and create innovative textile structures with enhanced functionality and aesthetics.<br>    </p><br>    <p><br>        Digital fabrication offers unique opportunities for customization, complexity, and rapid prototyping in textile design. By digitally modeling textile structures and using computer-aided design (CAD) software, designers can create intricate patterns, textures, and geometries that would be challenging or impossible to achieve using traditional techniques. 3D printing and additive manufacturing enable precise control over material deposition, layer-by-layer construction, and spatial arrangement, allowing for the fabrication of complex textile structures with varying properties and functionalities.<br>    </p><br>    <p><br>        The research objectives of the project include developing novel design algorithms and computational tools for generating parametric textile patterns, optimizing printing parameters for different textile materials, and exploring post-processing techniques for enhancing the mechanical properties and surface finishes of printed textiles. Additionally, the project aims to investigate the integration of smart materials and functional additives into 3D printed textiles for applications such as wearable technology, protective gear, and architectural textiles.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of advanced digital fabrication techniques for textile design that enable greater design freedom, efficiency, and sustainability. These techniques have the potential to revolutionize the way textiles are designed, produced, and utilized across various industries, from fashion and apparel to automotive and architecture.<br>    </p>",
+            "images": [],
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project explores the integration of digital fabrication techniques, specifically 3D printing and additive manufacturing, into textile design processes. By leveraging the capabilities of digital fabrication technologies, we aim to push the boundaries of traditional textile manufacturing and create innovative textile structures with enhanced functionality and aesthetics.<br>    </p><br>    <p><br>        Digital fabrication offers unique opportunities for customization, complexity, and rapid prototyping in textile desigally modeling textile structures and using computer-aided design (CAD) software, designers can create intricate patterns, textures, and geometries that would be challenging or impossibleooo to achieve using traditional techniques. 3D printing and additive manufacturing enable precise control over material deposition, layer-by-layer construction, and spatial arrangement, allowing for the fabrication of complex textile structures with varying properties and functionalities.<br>    </p><br>    <p><br>        The research objectives of the project include developing novel design algorithms and computational tools for generating parametric textile patterns, optimizing printing parameters for different textile materials, and exploring post-processing techniques for enhancing the mechanical properties and surface finishes of printed textiles. Additionally, the project aims to investigate the integration of smart materials and functional additives into 3D printed textiles for applications such as wearable technology, protective gear, and architectural textiles.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of advanced digital fabrication techniques for textile design that enable greater design freedom, efficiency, and sustainability. These techniques have the potential to revolutionize the way textiles are designed, produced, and utilized across various industries, from fashion and apparel to automotive and architecture.<br>    </p>",
             "tags": [
                 "<span>#textile</span><br><span>#digital fabrication</span><br><span>#3D printing</span><br><span>#additive manufacturing</span><br>"
             ],
@@ -34,8 +32,7 @@ var content = {
         },
         "advanced textile composites": {
             "images": [
-                "./content/advanced textile composites/3_1340_c_670.jpg",
-                "./content/advanced textile composites/DSC08966_1340_c_670.jpg"
+                "./content/advanced textile composites/3_1340_c_670.jpg"
             ],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
@@ -66,6 +63,27 @@ var content = {
             ],
             "date": "March 5, 2024"
         },
+        "new project": {
+            "images": [
+                "./content/new project/boom_670.jpg",
+                "./content/new project/vlcsnap-2020-07-27d-01h10m44s415_670.jpg"
+            ],
+            "html": "<h2>new title</h2><br>    <p><br>        This phealthcare outcomes. T changfed text tiles.<br>    </p><br>   <br>    <p><br>        The expected outcomes of the project i changed some text ilored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomield of regenerative medicine.<br>    </p>",
+            "tags": [
+                "<span>#textile</span><br><span>#bioactive</span><br><span>#project_tags</span><br><span>#new_tag</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
+            ],
+            "date": "March 5, 2023"
+        },
+        "new project_ from student": {
+            "images": [
+                "./content/new project_ from student/3_1340_c_670.jpg"
+            ],
+            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive change some text<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
+            "tags": [
+                "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
+            ],
+            "date": "March 5, 2024"
+        },
         "sustainable dyeing techniques": {
             "images": [
                 "./content/sustainable dyeing techniques/DSC03501_670.jpg",
@@ -90,6 +108,8 @@ var content = {
         "<span class='filter' data-filter='health monitoring'>#health monitoring</span>",
         "<span class='filter' data-filter='healthcare'>#healthcare</span>",
         "<span class='filter' data-filter='natural pigments'>#natural pigments</span>",
+        "<span class='filter' data-filter='new_tag'>#new_tag</span>",
+        "<span class='filter' data-filter='project_tags'>#project_tags</span>",
         "<span class='filter' data-filter='sensors'>#sensors</span>",
         "<span class='filter' data-filter='sustainability'>#sustainability</span>",
         "<span class='filter' data-filter='textile'>#textile</span>",
@@ -103,6 +123,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -110,6 +132,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -117,6 +141,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -124,6 +150,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -131,6 +159,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -138,6 +168,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -145,6 +177,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -152,6 +186,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -159,6 +195,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;",
         "<a href='./ABOUT.html'>ABOUT</a>&ensp;&ensp;",
         "<a href='./Digital Fabrication Techniques.html'>Digital Fabrication Techniques</a>&ensp;&ensp;",
@@ -166,6 +204,8 @@ var content = {
         "<a href='./advanced textile composites.html'>advanced textile composites</a>&ensp;&ensp;",
         "<a href='./bioactive textiles.html'>bioactive textiles</a>&ensp;&ensp;",
         "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
+        "<a href='./new project.html'>new project</a>&ensp;&ensp;",
+        "<a href='./new project_ from student.html'>new project_ from student</a>&ensp;&ensp;",
         "<a href='./sustainable dyeing techniques.html'>sustainable dyeing techniques</a>&ensp;&ensp;"
     ]
 }

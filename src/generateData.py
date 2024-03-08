@@ -2,48 +2,87 @@ import os
 import json
 import re
 import subprocess
+import math
 from staticHtmlString import html_string
 
 contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
+max_bytes =math.floor( 0.1 * 1048576) # 5mb
+
 
 # Functions
-def resize_file_if_large(filePath, maxBytes):
-	file_size = os.path.getsize(filePath)
-	command = f'convert "{filePath}" -resize 512x -quality 80 "{filePath}"'
-	supported_extensions = (".jpg", ".png")
-	if filePath.lower().endswith(supported_extensions):
-		if file_size > maxBytes:
-			print(f"{filePath} is too big with {file_size} bytes. It will be modified. Max bytes is {maxBytes}")
-		if os.path.splitext(filePath)[1] == ".gif": # Check if GIF
-			command = f'convert "{filePath}" -coalesce -resize 512x -colors 64 -deconstruct "{filePath}"'
-		subprocess.run(command, shell=True)
+
+def decompose_file(file_path):
+	parts = file_path.rsplit("/", 1)
+	directory = parts[0]
+	filename_with_extension = parts[1]
+	filename_without_extension, extension = filename_with_extension.split(".", 1)
+
+	return directory, filename_with_extension, filename_without_extension, extension
+
 
 def remove_unsupported_file(file_path):
-	if os.path.isfile(file_path):
-		supported_extensions = (".jpg", ".png", ".jpeg", ".txt", ".gif")
-		if not file_path.lower().endswith(supported_extensions):
-			os.remove(file_path)
-			print(f'{file_path} is not supported and is removed. Please use one of the supported extensions {supported_extensions}')
+	if not os.path.isfile(file_path):
+		return  # Early exit if file doesn't exist
+	
+	extension = decompose_file(file_path)[-1]
+
+	if extension not in (".jpg", ".png", ".jpeg", ".txt", ".gif", ".heic"):
+		os.remove(file_path)
+		print(f'{file_path} is not supported and has been removed.')
 
 
-#remove unsupported files
+def process_images(file_path):
+	optional_args = ""
+	processed_extension = ""
+	
+	extension = decompose_file(file_path)[-1]
+
+	if extension == ".heic":
+		processed_extension = ".png"
+		optional_args = "-resize 1024x -quality 80"
+
+	if extension == ".gif":
+		processed_extension = ".gif"
+		optional_args = "-resize '512x>' -quality 80"
+
+	if extension in (".png", ".jpg", ".jpeg", "jpeg"):
+		processed_extension = ".png"
+		optional_args = "-resize '512x>' -quality 80"
+
+	return optional_args, processed_extension	
+
+def process_files(file_path, max_bytes):
+	
+	directory, filename_with_extension, filename_without_extension, extension = decompose_file(file_path)
+
+	if "__processed" in filename_without_extension:
+		return
+	
+	remove_unsupported_file(file_path)
+	
+	file_size = os.path.getsize(file_path)
+
+	if file_size >= max_bytes:
+		optional_args,processed_extension = process_images(file_path) 
+
+		#convert "./content/demoproject/1.jpg" -resize '256x>' -quality 80 -set filename:base "%[basename]" "%[filename:base]_processed.jpg"
+
+		command =f"convert '{file_path}' {optional_args}  -set filename:base '%[basename]' '%[filename:base]_processed{processed_extension}'"
+		
+		os.remove(file_path) #remove file afterwards
+		subprocess.run(command, shell=True)
+	else:
+		os.rename(file_path, file_path = "__processed")
+
+#process files
 for folder in os.listdir(contentFolder):
 	folder_path = os.path.join(contentFolder, folder)
 	if os.path.isdir(folder_path):
-		for item in os.listdir(folder_path):
-			item_path = os.path.join(folder_path, item)
-			remove_unsupported_file(item_path)
+		for file in os.listdir(folder_path):
+			file_path = os.path.join(folder_path, file)
+			process_files(file_path, max_bytes)
 
-
-
-#resice images indeen needed
-for folder in os.listdir(contentFolder):
-	folder_path = os.path.join(contentFolder, folder)
-	if os.path.isdir(folder_path):
-		for item in os.listdir(folder_path):
-			item_path = os.path.join(folder_path, item)
-			# resize_file_if_large(item_path, 5000000)
 
 
 # Delete all .html files (excluding index.html) in the output folder
