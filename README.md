@@ -5,13 +5,13 @@
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
+1. Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)
 
 2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
 
 
 
-## upload
+### upload a project
 
 <details>
   <summary>1. How do I (Annelotte) upload projects?</summary>
@@ -28,7 +28,7 @@
 
  
 
-## remove
+### remove a project
 
 <details>
   <summary>2. How do I (Annelotte) remove projects?</summary>
@@ -44,7 +44,7 @@
 
  
 
-## update
+### update a project
 
 <details>
   <summary>3. How do I (Annelotte) update a project?</summary>
@@ -61,7 +61,7 @@
 </details>
 
 
-## approve
+### approve a project
 
 <details><summary>4. How do I (Annelotte) approve a student project?</summary>
 	<br>
@@ -90,7 +90,7 @@
 
  
 
-## upload
+### upload a project
 
 <details>
   <summary>1. How do I (student) upload a project?</summary>
@@ -115,7 +115,7 @@
 
  
 
-## remove
+### remove a project
 
 <details>
   <summary>3. How do I (student) remove a project?</summary>
@@ -136,7 +136,7 @@
 </details>
 
 
-## update
+### update a project
 
 <details>
   <summary>2. How do I (student) update a project?</summary>
@@ -228,9 +228,9 @@ demo project tree:
 
 ### images
 
-Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
-The max image filezize is 10mb.
-the max resolution is 5000x5000 pixels
+1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+2. The max image filezize is 10mb.
+3. the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./example/demoproject/1.jpg" width="32%">
@@ -240,68 +240,77 @@ the max resolution is 5000x5000 pixels
 </div>
 
  
-### description
-You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
-It can have filenames with spaces, and characters.
-word, or other office documents or any other word processor is not supported. it can only have a .txt file extension. 
 
-Every `.txt` file in every project should have 4 tags. `<title></title>`, `<date>,</date>`, `<body></body>`, `<tags></tags>`:
+### description
+
+1. You can only have 1 description. You can upload more but onlt alphabetically first one will be read.
+2. It can have filenames with spaces, and characters.
+3. word, or other office documents or any other word processor is not supported. it can only have a .txt file extension. 
+4. Every `.txt` file in every project should have 4 tags. `<title></title>`, `<date>,</date>`, `<body></body>`, `<tags></tags>`:
 
 They can be used like this:
-`<title>the title of your project</title> `
-`<date>the date of you project</date>` * this can be in any format you like
-`<tags>textile, bioactive, healthcare, wound healing</tags>` *tags (hashtags) are seperated by a comma `,`
-`<body>
-    the body text of your project.
-    you cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported
-    
-    optionally, it also supports html styling and tags
-
-    <h2>subtitle</h2>
-    <details><summary>dropdown menu</summary>
-        content of a dropdown menu
-    </details>
-
-    <p>paragraphs can be used to make different sections</p>
-
-    <p style='color:red; text-decoration:underline; background-color:blue'>
-         You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.
-    </p>
-    
-    <a href="https://duckduckgo.com/">internal or internal links are also supported</a>
-
-    </body>`
-
- 
-Below is an example of such a `.txt` file
 
 ```html
-<title>Project 1</title>
-<date>10/10/2024</date>
-<tags>textile, bioactive, healthcare, wound healing</tags>
-<body>
-    <h2>Project Overview</h2>
-    This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
-    The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
 
-    The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
+	<title>the title of your project</title> 
+	<date>the date of you project</date>` * this can be in any format you like
+	<tags>textile, bioactive, healthcare, wound healing</tags>` *tags (hashtags) are seperated by a comma `,`
+	<body>
+	the body text of your project.
+	you cna just write text in here. everytime you start a new line, it will appear on the website. symbols, characters and emoji's are supported
 
-    <details><summary>Click for more details</summary>This section contains additional details about the project.
-    <a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
-    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
-    <a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
-    <details><summary>Click for more details</summary>This section contains additional details about the project.</details>
+	optionally, it also supports html styling and tags
 
-    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
-</body>
+	<h2>subtitle</h2>
+	<details><summary>dropdown menu</summary>
+	content of a dropdown menu
+	</details>
+
+	<p>paragraphs can be used to make different sections</p>
+
+	<p style='color:red; text-decoration:underline; background-color:blue'>
+	 You can also style every tag by adding color, underline or inline<span style='background-color:blue;'> background color </span>.
+	</p>
+
+	<a href="https://duckduckgo.com/">internal or internal links are also supported</a>
+
+	</body>
 ```
- this demoproject will render out on the website like this:
+
+ 
+
+## example description
+
+```html
+	<title>Project 1</title>
+	<date>10/10/2024</date>
+	<tags>textile, bioactive, healthcare, wound healing</tags>
+	<body>
+	    <h2>Project Overview</h2>
+	    This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.
+	    The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.  
+
+	    The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.
+
+	    <details><summary>Click for more details</summary>This section contains additional details about the project.
+	    <a href="https://www.sciencedirect.com/science/article/pii/S014296121830642X">Read this paper</a>
+	    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5799424/">Explore this study</a>
+	    <a href="https://www.frontiersin.org/articles/10.3389/fbioe.2020.587592/full">Find out more</a> about advanced fabrication techniques for bioactive textiles.</details>
+	    <details><summary>Click for more details</summary>This section contains additional details about the project.</details>
+
+	    <p>The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.</p>
+	</body>
+```
+ 
+
+This demoproject will render out on the website like this:
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./example/demoproject/demoproject_text.jpg" width="49%">
     <img src="./example/demoproject/demoproject_web.jpg" width="49%">
 </div>
  
+
 ## navigation
 
 
@@ -309,19 +318,21 @@ Below is an example of such a `.txt` file
 ![./example/project_navigation.png](./example/project_navigation.png)
 
  
+
 ## scripts
 
-every push request activates a github actions protocal  that:
-installs:
-    1.imagemagick for image processing
-    
-generates:
-    1. the static .html webpages for every project.
-    2. the data.js file that is needed for script.js
+Every push request activates a github actions protocal  that:
 
-uploads:
-    script.js
-    index.html
+1. installs:
+    - imagemagick for image processing
+    
+2. generates:
+    - the static .html webpages for every project.
+    - the data.js file that is needed for script.js
+
+3. uploads:
+    - script.js
+    - index.html
 
 
 

@@ -1,7 +1,6 @@
 #README content using raw string
 
 admin = "Annelotte"
-mages
 admin_fullname = "Annelotte Lammertse"
 user = "student"
 admin_github_account = "https://github.com/AnnelotteLammertse"
@@ -39,7 +38,7 @@ admin_setup = f"""
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
+1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
 
 2. Setup the repository so it has correct GitHub actions, bot permissions, etc.
 
@@ -47,7 +46,7 @@ admin_setup = f"""
 
 admin_upload_project = f"""
 
-## upload
+### upload a project
 
 <details>
   <summary>1. How do I ({admin}) upload projects?</summary>
@@ -65,7 +64,7 @@ admin_upload_project = f"""
  """
 admin_remove_project = f"""
 
-## remove
+### remove a project
 
 <details>
   <summary>2. How do I ({admin}) remove projects?</summary>
@@ -82,7 +81,7 @@ admin_remove_project = f"""
 """
 admin_update_project = f""" 
 
-## update
+### update a project
 
 <details>
   <summary>3. How do I ({admin}) update a project?</summary>
@@ -100,7 +99,7 @@ admin_update_project = f"""
 """
 admin_approve_project = f"""
 
-## approve
+### approve a project
 
 <details><summary>4. How do I ({admin}) approve a student project?</summary>
 	<br>
@@ -134,7 +133,7 @@ user_setup = f"""
 """
 user_upload_project = f""" 
 
-## upload
+### upload a project
 
 <details>
   <summary>1. How do I ({user}) upload a project?</summary>
@@ -160,7 +159,7 @@ user_upload_project = f"""
 """
 user_remove_project = f""" 
 
-## remove
+### remove a project
 
 <details>
   <summary>3. How do I ({user}) remove a project?</summary>
@@ -182,7 +181,7 @@ user_remove_project = f"""
 """
 user_update_project = f"""
 
-## update
+### update a project
 
 <details>
   <summary>2. How do I ({user}) update a project?</summary>
