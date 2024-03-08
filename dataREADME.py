@@ -1,8 +1,8 @@
 #README content using raw string
 
-admin = "Annelotte"
-admin_fullname = "Annelotte Lammertse"
-user = "student"
+admin = "Atte"
+admin_fullname = "Annmmertse"
+user = "udent"
 admin_github_account = "https://github.com/AnnelotteLammertse"
 admin_repository_name = "annelottelammertse"
 
