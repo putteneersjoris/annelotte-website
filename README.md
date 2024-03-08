@@ -97,7 +97,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> upload your project as shown in the following video.<br>
@@ -116,7 +116,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> remove your project as shown in the following video.<br>
@@ -135,7 +135,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> update your project as shown in the following video.<br>
@@ -149,7 +149,7 @@
 </details>
  
 ## demoproject
-In the following section a overview and demo project is provided.You can the coresponding files [here](https://github.com/AnnelotteLammertse/annelottelammertse/example/demoproject)
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/studentName/annelottelammertse/demoproject">https://github.com/studentName/annelottelammertse/demoproject</a>
 
  
 ```bash
