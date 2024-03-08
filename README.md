@@ -61,7 +61,7 @@
  
 
 
-## instructions: Annelotte
+## instructions: student
 
 ### First setup (only once)
 
@@ -90,7 +90,7 @@
 
 <details>
   <summary>1. How do I (student) upload a project?</summary>
-
+  <br>
   <ul>
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to your instance of Annelotte's website located at (https://github.com/studentName/annelottelammertse).</li>
@@ -105,6 +105,7 @@
     <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
     <li>You now have successfully uploaded a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
   </ul>
+  <br>
 
 </details>
 

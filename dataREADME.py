@@ -103,7 +103,7 @@ admin_approve_project = f"""
 user_setup = f""" 
 
 
-## instructions: {admin}
+## instructions: {user}
 
 ### First setup (only once)
 
@@ -133,7 +133,7 @@ user_upload_project = f"""
 
 <details>
   <summary>1. How do I ({user}) upload a project?</summary>
-
+  <br>
   <ul>
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).</li>
@@ -148,6 +148,7 @@ user_upload_project = f"""
     <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
     <li>You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
   </ul>
+  <br>
 
 </details>
 
