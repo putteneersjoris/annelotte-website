@@ -134,12 +134,17 @@ user_setup = f"""
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})
-
-2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
-
+<details>
+  <summary></summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
+    <li>2. Fork the repository located under {admin}'s repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video]({user_fork_repository}).
     <li><img src="./example/placeholder.png"></li>
-	    
+  </ul>
+  <br>
+</details>
+    
 """
 user_upload_project = f""" 
 

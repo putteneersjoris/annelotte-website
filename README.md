@@ -92,12 +92,17 @@
 
 ### First setup (only once)
 
-1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})
-
-2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
-
+<details>
+  <summary></summary>
+  <br>
+  <ul>
+    <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
+    <li>2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
     <li><img src="./example/placeholder.png"></li>
-	    
+  </ul>
+  <br>
+</details>
+    
  
 
 ### upload a project
