@@ -16,11 +16,10 @@
   <br>
 </details>
 
+### upload a project
     
-    ### upload a project
-    
-    <details>
-      <summary>How do I (Annelotte) upload projects?</summary>
+   <details>
+  <summary>How do I (Annelotte) upload projects?</summary>
       <br>
       <ul>
         <li>Please ensure that you are logged in to GitHub.</li>
