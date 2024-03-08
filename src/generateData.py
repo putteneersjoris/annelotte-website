@@ -8,8 +8,8 @@ from staticHtmlString import html_string
 contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
 max_bytes =math.floor( 0.1 * 1048576) # 5mb
-
 processed_addition = "__processed"
+
 # Functions
 
 def decompose_file(file_path):
@@ -26,8 +26,8 @@ def rename_file(file_path):
 	#replace spaces in file with _
 	directory, filename_with_extension=  decompose_file(file_path)[:2]
 	file_no_spaces = os.path.join( directory, filename_with_extension.replace(" ", "_").replace("(","_").replace(")","_").replace("{","_").replace("}","_") )
-
 	os.rename( file_path , file_no_spaces )
+
 	return file_no_spaces
 
 
@@ -40,13 +40,13 @@ def rename_file_processed(file_path):
 
 def remove_unsupported_file(file_path):
 	extension=  decompose_file(file_path)[-1]
-	#print(extension)
 	if extension not in ("jpg", "png", "jpeg", "txt", "gif", "heic"):
 		os.remove(file_path)
 		print(f'{file_path} is not supported and has been removed.')
 		return True
 	else:
 		return False
+
 
 def process_images(file_path):
 	optional_args = ""
@@ -92,50 +92,35 @@ def process_files(file_path, max_bytes):
 			file_path_reconstructed = f"{directory}/{filename_without_extension}.{extension}"
 			file_dir_reconstructed = f"{directory}/"
 			
-			print(file_path_reconstructed)
-
-			command  = f"convert \"{file_path_reconstructed}\" -set filename:base '%[basename]' \"{file_dir_reconstructed}%[filename:base]_{processed_addition}.jpg\""
+			command  = f"convert \"{file_path_reconstructed}\" {optional_args} -set filename:base '%[basename]' \"{file_dir_reconstructed}%[filename:base]_{processed_addition}.{processed_extension}\""
 			
 			subprocess.run(command, shell=True)
 			
-			os.remove(file_path) #remove file afterwards
+			os.remove(file_path) #remove original file afterwards
 			
 		else:
 			rename_file_processed(file_path)
 
-##rename files
+
+
+
+
+
+
+##process images
 for folder in os.listdir(contentFolder):
 	folder_path = os.path.join(contentFolder, folder)
 	if os.path.isdir(folder_path):
 		for file in os.listdir(folder_path):
 			file_path = os.path.join(folder_path, file)
 			process_files(rename_file(file_path), max_bytes)
-			#rename_file(file_path)
-
-
-#rename files
-for folder in os.listdir(contentFolder):
-	folder_path = os.path.join(contentFolder, folder)
-	if os.path.isdir(folder_path):
-		for file in os.listdir(folder_path):
-			file_path = os.path.join(folder_path, file)
-			process_files(file_path, max_bytes)
 
 
 
 
-#process files
-#for folder in os.listdir(contentFolder):
-	#folder_path = os.path.join(contentFolder, folder)
-	#if os.path.isdir(folder_path):
-		#for file in os.listdir(folder_path):
-			#file_path = os.path.join(folder_path, file)
-			#process_files(file_path, max_bytes)
+#process .txt file to html
 
-
-
-
-
+#cleanup first
 # Delete all .html files (excluding index.html) in the output folder
 for filename in os.listdir(outputFolder):
 	filepath = os.path.join(outputFolder, filename)
@@ -178,15 +163,15 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 			itemPath = os.path.join(folderPath, item)
 
 			if os.path.isfile(itemPath):
-				if item.endswith(".gif"):
-					images.append(itemPath)
-					project_images.append(itemPath)
+				#if item.endswith(".gif"):
+					#images.append(itemPath)
+					#project_images.append(itemPath)
 
-				if item.endswith((".jpg", ".png")):
-					itemPath_base = os.path.splitext(os.path.basename(itemPath))[0]
-					itemPath_ext = os.path.splitext(os.path.basename(itemPath))[1]
-					itemPath_resized = os.path.join(folderPath,itemPath_base + "_resized" + itemPath_ext)
-					os.system(f'convert "{itemPath}"  -sharpen 0x.2 -resize x350 "{itemPath}"')
+				if item.endswith((".jpg", ".png", ".heic", ".gif")):
+					#itemPath_base = os.path.splitext(os.path.basename(itemPath))[0]
+					#itemPath_ext = os.path.splitext(os.path.basename(itemPath))[1]
+					#itemPath_resized = os.path.join(folderPath,itemPath_base + "_resized" + itemPath_ext)
+					#os.system(f'convert "{itemPath}"  -sharpen 0x.2 -resize x350 "{itemPath}"')
 					images.append(itemPath)
 					project_images.append(itemPath)
 
