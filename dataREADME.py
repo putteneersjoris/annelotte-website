@@ -53,7 +53,7 @@ for i,item in enumerate(admin_instructions):
     admin_content += f"""
 
 <details>
-<summary>{i}: {item[0]} a project ({admin})</summary>
+<summary>{i+1}: {item[0]} a project ({admin})</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -73,7 +73,7 @@ for i,item in enumerate(user_instructions):
     user_content += f"""
 
 <details>
-<summary>{i}: {item[0]} a project ({user})</summary>
+<summary>{i+1}: {item[0]} a project ({user})</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -163,11 +163,9 @@ folder_images = f"""
 
 ### images
 
-1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
-
-2. The max image filezize is 10mb.
-
-3. the max resolution is 5000x5000 pixels
+- Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+- The max image filezize is 10mb.
+- the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./example/demoproject/1.jpg" width="32%">

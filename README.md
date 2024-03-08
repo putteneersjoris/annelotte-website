@@ -16,7 +16,7 @@
 
 
 <details>
-<summary>0: upload a project (Annelotte)</summary>
+<summary>1: upload a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -31,7 +31,7 @@
 
 
 <details>
-<summary>1: remove a project (Annelotte)</summary>
+<summary>2: remove a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -46,7 +46,7 @@
 
 
 <details>
-<summary>2: update a project (Annelotte)</summary>
+<summary>3: update a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -61,7 +61,7 @@
 
 
 <details>
-<summary>3: approve a project (Annelotte)</summary>
+<summary>4: approve a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -92,7 +92,7 @@
 
 
 <details>
-<summary>0: upload a project (student)</summary>
+<summary>1: upload a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -111,7 +111,7 @@
 
 
 <details>
-<summary>1: remove a project (student)</summary>
+<summary>2: remove a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -130,7 +130,7 @@
 
 
 <details>
-<summary>2: update a project (student)</summary>
+<summary>3: update a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -167,11 +167,9 @@ demo project tree:
 
 ### images
 
-1. Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
-
-2. The max image filezize is 10mb.
-
-3. the max resolution is 5000x5000 pixels
+- Images can be of `.jpg`, `.png`, `.gif`, `.HEIC` format.
+- The max image filezize is 10mb.
+- the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="./example/demoproject/1.jpg" width="32%">
