@@ -56,13 +56,13 @@ admin_setup = f"""
 ## instructions: {admin}
 
 <details>
- <summary>First setup (only once)</summary>
-  <br>
-  <ul>
-    <li>1. Make sure you have a GitHub account: e.g: <a href="{admin_github_account}">{admin_github_account}</li>
-    <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
-  </ul>
-  <br>
+<summary>First setup (only once)</summary>
+<br>
+<ul>
+<li>1. Make sure you have a GitHub account: e.g: <a href="{admin_github_account}">{admin_github_account}</li>
+<li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
+</ul>
+<br>
 </details>
 """
 
@@ -72,19 +72,19 @@ user_setup = f"""
 ## instructions: {user}
 
 <details>
-  <summary><u> First setup (only once)</u></summary>
-  <br>
-  <ul>   
+<summary><u> First setup (only once)</u></summary>
+<br>
+<ul>   
 user_github_account = "https://github.com/studentName"
 user_repository_name = "annelottelammertse"
 
-    <li>1. Make sure you have a GitHub account: e.g: <a href="{user_github_account}">{user_github_account}</a></li>
-    <li>2. Fork the repository located under {admin}'s repository <a href="{admin_github_account}/{admin_repository_name}"> {admin_github_account}/{admin_repository_name}</a>.
-    <li><img src="./example/placeholder.png"></li>
-  </ul>
-  <br>
+<li>1. Make sure you have a GitHub account: e.g: <a href="{user_github_account}">{user_github_account}</a></li>
+<li>2. Fork the repository located under {admin}'s repository <a href="{admin_github_account}/{admin_repository_name}"> {admin_github_account}/{admin_repository_name}</a>.
+<li><img src="./example/placeholder.png"></li>
+</ul>
+<br>
 </details>
-    
+
 """
 
 #admin_content
@@ -100,7 +100,7 @@ for i,item in enumerate(admin_instructions):
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="{admin_github_account}/{admin_repository_name}/tree/main/src/content"> {admin_github_account}/{admin_repository_name}/tree/main/src/content</a>.</li>
-<li>You can {item[0]} a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > '{item[0]} files'.</li>
+<li>You can {item[0]} a project by following the following video.</li>
 <li><img src="{item[1]}" alt="{item[0]} Project"></li>
 <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
