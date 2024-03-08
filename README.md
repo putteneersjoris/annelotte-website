@@ -4,10 +4,8 @@
 
 ## instructions: Annelotte
 
-### First setup (only once)
-
 <details>
-first setup   <summary>setup</summary>
+ <summary>First setup (only once)</summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [https://github.com/AnnelotteLammertse](https://github.com/AnnelotteLammertse)</li>
@@ -17,10 +15,8 @@ first setup   <summary>setup</summary>
 </details>
 
 
-### upload a project
-
 <details>
-<summary>How do I (Annelotte) upload projects?</summary>
+<summary>0: upload a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -34,10 +30,8 @@ first setup   <summary>setup</summary>
 
 
 
-### remove a project
-
 <details>
-<summary>How do I (Annelotte) remove projects?</summary>
+<summary>1: remove a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -51,10 +45,8 @@ first setup   <summary>setup</summary>
 
 
 
-### update a project
-
 <details>
-<summary>How do I (Annelotte) update projects?</summary>
+<summary>2: update a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -68,10 +60,8 @@ first setup   <summary>setup</summary>
 
 
 
-### approve a project
-
 <details>
-<summary>How do I (Annelotte) approve projects?</summary>
+<summary>3: approve a project (Annelotte)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -101,10 +91,8 @@ first setup   <summary>setup</summary>
     
 
 
-### upload a project
-
 <details>
-<summary>. How do I (student) upload  projects?</summary>
+<summary>0: upload a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -122,10 +110,8 @@ first setup   <summary>setup</summary>
 </details>
 
 
-### remove a project
-
 <details>
-<summary>. How do I (student) remove  projects?</summary>
+<summary>1: remove a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -143,10 +129,8 @@ first setup   <summary>setup</summary>
 </details>
 
 
-### update a project
-
 <details>
-<summary>. How do I (student) update  projects?</summary>
+<summary>2: update a project (student)</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>

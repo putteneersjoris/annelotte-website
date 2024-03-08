@@ -49,13 +49,11 @@ admin_instructions = [
 admin_content = ""
 user_content = ""
 
-for item in admin_instructions:
+for i,item in enumerate(admin_instructions):
     admin_content += f"""
 
-### {item[0]} a project
-
 <details>
-<summary>How do I ({admin}) {item[0]} projects?</summary>
+<summary>{i}: {item[0]} a project ({admin})</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -71,13 +69,11 @@ for item in admin_instructions:
 
 
 
-for item in user_instructions:
+for i,item in enumerate(user_instructions):
     user_content += f"""
 
-### {item[0]} a project
-
 <details>
-<summary>. How do I ({user}) {item[0]}  projects?</summary>
+<summary>{i}: {item[0]} a project ({user})</summary>
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
@@ -106,10 +102,8 @@ admin_setup = f"""
 
 ## instructions: {admin}
 
-### First setup (only once)
-
 <details>
-first setup   <summary>setup</summary>
+ <summary>First setup (only once)</summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{admin_github_account}]({admin_github_account})</li>
