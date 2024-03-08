@@ -83,9 +83,6 @@
 <summary><u> First setup (only once)</u></summary>
 <br>
 <ul>   
-user_github_account = "https://github.com/studentName"
-user_repository_name = "annelottelammertse"
-
 <li>1. Make sure you have a GitHub account: e.g: <a href="https://github.com/studentName">https://github.com/studentName</a></li>
 <li>2. Fork the repository located under Annelotte's repository <a href="https://github.com/AnnelotteLammertse/annelottelammertse"> https://github.com/AnnelotteLammertse/annelottelammertse</a>.
 <li><img src="./example/placeholder.png"></li>

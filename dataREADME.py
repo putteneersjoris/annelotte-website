@@ -75,9 +75,6 @@ user_setup = f"""
 <summary><u> First setup (only once)</u></summary>
 <br>
 <ul>   
-user_github_account = "https://github.com/studentName"
-user_repository_name = "annelottelammertse"
-
 <li>1. Make sure you have a GitHub account: e.g: <a href="{user_github_account}">{user_github_account}</a></li>
 <li>2. Fork the repository located under {admin}'s repository <a href="{admin_github_account}/{admin_repository_name}"> {admin_github_account}/{admin_repository_name}</a>.
 <li><img src="./example/placeholder.png"></li>
