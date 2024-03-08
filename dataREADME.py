@@ -126,10 +126,8 @@ user_setup = f"""
 
 ## instructions: {user}
 
-### First setup (only once)
-
 <details>
-  <summary>setup</summary>
+  <summary><u> First setup (only once)</u></summary>
   <br>
   <ul>
     <li>1. Make sure you have a GitHub account: [{{admin_github_account}}]({{admin_github_account}})</li>
