@@ -10,7 +10,7 @@
  <summary>First setup (only once)</summary>
   <br>
   <ul>
-    <li>1. Make sure you have a GitHub account: e.g:<a href="https://github.com/AnnelotteLammertse">https://github.com/AnnelotteLammertse</li>
+    <li>1. Make sure you have a GitHub account: e.g: <a href="https://github.com/AnnelotteLammertse">https://github.com/AnnelotteLammertse</li>
     <li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
   </ul>
   <br>
@@ -22,7 +22,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href=""https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content> (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content)</a>.</li>
+<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
 <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'upload files'.</li>
 <li><img src="./example/vid1" alt="upload Project"></li>
 <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -37,7 +37,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href=""https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content> (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content)</a>.</li>
+<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
 <li>You can remove a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'remove files'.</li>
 <li><img src="./example/vid2" alt="remove Project"></li>
 <li>You have successfully removeed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -52,7 +52,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href=""https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content> (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content)</a>.</li>
+<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
 <li>You can update a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'update files'.</li>
 <li><img src="./example/vid3" alt="update Project"></li>
 <li>You have successfully updateed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -67,7 +67,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href=""https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content> (https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content)</a>.</li>
+<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
 <li>You can approve a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'approve files'.</li>
 <li><img src="./example/vid4" alt="approve Project"></li>
 <li>You have successfully approveed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -82,9 +82,12 @@
 <details>
   <summary><u> First setup (only once)</u></summary>
   <br>
-  <ul>
-    <li>1. Make sure you have a GitHub account: e.g:<a href="https://github.com/studentName">https://github.com/studentName</a></li>
-    <li>2. Fork the repository located under Annelotte's repository [here](https://github.com/AnnelotteLammertse/annelottelammertse) as demonstrated in this [video](./example/user_fork_repository.gif).
+  <ul>   
+user_github_account = "https://github.com/studentName"
+user_repository_name = "annelottelammertse"
+
+    <li>1. Make sure you have a GitHub account: e.g: <a href="https://github.com/studentName">https://github.com/studentName</a></li>
+    <li>2. Fork the repository located under Annelotte's repository <a href="https://github.com/AnnelotteLammertse/annelottelammertse"> https://github.com/AnnelotteLammertse/annelottelammertse</a>.
     <li><img src="./example/placeholder.png"></li>
   </ul>
   <br>
