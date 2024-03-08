@@ -47,17 +47,3 @@ with open('README.md', 'w') as readme_file:
 print("Readme generated successfully: README.md")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

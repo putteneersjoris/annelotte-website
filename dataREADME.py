@@ -131,20 +131,19 @@ user_upload_project = f"""
 </details>
 
 
-
-<details><summary>1. How do I ({user}) upload a project?</summary>
-│   Please ensure that you are logged in to GitHub.<br>
-│   Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).<br>
-│   Sync fork (this makes sure you have the latest version so there are no conflicts between other users).<br>
-│   Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).<br>
-│   You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.<br>
-│   Upload your project as shown in the following video.<br>
-│   ![Upload Project]({user_upload_project})<br>
-│   Contribute by opening up a 'pull request > create pull request'.<br>
-│   Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.<br>
-│   You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.<br>
+<details>
+  <summary>1. How do I ({user}) upload a project?</summary>
+  Please ensure that you are logged in to GitHub.<br>
+  Go to your instance of {admin}'s website located at ({user_github_account}/{user_repository_name}).<br>
+  Sync fork (this makes sure you have the latest version so there are no conflicts between other users).<br>
+  Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).<br>
+  You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.<br>
+  Upload your project as shown in the following video.<br>
+  <img src="{user_upload_project}" alt="Upload Project"><br>
+  Contribute by opening up a 'pull request > create pull request'.<br>
+  Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.<br>
+  You now have successfully uploaded a project. Once {admin} approves of the changes, you can see your project on the official website.<br>
 </details>
-
 """
 user_remove_project = f""" 
 
