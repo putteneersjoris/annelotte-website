@@ -55,7 +55,7 @@ admin_upload_project = f"""
     <li>Please ensure that you are logged in to GitHub.</li>
     <li>Go to the content directory ({admin_github_account}/{admin_repository_name}/tree/main/src/content).</li>
     <li>You can upload a project by simply dragging and dropping your project folder into GitHub, or by navigating to 'Add file' > 'Upload files'.</li>
-    <li><img src="{admin_upload_project}" alt="Upload Project"></li>
+    <li><img src="./example/placeholder.png"></li>
     <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
   </ul>
   <br>
