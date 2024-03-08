@@ -224,7 +224,7 @@ This demoproject will render out on the website like this:
 <img src="./example/placeholder.png">
  
 
-## scripts
+## code
 
 Every push request activates a github actions protocal  that:
 
@@ -237,7 +237,7 @@ Every push request activates a github actions protocal  that:
     - script.js
     - index.html
 
-## code
+
 
 <details  open ><summary>0: default.yaml</summary>
 

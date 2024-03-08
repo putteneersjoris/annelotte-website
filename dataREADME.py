@@ -230,7 +230,7 @@ navigation_overview = f"""
 #workflow
 workflow = f""" 
 
-## scripts
+## code
 
 Every push request activates a github actions protocal  that:
 

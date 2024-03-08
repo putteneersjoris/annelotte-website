@@ -26,7 +26,6 @@ file_paths = [
 
 readme_content = admin_instructions + user_instructions + demoproject + navigation_overview
 
-workflow += "## code"
 
 # Function to read file content
 def read_file_content(file_path):
