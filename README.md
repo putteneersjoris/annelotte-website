@@ -23,7 +23,7 @@
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
-<li>You can upload a project by following the following video.</li>
+<li> upload your project as shown in the following video.<br>
 <li><img src="./example/vid1" alt="upload Project"></li>
 <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
@@ -38,7 +38,7 @@
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
-<li>You can remove a project by following the following video.</li>
+<li> remove your project as shown in the following video.<br>
 <li><img src="./example/vid2" alt="remove Project"></li>
 <li>You have successfully removeed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
@@ -53,7 +53,7 @@
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
-<li>You can update a project by following the following video.</li>
+<li> update your project as shown in the following video.<br>
 <li><img src="./example/vid3" alt="update Project"></li>
 <li>You have successfully updateed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
@@ -68,7 +68,7 @@
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
-<li>You can approve a project by following the following video.</li>
+<li> approve your project as shown in the following video.<br>
 <li><img src="./example/vid4" alt="approve Project"></li>
 <li>You have successfully approveed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
@@ -97,7 +97,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse/tree/main/src/content> (https://github.com/studentName/annelottelammertse/tree/main/src/content)</a></li>
+<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> upload your project as shown in the following video.<br>
@@ -105,7 +105,7 @@
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully upload a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+<li>You now have successfully upload'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
@@ -116,7 +116,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse/tree/main/src/content> (https://github.com/studentName/annelottelammertse/tree/main/src/content)</a></li>
+<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> remove your project as shown in the following video.<br>
@@ -124,7 +124,7 @@
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully remove a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+<li>You now have successfully remove'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
@@ -135,7 +135,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse/tree/main/src/content> (https://github.com/studentName/annelottelammertse/tree/main/src/content)</a></li>
+<li>Go to your instance of Annelotte's website located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> update your project as shown in the following video.<br>
@@ -143,7 +143,7 @@
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully update a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
+<li>You now have successfully update'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>

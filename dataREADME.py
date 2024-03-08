@@ -97,7 +97,7 @@ for i,item in enumerate(admin_instructions):
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
 <li>Go to the content directory <a href="{admin_github_account}/{admin_repository_name}/tree/main/src/content"> {admin_github_account}/{admin_repository_name}/tree/main/src/content</a>.</li>
-<li>You can {item[0]} a project by following the following video.</li>
+<li> {item[0]} your project as shown in the following video.<br>
 <li><img src="{item[1]}" alt="{item[0]} Project"></li>
 <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
 </ul>
@@ -118,7 +118,7 @@ for i,item in enumerate(user_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of {admin}'s website located at  <a href=""{user_github_account}/{user_repository_name}/tree/main/src/content> ({user_github_account}/{user_repository_name}/tree/main/src/content)</a></li>
+<li>Go to your instance of {admin}'s website located at  <a href=""{user_github_account}/{user_repository_name}>{user_github_account}/{user_repository_name}</a></li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
 <li> {item[0]} your project as shown in the following video.<br>
@@ -126,7 +126,7 @@ for i,item in enumerate(user_instructions):
 </li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
-<li>You now have successfully {item[0]} a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
+<li>You now have successfully {item[0]}'ed a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
 </ul>
 <br>
 </details>
