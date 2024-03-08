@@ -444,8 +444,9 @@ from staticHtmlString import html_string
 contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
 max_bytes =math.floor( 0.1 * 1048576) # 5mb
-
 processed_addition = "__processed"
+approved_extensions = ("jpg", "png", "jpeg", "txt", "gif", "heic"):
+
 # Functions
 
 def decompose_file(file_path):
@@ -462,8 +463,8 @@ def rename_file(file_path):
 	#replace spaces in file with _
 	directory, filename_with_extension=  decompose_file(file_path)[:2]
 	file_no_spaces = os.path.join( directory, filename_with_extension.replace(" ", "_").replace("(","_").replace(")","_").replace("{","_").replace("}","_") )
-
 	os.rename( file_path , file_no_spaces )
+
 	return file_no_spaces
 
 
@@ -476,13 +477,13 @@ def rename_file_processed(file_path):
 
 def remove_unsupported_file(file_path):
 	extension=  decompose_file(file_path)[-1]
-	#print(extension)
-	if extension not in ("jpg", "png", "jpeg", "txt", "gif", "heic"):
+	if extension not in approved_extensions:
 		os.remove(file_path)
 		print(f'{file_path} is not supported and has been removed.')
 		return True
 	else:
 		return False
+
 
 def process_images(file_path):
 	optional_args = ""
@@ -505,9 +506,6 @@ def process_images(file_path):
 	return optional_args, processed_extension
 
 
-
-
-
 def process_files(file_path, max_bytes):
 		
 	if remove_unsupported_file(file_path):
@@ -528,50 +526,30 @@ def process_files(file_path, max_bytes):
 			file_path_reconstructed = f"{directory}/{filename_without_extension}.{extension}"
 			file_dir_reconstructed = f"{directory}/"
 			
-			print(file_path_reconstructed)
-
-			command  = f"convert \"{file_path_reconstructed}\" -set filename:base '%[basename]' \"{file_dir_reconstructed}%[filename:base]_{processed_addition}.jpg\""
+			command  = f"convert \"{file_path_reconstructed}\" {optional_args} -set filename:base '%[basename]' \"{file_dir_reconstructed}%[filename:base]_{processed_addition}.{processed_extension}\""
 			
 			subprocess.run(command, shell=True)
 			
-			os.remove(file_path) #remove file afterwards
+			os.remove(file_path) #remove original file afterwards
 			
 		else:
 			rename_file_processed(file_path)
 
-##rename files
+
+##process images
 for folder in os.listdir(contentFolder):
 	folder_path = os.path.join(contentFolder, folder)
 	if os.path.isdir(folder_path):
 		for file in os.listdir(folder_path):
 			file_path = os.path.join(folder_path, file)
 			process_files(rename_file(file_path), max_bytes)
-			#rename_file(file_path)
-
-
-#rename files
-for folder in os.listdir(contentFolder):
-	folder_path = os.path.join(contentFolder, folder)
-	if os.path.isdir(folder_path):
-		for file in os.listdir(folder_path):
-			file_path = os.path.join(folder_path, file)
-			process_files(file_path, max_bytes)
 
 
 
 
-#process files
-#for folder in os.listdir(contentFolder):
-	#folder_path = os.path.join(contentFolder, folder)
-	#if os.path.isdir(folder_path):
-		#for file in os.listdir(folder_path):
-			#file_path = os.path.join(folder_path, file)
-			#process_files(file_path, max_bytes)
+#process .txt file to html
 
-
-
-
-
+#cleanup first
 # Delete all .html files (excluding index.html) in the output folder
 for filename in os.listdir(outputFolder):
 	filepath = os.path.join(outputFolder, filename)
@@ -612,17 +590,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 		for item in os.listdir(folderPath):
 			itemPath = os.path.join(folderPath, item)
-
 			if os.path.isfile(itemPath):
-				if item.endswith(".gif"):
-					images.append(itemPath)
-					project_images.append(itemPath)
-
-				if item.endswith((".jpg", ".png")):
-					itemPath_base = os.path.splitext(os.path.basename(itemPath))[0]
-					itemPath_ext = os.path.splitext(os.path.basename(itemPath))[1]
-					itemPath_resized = os.path.join(folderPath,itemPath_base + "_resized" + itemPath_ext)
-					os.system(f'convert "{itemPath}"  -sharpen 0x.2 -resize x350 "{itemPath}"')
+				if item.endswith(approved_extensions):
 					images.append(itemPath)
 					project_images.append(itemPath)
 
@@ -646,7 +615,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								"<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
 								for tag in tags_content.split(',')
 							])
-							# print(allTags)
 					#break out of the loop after procvessing the first file
 					break
 		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
@@ -663,9 +631,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 			"date": project_date
 		}
         
-		print(tags_content)
-		# print(tags_content.replace(',','#'))
-
+		#print(tags_content)
 
 		# Create a project HTML file with images and barContent links
 		images_html = "\n".join([f"<img class='imagesPage'  src='{image_path}' >" for image_path in project_images])
@@ -673,7 +639,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 		
 		#html string comes from staticHtmlString
 		project_html_content = html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images)
-
 
 
 		project_html_path = os.path.join(outputFolder, f"{folderName}.html")
@@ -713,33 +678,7 @@ with open("data.js", "w") as file:
 	file.write("var content = ")
 	file.write(content_json)
 
-print("File 'dataB.js' saved successfully.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("File 'data.js' saved successfully.")
 
 
 ```
@@ -785,9 +724,7 @@ var content = {
             "date": "March 5, 2024"
         },
         "advanced textile composites": {
-            "images": [
-                "./content/advanced textile composites/DSC08966_1340_c_670___processed.jpg"
-            ],
+            "images": [],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
                 "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
@@ -798,18 +735,17 @@ var content = {
             "images": [
                 "./content/bioactive textiles/DSC03629_670__processed.jpg",
                 "./content/bioactive textiles/boom_670__processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__3rd_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__4th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__5th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__7th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__8th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__another_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__3rd_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__4th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__5th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3___processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__another_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__copy____processed.jpg",
+                "./content/bioactive textiles/rotate_cropped_image2__3rd_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__4th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__5th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__6th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__another_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__6th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__8th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3___processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__another_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__copy____processed.png",
                 "./content/bioactive textiles/vlcsnap-2020-07-27d-01h10m44s415_670__processed.jpg",
                 "./content/bioactive textiles/vlcsnap-2020-08-02-02h31m34s763_670__processed.jpg"
             ],
@@ -833,6 +769,7 @@ var content = {
         "new project": {
             "images": [
                 "./content/new project/boom_670__processed.jpg",
+                "./content/new project/test2___processed.png",
                 "./content/new project/vlcsnap-2020-07-27d-01h10m44s415_670__processed.jpg"
             ],
             "html": "<h2>new title</h2><br>    <p><br>        This phealthcare outcomes. T changfed text tiles.<br>    </p><br>   <br>    <p><br>        The expected outcomes of the project i changed some text ilored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomield of regenerative medicine.<br>    </p>",
@@ -843,8 +780,8 @@ var content = {
         },
         "new project_ from student": {
             "images": [
-                "./content/new project_ from student/demoproject_1___processed.jpg",
-                "./content/new project_ from student/sad___processed.jpg"
+                "./content/new project_ from student/demoproject_1___processed.png",
+                "./content/new project_ from student/sad___processed.png"
             ],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive change some text<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [

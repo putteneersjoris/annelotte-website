@@ -9,6 +9,7 @@ contentFolder = "./content"  # Specify the folder where your content is located
 outputFolder = "./"     # Specify the folder where you want to save the HTML files
 max_bytes =math.floor( 0.1 * 1048576) # 5mb
 processed_addition = "__processed"
+approved_extensions = ("jpg", "png", "jpeg", "txt", "gif", "heic"):
 
 # Functions
 
@@ -40,7 +41,7 @@ def rename_file_processed(file_path):
 
 def remove_unsupported_file(file_path):
 	extension=  decompose_file(file_path)[-1]
-	if extension not in ("jpg", "png", "jpeg", "txt", "gif", "heic"):
+	if extension not in approved_extensions:
 		os.remove(file_path)
 		print(f'{file_path} is not supported and has been removed.')
 		return True
@@ -67,9 +68,6 @@ def process_images(file_path):
 		optional_args = "-resize '512x>' -quality 80"
 	
 	return optional_args, processed_extension
-
-
-
 
 
 def process_files(file_path, max_bytes):
@@ -100,11 +98,6 @@ def process_files(file_path, max_bytes):
 			
 		else:
 			rename_file_processed(file_path)
-
-
-
-
-
 
 
 ##process images
@@ -161,17 +154,8 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 		for item in os.listdir(folderPath):
 			itemPath = os.path.join(folderPath, item)
-
 			if os.path.isfile(itemPath):
-				#if item.endswith(".gif"):
-					#images.append(itemPath)
-					#project_images.append(itemPath)
-
-				if item.endswith((".jpg", ".png", ".heic", ".gif")):
-					#itemPath_base = os.path.splitext(os.path.basename(itemPath))[0]
-					#itemPath_ext = os.path.splitext(os.path.basename(itemPath))[1]
-					#itemPath_resized = os.path.join(folderPath,itemPath_base + "_resized" + itemPath_ext)
-					#os.system(f'convert "{itemPath}"  -sharpen 0x.2 -resize x350 "{itemPath}"')
+				if item.endswith(approved_extensions):
 					images.append(itemPath)
 					project_images.append(itemPath)
 
@@ -195,7 +179,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 								"<span class='filter' data-filter='" + tag.strip() + "'>#" + tag.strip() + "</span>"
 								for tag in tags_content.split(',')
 							])
-							# print(allTags)
 					#break out of the loop after procvessing the first file
 					break
 		tag_list = [f"<span>#{tag.strip()}</span><br>" for tag in tags_content.split(",")]
@@ -212,9 +195,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 			"date": project_date
 		}
         
-		print(tags_content)
-		# print(tags_content.replace(',','#'))
-
+		#print(tags_content)
 
 		# Create a project HTML file with images and barContent links
 		images_html = "\n".join([f"<img class='imagesPage'  src='{image_path}' >" for image_path in project_images])
@@ -222,7 +203,6 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 		
 		#html string comes from staticHtmlString
 		project_html_content = html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images)
-
 
 
 		project_html_path = os.path.join(outputFolder, f"{folderName}.html")
@@ -262,31 +242,5 @@ with open("data.js", "w") as file:
 	file.write("var content = ")
 	file.write(content_json)
 
-print("File 'dataB.js' saved successfully.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("File 'data.js' saved successfully.")
 

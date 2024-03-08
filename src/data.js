@@ -2,33 +2,13 @@ var content = {
     "projects": {
         "ABOUT": {
             "images": [
-                "./content/ABOUT/068_Vtol_Murmansk_part2_PRMK__1340_c_670__processed.jpg",
-                "./content/ABOUT/0__processed.gif",
-                "./content/ABOUT/ESP_case_animation___processed.gif",
-                "./content/ABOUT/dataset1___processed.gif",
-                "./content/ABOUT/me__processed.gif",
-                "./content/ABOUT/mech_demo___processed.gif",
-                "./content/ABOUT/output___processed.gif",
-                "./content/ABOUT/recording_20230803012759__3rd_copy____processed.jpg",
-                "./content/ABOUT/recording_20230803012759__4th_copy____processed.jpg",
-                "./content/ABOUT/recording_20230803012759___processed.gif",
-                "./content/ABOUT/recording_20230803012759___processed.jpg",
-                "./content/ABOUT/recording_20230803013325___processed.gif",
-                "./content/ABOUT/recording_20230803013849___processed.gif",
-                "./content/ABOUT/recording_20230803014940___processed.gif",
-                "./content/ABOUT/recording_20230803015505___processed.gif",
-                "./content/ABOUT/recording_20230803020029__processed.gif",
-                "./content/ABOUT/recording_20230803021118__processed.gif",
-                "./content/ABOUT/recording_20230803021643___processed.gif",
-                "./content/ABOUT/recording_20230803022211___processed.gif",
-                "./content/ABOUT/sample1___processed.png",
-                "./content/ABOUT/you__processed.gif"
+                "./content/ABOUT/068_Vtol_Murmansk_part2_PRMK__1340_c_670__processed.jpg"
             ],
-            "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
+            "html": "hi there, my name is ssadasadad",
             "tags": [
-                "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
+                "<span>#about</span><br><span>#textile</span><br><span>#about</span><br><span>#website</span><br>"
             ],
-            "date": "March 5, 2024"
+            "date": "2/3/2021"
         },
         "Digital Fabrication Techniques": {
             "images": [],
@@ -53,9 +33,7 @@ var content = {
             "date": "March 5, 2024"
         },
         "advanced textile composites": {
-            "images": [
-                "./content/advanced textile composites/DSC08966_1340_c_670___processed.jpg"
-            ],
+            "images": [],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
                 "<span>#textile</span><br><span>#bioactive</span><br><span>#healthcare</span><br><span>#wound healing</span><br>"
@@ -66,18 +44,17 @@ var content = {
             "images": [
                 "./content/bioactive textiles/DSC03629_670__processed.jpg",
                 "./content/bioactive textiles/boom_670__processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__3rd_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__4th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__5th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__7th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__8th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image2__another_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__3rd_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__4th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__5th_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3___processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__another_copy____processed.jpg",
-                "./content/bioactive textiles/rotate_cropped_image3__copy____processed.jpg",
+                "./content/bioactive textiles/rotate_cropped_image2__3rd_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__4th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__5th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__6th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__another_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image2__copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__6th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__8th_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3___processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__another_copy____processed.png",
+                "./content/bioactive textiles/rotate_cropped_image3__copy____processed.png",
                 "./content/bioactive textiles/vlcsnap-2020-07-27d-01h10m44s415_670__processed.jpg",
                 "./content/bioactive textiles/vlcsnap-2020-08-02-02h31m34s763_670__processed.jpg"
             ],
@@ -90,25 +67,7 @@ var content = {
         "demoproject": {
             "images": [
                 "./content/demoproject/1__processed.jpg",
-                "./content/demoproject/2__processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__10th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__11th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__12th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__13th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__14th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__15th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__16th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__17th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__19th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__21st_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__22nd_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__3rd_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__4th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__5th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__9th_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3___processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__another_copy____processed.jpg",
-                "./content/demoproject/rotate_cropped_image3__copy____processed.jpg"
+                "./content/demoproject/2__processed.jpg"
             ],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive textiles for applications in wound healing and healthcare. By incorporating bioactive agents into textile fibers, we aim to create functional textiles capable of promoting wound healing, preventing infections, and improving overall healthcare outcomes. The project involves a multidisciplinary approach that combines textile engineering, biomaterials science, and medical research to design innovative solutions for medical textiles.<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
@@ -119,6 +78,7 @@ var content = {
         "new project": {
             "images": [
                 "./content/new project/boom_670__processed.jpg",
+                "./content/new project/test2___processed.png",
                 "./content/new project/vlcsnap-2020-07-27d-01h10m44s415_670__processed.jpg"
             ],
             "html": "<h2>new title</h2><br>    <p><br>        This phealthcare outcomes. T changfed text tiles.<br>    </p><br>   <br>    <p><br>        The expected outcomes of the project i changed some text ilored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomield of regenerative medicine.<br>    </p>",
@@ -129,8 +89,8 @@ var content = {
         },
         "new project_ from student": {
             "images": [
-                "./content/new project_ from student/demoproject_1___processed.jpg",
-                "./content/new project_ from student/sad___processed.jpg"
+                "./content/new project_ from student/demoproject_1___processed.png",
+                "./content/new project_ from student/sad___processed.png"
             ],
             "html": "<h2>Project Overview</h2><br>    <p><br>        This project focuses on the development of bioactive change some text<br>    </p><br>    <p><br>        The use of bioactive textiles has the potential to revolutionize wound care by providing continuous, localized delivery of therapeutic agents directly to the wound site. This targeted delivery system minimizes systemic side effects and enhances the efficacy of treatment. Additionally, bioactive textiles offer advantages such as improved patient comfort, reduced dressing changes, and simplified wound management procedures.<br>    </p><br>    <p><br>        The research objectives of the project include investigating methods for functionalizing textile fibers with bioactive agents, optimizing the release kinetics of therapeutic compounds, and evaluating the biocompatibility and safety of bioactive textiles for clinical use. Advanced fabrication techniques such as electrospinning, coating, and grafting will be employed to incorporate bioactive agents into textile matrices while preserving their structural integrity and mechanical properties.<br>    </p><br>    <p><br>        The expected outcomes of the project include the development of bioactive textiles with tailored properties for specific medical applications, such as wound dressings, compression garments, and implantable devices. These innovative textiles have the potential to improve patient outcomes, reduce healthcare costs, and advance the field of regenerative medicine.<br>    </p>",
             "tags": [
@@ -152,6 +112,7 @@ var content = {
     },
     "allTags": [
         "<span class='filter' data-filter='3D printing'>#3D printing</span>",
+        "<span class='filter' data-filter='about'>#about</span>",
         "<span class='filter' data-filter='additive manufacturing'>#additive manufacturing</span>",
         "<span class='filter' data-filter='bioactive'>#bioactive</span>",
         "<span class='filter' data-filter='digital fabrication'>#digital fabrication</span>",
@@ -165,6 +126,7 @@ var content = {
         "<span class='filter' data-filter='sensors'>#sensors</span>",
         "<span class='filter' data-filter='sustainability'>#sustainability</span>",
         "<span class='filter' data-filter='textile'>#textile</span>",
+        "<span class='filter' data-filter='website'>#website</span>",
         "<span class='filter' data-filter='wound healing'>#wound healing</span>"
     ],
     "barContent": [
