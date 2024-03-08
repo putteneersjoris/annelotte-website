@@ -226,6 +226,8 @@ demo project tree:
 """
 content_tree = f""" 
 
+<details><summary>content tree</summary>
+
 ```bash
 demo `content` folder tree
 .
@@ -272,6 +274,8 @@ demo `content` folder tree
 8 directories, 33 files
 
 ```
+
+</details>
 """
 
 
@@ -290,7 +294,6 @@ the max resolution is 5000x5000 pixels
     <img src="./example/demoproject/2.jpg" width="32%">
     <img src="./example/demoproject/3.jpg" width="32%">
     <img src="./example/demoproject/4.jpg" width="32%">
-    <img src="./example/demoproject/5.jpg" width="32%">
 </div>
 
 """
