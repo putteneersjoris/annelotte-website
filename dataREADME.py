@@ -3,6 +3,7 @@
 admin = "Atte"
 admin_fullname = "Annmmertse"
 user = "udent"
+domain_name = "test.com"
 admin_github_account = "https://github.com/AnnelotteLammertse"
 admin_repository_name = "annelottelammertse"
 
@@ -97,6 +98,8 @@ for i,item in enumerate(user_instructions):
 admin_setup = f""" 
 
 # Website: {admin_fullname}
+
+##{domain_name}
 
 ## instructions: {admin}
 
