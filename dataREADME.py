@@ -381,8 +381,8 @@ example_visualized = f"""
 This demoproject will render out on the website like this:
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/demoproject/demoproject_text.jpg" width="49%">
-    <img src="./example/demoproject/demoproject_web.jpg" width="49%">
+    <img src="./example/placeholder.png" width="49%">
+    <img src="./example/placeholder.png" width="49%">
 </div>
 """
 
@@ -397,15 +397,8 @@ demoproject =demoproject_intro + content_tree + folder_tree + folder_images + fo
 navigation_overview = f""" 
 
 ## navigation
-
-
-    <li><img src="./example/placeholder.png"></li>
-    <li><img src="./example/placeholder.png"></li>
-	    
-	    
-![{menu_navigation}]({menu_navigation})
-![{project_navigation}]({project_navigation})
-
+<img src="./example/placeholder.png">
+<img src="./example/placeholder.png">
 """
 
 #workflow

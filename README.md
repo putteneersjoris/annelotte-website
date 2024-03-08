@@ -321,21 +321,14 @@ They can be used like this:
 This demoproject will render out on the website like this:
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/demoproject/demoproject_text.jpg" width="49%">
-    <img src="./example/demoproject/demoproject_web.jpg" width="49%">
+    <img src="./example/placeholder.png" width="49%">
+    <img src="./example/placeholder.png" width="49%">
 </div>
  
 
 ## navigation
-
-
-    <li><img src="./example/placeholder.png"></li>
-    <li><img src="./example/placeholder.png"></li>
-	    
-	    
-![./example/manu_navigation.png](./example/manu_navigation.png)
-![./example/project_navigation.png](./example/project_navigation.png)
-
+<img src="./example/placeholder.png">
+<img src="./example/placeholder.png">
  
 
 ## scripts
