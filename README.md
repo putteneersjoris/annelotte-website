@@ -959,7 +959,7 @@ for (var i = 0; i < allTagsDataArray.length; i++) {
 // Get the tags-wrapper element and set its innerHTML
 
 
-document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>#all<br><br><br></span>"  +  allTagsData;
+document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>*<br><br><br></span>"  +  allTagsData;
 
 // Loop over each project in the "projects" object
 for (var projectName in content.projects) {
@@ -1031,9 +1031,23 @@ function updateWidth() {
     // Get the current width of the div
     const width = projectsDiv.offsetWidth;
    console.log(width) 
-    // Calculate the width for each "project" class
-    const n_projects = 5;
-    const dist = (Math.floor(width / n_projects) - 3) + "px";
+    
+let n_projects = 5;
+if (width > 0 && width < 300) {
+    n_projects = 1;
+} else if (width >= 300 && width < 600) {
+    n_projects = 2;
+} else if (width >= 600 && width < 1000) {
+    n_projects = 4;
+} else if (width >= 1000) {
+    n_projects = 5;
+}
+
+    const gap = 10; // in px
+    const wiggle_room = 1 //in px 
+    //const dist = (Math.floor(width / n_projects) - 3) + "px";
+    const dist =( (width/n_projects)-wiggle_room)-(gap*2) + "px"
+
     
     // Set the width for each "project" class
     const projectElements = document.getElementsByClassName('project');
@@ -1141,10 +1155,8 @@ filters.forEach(filter => {
 :root {
   --font-size: 14px; 
   --header-height: 10%;
-  --bg-color: rgb(240,240,40);
-  /* --border-radius:20px; */
-  --tags-wrapper-height: calc(100% - var(--font-size) + 0%);
-	--font: url('./extra/font/Roboto-Black.ttf');
+  --bg-color: rgb(240,240,240);
+  --font: url('./extra/font/Roboto-Black.ttf');
 
 }
 
@@ -1213,7 +1225,7 @@ body, html {
 #all{
 text-decoration: underline;
 cursor:pointer;
-
+font-size: 20px;
 }
 
 
@@ -1221,8 +1233,6 @@ cursor:pointer;
  display: grid;
     grid-template-columns: auto 1fr; /* First column auto-sized, second column takes up remaining space */
     align-items: start; /* Align items at the start of the grid */
-
-
 
 }
 
@@ -1241,14 +1251,14 @@ text-align:right;
 	height: calc(90% - var(--font-size));
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center
 }
 
 #textPage  {
-	font-size:14px;
+	font-size:var(--font-size);
   margin-right: 90px;
   flex: 50%;
-  /*padding-left: 14px;*/
+  /*padding-left: var(--font-size);*/
 
 }
 
@@ -1297,19 +1307,14 @@ text-align:right;
 
 }
 
-@supports (-moz-appearance: none) {
-  :root {
-    --tags-wrapper-height: calc(90% - var(--font-size));
-  }
-}
 #tags-wrapper span{
 	overflow:hidden;
 }
 
 #tags-wrapper {
-	font-size: 14px;
+	font-size: var(--font-size);
 	margin-top: 198px;
-	margin-left: 20px;
+	margin-left: 30px;
 	width:15%;
 	float:left;
 	height: 100%;
@@ -1323,17 +1328,6 @@ text-align:right;
 }
 
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-
-
 
 
 #tags-wrapper span { padding-right: 30px;}
@@ -1341,9 +1335,9 @@ text-align:right;
 #bar {
 	width: 100%;
 	overflow: hidden;
-	padding-top: 14px;
+	padding-top: var(--font-size);
   	padding-bottom: 50px;
-	font-family: 'Roboto MediumItalic', sans-serif;
+	y: 'Roboto MediumItalic', sans-serif;
 }
 
 #bar #barContent {
@@ -1358,7 +1352,7 @@ text-align:right;
 	cursor: pointer;
 	/*color: rgb(0, 4, 255);*/
 	color: black;
-	font-size: 14px;
+	font-size: var(--font-size);
 
 }
 
@@ -1397,17 +1391,15 @@ color:blue;
 #projects {
   height: calc(80% - 100px);
   width: 100%;
+line-height:0px;
 }
 
 .project{
-  position: relative;
+line-height:18px;
+border:10px solid rgba(0,0,0,0);  
+position: relative;
   margin: 0px ;
   display: inline-block;
-  /*margin-right: 30px;*/
-  /*margin-bottom: 30px;*/
-  /* border: 14px solid red; */
-
-  /*animation: fadeIn 0.2s ease-in-out;*/
 }
 
 
@@ -1436,12 +1428,10 @@ color:blue;
 .filter{
 	cursor:pointer;
 }
-
 .filter:hover {
 	text-decoration: underline;    
 
     }
-
 
 
 #projectPage{
@@ -1461,9 +1451,7 @@ color:blue;
   color: rgb(0, 0, 0); 
   max-height: 10%; 
   font-size: 18px;
-  /* font-weight: 900;  */
   overflow: hidden;
-    /*background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(0,0,0,0));*/
  background-color: rgba(240,240,240,0.4); 
 
 text-overflow: ellipsis;
@@ -1476,7 +1464,6 @@ text-overflow: ellipsis;
 }
 
 
-
 .projectDate{
   position: absolute;
   margin-left: 0px;
@@ -1484,7 +1471,7 @@ text-overflow: ellipsis;
 	right:20px;
 	bottom: 20px;
 	color: rgb(0, 0, 0); 
-	font-size: 14px;
+	font-size: var(--font-size);
 	font-family:'Roboto Light', sans-serif; }
 
 
@@ -1492,7 +1479,7 @@ text-overflow: ellipsis;
 
 .projectTags{
 	position: absolute;
-	font-size: 14px;
+	font-size: var(--font-size);
 	bottom:0px;  
 	margin:20px;
 	color: rgba(0,0,0,1);
@@ -1512,97 +1499,103 @@ text-overflow: ellipsis;
 
 #footer {
   z-index: 100;
-	font-size:14px;
+	font-size:var(--font-size);
   position:fixed;
-  bottom: 14px;
+  bottom: var(--font-size);
   left: 10px;
   padding-bottom: 3px;
-  margin-left: 14px;
+  margin-left: var(--font-size);
 
 }
 
 
 @media (max-width: 1000px) {
-  /* #title { */
-    /* width: 100%; */
-    /* font-size:18px; */
-  /* } */
-  /* #tags {
-    display: none;
-  } */
+ :root {
+    --font-size: 12px; /* Adjust this value as needed */
 
-  
-  #imagePage img{
-    pointer-events: none;
-    width: 48%;
-    /* object-fit:fill; */
-  /* height: 50%; */
   }
+
+#tags-wrapper span{
+display:none;
+}
+#tags-wrapper{
+width:7%;
 }
 
+.projectNames{
+display: none;
 
-@media (max-width: 500px) {
-  #title {
-    width: 100%;
-    font-size:14px;
-  }
-  #tags {
-    display: none;
-  }
-
-
-.project img{
-  width: 790px ;
-  height: 500px;
 }
+
+.projectDate{
+display: none;
+
+}
+
 .projectTags{
-  max-width: 200px
-}
-.startImg{
-
-  width: 200px;
-  height: 200px;
-}
-
-.endImg{
-  width: 200px;
-  height: 200px;
+display: none;
 
 }
-#bar{
-  display: none;
+
+#textPage{
+width:100%;
+margin:10px
 }
 
-#title h1 {
-  /* top: 30px; */
-  margin: 30px;
-  font-size: 14px;
-  white-space:unset; /* Prevent line breaks */
-  overflow:visible; /* Hide any overflowing text */
-  text-overflow:unset;
+#footer {
+display:none;
 }
 
 
-  
-  #imagePage img{
-    /* pointer-events: none; */
-    width: 98%;
-  /* height: 50%; */
-  }
-
-
-
-::selection {
-  background-color: #4c4d4e; /* Background color of the selected text */
-  color: #ffffff; /* Color of the selected text */
+#contentPage {
+  width: 100%;
+  display: inline;
+  justify-content: center
 }
 
 
 
-
-.test{
-  columns: red;
+@media (min-width: 0px) and (max-width: 500px) {
+    :root {
+        --font-size: 10px; /* Adjust this value as needed */
+    }
+    
+    #tags-wrapper span {
+        display: none;
+    }
+    
+    #tags-wrapper {
+        width: 7%;
+    }
+    
+    .projectNames {
+        display: none;
+    }
+    
+    .projectDate {
+        display: none;
+    }
+    
+    .projectTags {
+        display: none;
+    }
+    
+    #textPage {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    #footer {
+        display: none;
+    }
+    
+    #contentPage {
+        width: 100%;
+        display: inline;
+        justify-content: center;
+    }
 }
+
 
 ```
 </details>

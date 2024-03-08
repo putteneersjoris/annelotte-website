@@ -22,7 +22,7 @@ for (var i = 0; i < allTagsDataArray.length; i++) {
 // Get the tags-wrapper element and set its innerHTML
 
 
-document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>#all<br><br><br></span>"  +  allTagsData;
+document.getElementById('tags-wrapper').innerHTML = "<span id='all' style='text-decoration:underline;'>*<br><br><br></span>"  +  allTagsData;
 
 // Loop over each project in the "projects" object
 for (var projectName in content.projects) {
@@ -94,9 +94,23 @@ function updateWidth() {
     // Get the current width of the div
     const width = projectsDiv.offsetWidth;
    console.log(width) 
-    // Calculate the width for each "project" class
-    const n_projects = 5;
-    const dist = (Math.floor(width / n_projects) - 3) + "px";
+    
+let n_projects = 5;
+if (width > 0 && width < 300) {
+    n_projects = 1;
+} else if (width >= 300 && width < 600) {
+    n_projects = 2;
+} else if (width >= 600 && width < 1000) {
+    n_projects = 4;
+} else if (width >= 1000) {
+    n_projects = 5;
+}
+
+    const gap = 10; // in px
+    const wiggle_room = 1 //in px 
+    //const dist = (Math.floor(width / n_projects) - 3) + "px";
+    const dist =( (width/n_projects)-wiggle_room)-(gap*2) + "px"
+
     
     // Set the width for each "project" class
     const projectElements = document.getElementsByClassName('project');
