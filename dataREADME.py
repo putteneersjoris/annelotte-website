@@ -51,7 +51,7 @@ admin_setup = f"""
 
 # Website: {admin_fullname}
 
-## [website]({domain_name})
+## online@ [{domain_name}]({domain_name})
 
 ## instructions: {admin}
 
