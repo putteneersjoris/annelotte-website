@@ -38,7 +38,7 @@ for i,file_path in enumerate(file_paths):
     if os.path.exists(file_path):
         file_name = os.path.basename(file_path)
         file_content = read_file_content(file_path)
-        is_default = file_path == "default.yaml"
+        is_default = os.path.basename(file_path) == "default.yaml"
         open_attribute = " open " if is_default else ""
         workflow += f'\n\n<details {open_attribute}><summary>{i}: {file_name}</summary>\n\n```\n{file_content}\n```\n</details>\n\n'
 

@@ -239,7 +239,7 @@ Every push request activates a github actions protocal  that:
 
 ## code
 
-<details ><summary>0: default.yaml</summary>
+<details  open ><summary>0: default.yaml</summary>
 
 ```
 name: default
