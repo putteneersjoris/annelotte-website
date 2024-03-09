@@ -122,7 +122,7 @@ text-align:right;
 }
 
 #imagePage img{
-  width: 32.2%;
+  width: 32.9%;
   object-fit: cover;
 
 /*
@@ -276,7 +276,7 @@ position: relative;
 }
 .filter:hover {
 	text-decoration: underline;    
-
+	color: blue;
     }
 
 
@@ -298,7 +298,6 @@ position: relative;
   max-height: 10%; 
   font-size: 18px;
   overflow: hidden;
- background-color: rgba(240,240,240,0.4); 
 
 text-overflow: ellipsis;
   width: calc(100% - 20px); 
@@ -317,9 +316,10 @@ text-overflow: ellipsis;
 	right:20px;
 	bottom: 20px;
 	color: rgb(0, 0, 0); 
-	font-size: var(--font-size);
-	font-family:'Roboto Light', sans-serif; }
-
+	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
+ }
 
 
 
@@ -329,7 +329,12 @@ text-overflow: ellipsis;
 	bottom:0px;  
 	margin:20px;
 	color: rgba(0,0,0,1);
+background-color:rgba(240,240,240,0.1);
+    backdrop-filter: blur(10px);
 
+	font-size: 12px;
+	padding-left: 3px;
+	padding-right: 3px;
 }
 
 
@@ -399,7 +404,13 @@ display:none;
   justify-content: center
 }
 
-
+<style>
+    .line {
+        position: absolute;
+        background-color: black;
+        pointer-events: none; /* Ensure the line doesn't interfere with mouse events */
+    }
+</style>
 
 @media (min-width: 0px) and (max-width: 500px) {
     :root {

@@ -66,7 +66,7 @@ def html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_
         images.forEach((img, index) => {{
             img.addEventListener('click', () => {{
                 img.classList.toggle('imagePageFull');
-                img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.2%";
+                img.style.width = img.classList.contains('imagePageFull') ? "100%" : "32.8%";
             }});
 
             if (images.length < {num_images}) {{

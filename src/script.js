@@ -206,3 +206,124 @@ filters.forEach(filter => {
 });
 
 
+
+
+// Get all elements with the class "filter"
+const filterSpans = document.querySelectorAll('.filter');
+
+// Add event listener to each element
+filterSpans.forEach(span => {
+    span.addEventListener('mouseenter', () => {
+        // Log the inner HTML when mouse enters the span
+        const filterText = span.innerHTML.trim(); // Get the innerHTML of the hovered element
+
+        // Get all spans within the container
+        const spans = document.querySelectorAll('.projectTags span');
+
+        // Loop through each span
+        spans.forEach(span => {
+            // Compare inner HTML of the span with the innerHTML of the hovered element
+            if (span.innerHTML.trim() === filterText) {
+                // If it is a match, apply the red color
+                span.style.color = 'blue';
+            } else {
+                // If it's not a match, reset its color
+                span.style.color = ''; // Reset to default color
+            }
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* original listener, works good but keeps the final filter in buffer
+
+// Add event listener to each element
+filterSpans.forEach(span => {
+    span.addEventListener('mouseenter', () => {
+        // Log the inner HTML when mouse enters the span
+        const filterText = span.innerHTML.trim(); // Get the innerHTML of the hovered element
+        const spans = document.querySelectorAll('.projectTags span');
+
+        // Loop through each span
+        spans.forEach(span => {
+            // Compare inner HTML of the span with the innerHTML of the hovered element
+            if (span.innerHTML.trim() === filterText) {
+                // If it is a match, apply the red color
+                span.style.color = 'blue';
+            } else {
+                // If it's not a match, reset its color
+                span.style.color = ''; // Reset to default color
+            }
+        });
+    });
+});
+
+*/
+
+
+/*
+// Get all elements with the class "filter"
+const filterSpans = document.querySelectorAll('.filter');
+
+// Add event listener to each element
+filterSpans.forEach(span => {
+    span.addEventListener('mouseenter', () => {
+        // Log the inner HTML when mouse enters the span
+        const filterText = span.innerHTML.trim(); // Get the innerHTML of the hovered element
+        const spans = document.querySelectorAll('.projectTags span');
+
+        // Loop through each span
+        spans.forEach(span => {
+            // Compare inner HTML of the span with the innerHTML of the hovered element
+            if (span.innerHTML.trim() === filterText) {
+                // If it is a match, apply the red color
+                span.style.color = 'blue';
+            } else {
+                // If it's not a match, reset its color
+                span.style.color = ''; // Reset to default color
+            }
+        });
+    });
+
+    // Add mouseleave event listener to reset colors when mouse leaves the filter span
+    span.addEventListener('mouseleave', () => {
+        const spans = document.querySelectorAll('.projectTags span');
+        spans.forEach(span => {
+            span.style.color = ''; // Reset to default color
+        });
+    });
+});
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
