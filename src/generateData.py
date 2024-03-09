@@ -41,7 +41,7 @@ def rename_file_processed(file_path):
 
 def remove_unsupported_file(file_path):
 	extension=  decompose_file(file_path)[-1]
-	if extension not in approved_extensions:
+	if extension.lower() not in approved_extensions:
 		os.remove(file_path)
 		print(f'{file_path} is not supported and has been removed.')
 		return True
@@ -55,17 +55,17 @@ def process_images(file_path):
 	
 	extension = decompose_file(file_path)[-1]
 
-	if extension == "heic":
+	if extension.lower() == "heic":
 		processed_extension = "png"
-		optional_args = "-resize 1024x -quality 80"
+		optional_args = "-resize '1024x>' -quality 80"
 
-	if extension == "gif":
+	if extension.lower() == "gif":
 		processed_extension = "gif"
 		optional_args = "-resize '512x>' -quality 80"
 
-	if extension in ("png", "jpg", "jpeg", "jpeg"):
+	if extension.lower() in ("png", "jpg", "jpeg", "jpeg"):
 		processed_extension = "png"
-		optional_args = "-resize '512x>' -quality 80"
+		optional_args = "-resize '1024x>' -quality 80"
 	
 	return optional_args, processed_extension
 
@@ -211,7 +211,7 @@ for i,folderName in enumerate(sorted(os.listdir(contentFolder))):
 
 		# Create a project HTML file with images and barContent links
 		images_html = "\n".join([f"<img class='imagesPage'  src='{image_path}' >" for image_path in project_images])
-		num_images = 4	
+		num_images =3	
 		
 		#html string comes from staticHtmlString
 		project_html_content = html_string(folderName, project_date, previous_htmlFile, next_htmlFile, tag_string, project_html, images_html, num_images)
