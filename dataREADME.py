@@ -3,7 +3,7 @@
 admin = "Annelotte"
 admin_fullname = "Annelotte Lammertse"
 user = "student"
-domain_name = "test.com"
+domain_name = "annelottelammertse.com"
 admin_github_account = "https://github.com/AnnelotteLammertse"
 admin_repository_name = "annelottelammertse"
 
