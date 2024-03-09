@@ -3,6 +3,7 @@
 <tags>container, water, heat, desert, photography</tags>
 <body>
 <h2>Project Overview</h2>
+extra text here
 This project focuses on addressing the environmental impact of traditional textile dyeing processes by developing sustainable dyeing techniques using natural pigments and eco-friendly processes. By reducing the use of harmful chemicals and minimizing water consumption, we aim to promote environmental sustainability in the textile industry.
     
 <h3>Expected Outcomes</h3>
