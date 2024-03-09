@@ -13,7 +13,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
+<li>Go to the content directory: "src/content/".</li>
 <li> upload your project as shown in the following video.<br>
 <li><img src="./example/videos/admin_upload_project.gif" alt="upload Project"></li>
 <li>You have successfully uploaded a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -28,7 +28,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
+<li>Go to the content directory: "src/content/".</li>
 <li> remove your project as shown in the following video.<br>
 <li><img src="./example/videos/admin_remove_project.gif" alt="remove Project"></li>
 <li>You have successfully removeed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -43,7 +43,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
+<li>Go to the content directory: "src/content/".</li>
 <li> update your project as shown in the following video.<br>
 <li><img src="./example/videos/admin_update_project.gif" alt="update Project"></li>
 <li>You have successfully updateed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -58,7 +58,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href="https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content"> https://github.com/AnnelotteLammertse/annelottelammertse/tree/main/src/content</a>.</li>
+<li>Go to the content directory: "src/content/".</li>
 <li> approve your project as shown in the following video.<br>
 <li><img src="./example/videos/admin_approve_project.gif" alt="approve Project"></li>
 <li>You have successfully approveed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -88,7 +88,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository contentfolder: "src/content/" </li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> upload your project as shown in the following video.<br>
@@ -106,7 +106,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository contentfolder: "src/content/" </li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> remove your project as shown in the following video.<br>
@@ -124,7 +124,7 @@
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of Annelotte's website repository located at  <a href=""https://github.com/studentName/annelottelammertse>https://github.com/studentName/annelottelammertse</a></li>
+<li>Go to your instance of Annelotte's website repository contentfolder: "src/content/" </li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> update your project as shown in the following video.<br>
@@ -137,7 +137,7 @@
 </details>
  
 ## demoproject
-In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/studentName/annelottelammertse/example/demoproject">https://github.com/studentName/annelottelammertse/example/demoproject</a>
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/putteneersjoris/annelottelammertse/tree/main/example/demoproject">here</a>
 
  
 ```bash

@@ -75,7 +75,7 @@ user_setup = f"""
 """
 
 #admin_content
-
+# <a href="{admin_github_account}/{admin_repository_name}/tree/main/src/content"> {admin_github_account}/{admin_repository_name}/tree/main/src/content</a>
 admin_content = ""
 
 for i,item in enumerate(admin_instructions):
@@ -86,7 +86,7 @@ for i,item in enumerate(admin_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to the content directory <a href="{admin_github_account}/{admin_repository_name}/tree/main/src/content"> {admin_github_account}/{admin_repository_name}/tree/main/src/content</a>.</li>
+<li>Go to the content directory: "src/content/".</li>
 <li> {item[0]} your project as shown in the following video.<br>
 <li><img src="{item[1]}" alt="{item[0]} Project"></li>
 <li>You have successfully {item[0]}ed a project. You can preview updates in 'Incognito mode' in your browser. Keep in mind that your browser caches content, so updates may be delayed for some time.</li>
@@ -108,7 +108,7 @@ for i,item in enumerate(user_instructions):
 <br>
 <ul>
 <li>Please ensure that you are logged in to GitHub.</li>
-<li>Go to your instance of {admin}'s website repository located at  <a href=""{user_github_account}/{user_repository_name}>{user_github_account}/{user_repository_name}</a></li>
+<li>Go to your instance of {admin}'s website repository contentfolder: "src/content/" </li>
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
 <li> {item[0]} your project as shown in the following video.<br>
@@ -125,7 +125,7 @@ for i,item in enumerate(user_instructions):
 #demoproject
 demoproject_intro = f""" 
 ## demoproject
-In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="{user_github_account}/{user_repository_name}/example/demoproject">{user_github_account}/{user_repository_name}/example/demoproject</a>
+In the following section a demoproject is provided.This includes images and a description file. You can the coresponding files <a href="https://github.com/putteneersjoris/annelottelammertse/tree/main/example/demoproject">here</a>
 
 """
 folder_tree = f""" 
