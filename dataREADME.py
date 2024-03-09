@@ -154,9 +154,9 @@ folder_images = f"""
 - the max resolution is 5000x5000 pixels
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/demoproject/1.jpg" width="32%">
-    <img src="./example/demoproject/2.jpg" width="32%">
-    <img src="./example/demoproject/3.jpg" width="32%">
+    <img src="./example/demoproject/1.png" width="32%">
+    <img src="./example/demoproject/2.png" width="32%">
+    <img src="./example/demoproject/3.png" width="32%">
 </div>
 
 """
