@@ -92,8 +92,7 @@
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> upload your project as shown in the following video.<br>
-<li><img ./example/videos/user_upload_project.gif"></li>
-</li>
+<li><img src="./example/videos/user_upload_project.gif" alt="upload Project"></li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
 <li>You now have successfully upload'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
@@ -111,8 +110,7 @@
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> remove your project as shown in the following video.<br>
-<li><img ./example/videos/user_remove_project.gif"></li>
-</li>
+<li><img src="./example/videos/user_remove_project.gif" alt="remove Project"></li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
 <li>You now have successfully remove'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
@@ -130,8 +128,7 @@
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: (https://github.com/studentName/annelottelammertse/tree/main/src/content).</li>
 <li> update your project as shown in the following video.<br>
-<li><img ./example/videos/user_update_project.gif"></li>
-</li>
+<li><img src="./example/videos/user_update_project.gif" alt="update Project"></li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now Annelotte will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
 <li>You now have successfully update'ed a project. Once Annelotte approves of the changes, you can see your project on the official website.</li>
