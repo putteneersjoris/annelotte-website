@@ -32,16 +32,16 @@ navigation = "./example/videos/website_navigation.png"
 
 
 user_instructions = [
-     ["upload", "./example/vid1"],
-     ["remove", "./example/vid2"],
-     ["update", "./example/vid3"]
+     ["upload", "./example/videos/user_upload_project.gif"],
+     ["remove", "./example/videos/user_remove_project.gif"],
+     ["update", "./example/videos/user_update_project.gif"]
 ]
 
 admin_instructions = [
-    ["upload", "./example/vid1"],
-    ["remove", "./example/vid2"],
-    ["update", "./example/vid3"],
-    ["approve", "./example/vid4"]
+    ["upload", "./example/videos/admin_upload_project.gif"],
+    ["remove", "./example/videos/admin_remove_project.gif"],
+    ["update", "./example/videos/admin_update_project.gif"],
+    ["approve", "./example/videos/admin_approve_project.gif"]
 ]
 
 
@@ -54,17 +54,6 @@ admin_setup = f"""
 
 ## instructions: {admin}
 
-<details>
-<summary>First setup (only once)</summary>
-<br>
-<ul>
-<li>1. Make sure you have a GitHub account: e.g: <a href="{admin_github_account}">{admin_github_account}</li>
-<li>2. Setup the repository so it has correct GitHub actions, bot permissions, etc.</li>
-</ul>
-<br>
-</details>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PE1oqyJnf4s?si=wlo963PLDbQmJooW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 """
 
 #user_setup
