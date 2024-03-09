@@ -13,23 +13,22 @@ user_repository_name = "annelottelammertse"
 # videos and images
 # admin
 admin_only_once = "./example/admin_only_once.gif"
-admin_upload_project = "./example/admin_upload_project.gif"
-admin_update_project = "./example/admin_update_project.gif"
-admin_remove_project = "./example/admin_remove_project.gif"
-admin_approve_project = "./example/admin_approve_project.gif"
+admin_upload_project = "./example/videos/admin_upload_project.gif"
+admin_update_project = "./example/videos/admin_update_project.gif"
+admin_remove_project = "./example/videos/admin_remove_project.gif"
+admin_approve_project = "./example/videos/admin_approve_project.gif"
 
 admin_confirmation_email = "./example/admin_confirmation_email.jpg"
 
 # user
 user_only_once = "./example/user_only_once.gif"
-user_fork_repository = "./example/user_fork_repository.gif"
-user_update_project = "./example/user_update_project.gif"
-user_upload_project = "./example/user_upload_project.gif"
-user_remove_project = "./example/user_remove_project.gif"
+user_fork_repository = "./example/videos/user_fork_repository.gif"
+user_update_project = "./example/videos/user_update_project.gif"
+user_upload_project = "./example/videos/user_upload_project.gif"
+user_remove_project = "./example/videos/user_remove_project.gif"
 
 # naviagtion
-menu_navigation = "./example/manu_navigation.png"
-project_navigation = "./example/project_navigation.png"
+navigation = "./example/videos/website_navigation.png"
 
 
 user_instructions = [
@@ -64,6 +63,8 @@ admin_setup = f"""
 </ul>
 <br>
 </details>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PE1oqyJnf4s?si=wlo963PLDbQmJooW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 """
 
 #user_setup
@@ -223,8 +224,7 @@ demoproject =demoproject_intro + folder_tree + folder_images + folder_descriptio
 navigation_overview = f""" 
 
 ## navigation
-<img src="./example/placeholder.png">
-<img src="./example/placeholder.png">
+<img src="./example/videos/website_navigation.gif">
 """
 
 #workflow

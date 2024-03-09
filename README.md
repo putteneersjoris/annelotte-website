@@ -16,6 +16,8 @@
 <br>
 </details>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PE1oqyJnf4s?si=wlo963PLDbQmJooW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <details>
 <summary>1: upload a project (Annelotte)</summary>
@@ -220,8 +222,7 @@ This demoproject will render out on the website like this:
  
 
 ## navigation
-<img src="./example/placeholder.png">
-<img src="./example/placeholder.png">
+<img src="./example/videos/website_navigation.gif">
  
 
 ## code

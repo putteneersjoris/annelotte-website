@@ -59,6 +59,18 @@ var content = {
             ],
             "date": "11/3/2022"
         },
+        "demoproject": {
+            "images": [
+                "./content/demoproject/HOT_SPRINGS_094___processed.png",
+                "./content/demoproject/demoproject_2___processed.png",
+                "./content/demoproject/placeholder___processed.png"
+            ],
+            "html": "<h2>Project Overview</h2><br>extra text here<br>This project focuses onadd some text  impact of traditional textile dyeing processes by developing sustainable dyeing techniques using natural pigments and eco-friendly processes. By reducing the use of harmful chemicals and minimizing water consumption, we aim to promote environmental sustainability in the textile industry.<br>    <br><h3>Expected Outcomes</h3><br>The project aims to provide textile manufacturers with sustainable alternatives to conventional dyeing methods. By utilizing natural pigments and eco-friendly processes, we anticipate reducing water consumption, minimizing pollution, and promoting biodiversity conservation. Additionally, textiles dyed using sustainable techniques are expected to appeal to environmentally conscious consumers, driving market demand for eco-friendly products.",
+            "tags": [
+                "<span>#container</span><br><span>#water</span><br><span>#heat</span><br><span>#desert</span><br><span>#photography</span><br>"
+            ],
+            "date": "11/2/1999"
+        },
         "fountain": {
             "images": [
                 "./content/fountain/HOT_SPRINGS_092___processed.png",
@@ -140,7 +152,7 @@ var content = {
         },
         "shipwreck": {
             "images": [
-                "./content/shipwreck/SHIPYARD_28___processed.png"
+                "./content/shipwreck/asd___processed.png"
             ],
             "html": "<h2>Project Overview</h2><br>This project focuses on addressing the environmental impact of traditional textile dyeing processes by developing sustainable dyeing techniques using natural pigments and eco-friendly processes. By reducing the use of harmful chemicals and minimizing water consumption, we aim to promote environmental sustainability in the textile industry.<br>    <br><h3>Expected Outcomes</h3><br>The project aims to provide textile manufacturers with sustainable alternatives to conventional dyeing methods. By utilizing natural pigments and eco-friendly processes, we anticipate reducing water consumption, minimizing pollution, and promoting biodiversity conservation. Additionally, textiles dyed using sustainable techniques are expected to appeal to environmentally conscious consumers, driving market demand for eco-friendly products.",
             "tags": [
@@ -183,6 +195,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -195,6 +208,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -207,6 +221,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -219,6 +234,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -231,6 +247,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -243,6 +260,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -255,6 +273,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -267,6 +286,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -279,6 +299,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
@@ -291,6 +312,7 @@ var content = {
         "<a href='./about me.html'>about me</a>&ensp;&ensp;",
         "<a href='./birds nest.html'>birds nest</a>&ensp;&ensp;",
         "<a href='./containers.html'>containers</a>&ensp;&ensp;",
+        "<a href='./demoproject.html'>demoproject</a>&ensp;&ensp;",
         "<a href='./fountain.html'>fountain</a>&ensp;&ensp;",
         "<a href='./greenland mountainscape.html'>greenland mountainscape</a>&ensp;&ensp;",
         "<a href='./hot springs.html'>hot springs</a>&ensp;&ensp;",
