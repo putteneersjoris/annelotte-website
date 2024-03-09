@@ -112,8 +112,7 @@ for i,item in enumerate(user_instructions):
 <li>Sync fork (this makes sure you have the latest version so there are no conflicts between other users).</li>
 <li>Go to the content folder: ({user_github_account}/{user_repository_name}/tree/main/src/content).</li>
 <li> {item[0]} your project as shown in the following video.<br>
-<li><img {item[1]}"></li>
-</li>
+<li><img src="{item[1]}" alt="{item[0]} Project"></li>
 <li>Contribute by opening up a 'pull request > create pull request'.</li>
 <li>Now {admin} will get an email notification, as well as having an open pull request that can be approved or disapproved.</li>
 <li>You now have successfully {item[0]}'ed a project. Once {admin} approves of the changes, you can see your project on the official website.</li>
