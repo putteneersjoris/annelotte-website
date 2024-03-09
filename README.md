@@ -2,7 +2,7 @@
 
 # Website: Annelotte Lammertse
 
-## online@ [annelottelammertse.com](annelottelammertse.com)
+## online@ [https://putteneersjoris.xyz/annelottelammertse](https://putteneersjoris.xyz/annelottelammertse)
 
 ## instructions: Annelotte
 
