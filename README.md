@@ -76,7 +76,7 @@
 <ul>   
 <li>1. Make sure you have a GitHub account: e.g: <a href="https://github.com/studentName">https://github.com/studentName</a></li>
 <li>2. Fork the repository located under Annelotte's repository <a href="https://github.com/AnnelotteLammertse/annelottelammertse"> https://github.com/AnnelotteLammertse/annelottelammertse</a>.
-<li><img src="./example/placeholder.png"></li>
+<li><img src="./example/videos/fork_repository.gif"></li>
 </ul>
 <br>
 </details>
@@ -201,13 +201,6 @@ They can be used like this:
 </body>
 ```
  
-
-This demoproject will render out on the website like this:
-
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/placeholder.png" width="49%">
-    <img src="./example/placeholder.png" width="49%">
-</div>
  
 
 ## navigation

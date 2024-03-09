@@ -67,7 +67,7 @@ user_setup = f"""
 <ul>   
 <li>1. Make sure you have a GitHub account: e.g: <a href="{user_github_account}">{user_github_account}</a></li>
 <li>2. Fork the repository located under {admin}'s repository <a href="{admin_github_account}/{admin_repository_name}"> {admin_github_account}/{admin_repository_name}</a>.
-<li><img src="./example/placeholder.png"></li>
+<li><img src="./example/videos/fork_repository.gif"></li>
 </ul>
 <br>
 </details>
@@ -195,13 +195,6 @@ They can be used like this:
 """
 
 example_visualized = f""" 
-
-This demoproject will render out on the website like this:
-
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="./example/placeholder.png" width="49%">
-    <img src="./example/placeholder.png" width="49%">
-</div>
 """
 
 
