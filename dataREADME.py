@@ -67,7 +67,7 @@ user_setup = f"""
 <ul>   
 <li>1. Make sure you have a GitHub account: e.g: <a href="{user_github_account}">{user_github_account}</a></li>
 <li>2. Fork the repository located under {admin}'s repository <a href="{admin_github_account}/{admin_repository_name}"> {admin_github_account}/{admin_repository_name}</a>.
-<li><img src="./example/videos/fork_repository.gif"></li>
+<li><img src="./example/videos/user_fork_repository.gif"></li>
 </ul>
 <br>
 </details>

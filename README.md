@@ -76,7 +76,7 @@
 <ul>   
 <li>1. Make sure you have a GitHub account: e.g: <a href="https://github.com/studentName">https://github.com/studentName</a></li>
 <li>2. Fork the repository located under Annelotte's repository <a href="https://github.com/AnnelotteLammertse/annelottelammertse"> https://github.com/AnnelotteLammertse/annelottelammertse</a>.
-<li><img src="./example/videos/fork_repository.gif"></li>
+<li><img src="./example/videos/user_fork_repository.gif"></li>
 </ul>
 <br>
 </details>
